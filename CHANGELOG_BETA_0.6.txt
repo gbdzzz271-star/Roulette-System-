@@ -1,0 +1,8 @@
+ROULETTE SYSTEM — BETA 0.6 CHAMPIONSHIP EDITION
+
+1. Afinidades de atributos: raça, classe e arma influenciam o peso do resultado de maior raridade nas roletas de atributo correspondentes. Cada bônus positivo encontrado em buffs adiciona uma afinidade calculada; a soma é limitada a 1,5 de peso. Exemplo: Humano (+15% INT) concede +0,7 de peso à opção de maior raridade em Inteligência.
+2. Campeonato contra BOT: torneio local de três rodadas usando o índice experimental do personagem e variação aleatória de partida.
+3. Campeonato contra jogadores: botão disponível com aviso Em Desenvolvimento; não cria fila nem promete partidas online.
+4. Cache do PWA atualizado para beta 0.6.
+
+Observação: o campeonato contra BOT é uma simulação local e não multiplayer online. O índice de poder continua experimental.
