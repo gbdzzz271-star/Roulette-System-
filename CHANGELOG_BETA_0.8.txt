@@ -1,0 +1,9 @@
+ROULETTE SYSTEM — BETA 0.8
+AFINIDADES REFORÇADAS
+
+- Cada fonte compatível (raça, classe ou arma) aumenta em +200% o peso dos resultados de maior raridade no atributo favorecido (multiplica o peso por 3).
+- As fontes acumulam multiplicativamente: uma fonte = 3x; duas = 9x; três = 27x no peso dos resultados de maior raridade.
+- A janela da roleta informa quando há afinidade ativa, o multiplicador total e as fontes (raça/classe/arma).
+- A ficha do resultado informa as fontes e o bônus aplicado.
+- A chance efetiva é recalculada e exibida no resultado; o aumento percentual de peso não equivale a pontos percentuais fixos de chance.
+- Catálogo e imagens preservados; versão do cache atualizada.

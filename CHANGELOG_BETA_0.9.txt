@@ -1,0 +1,13 @@
+ROULETTE SYSTEM — BETA 0.9 OPERATOR EDITION
+
+NOVO: CENTRAL DO OPERADOR
+- Toque cinco vezes seguidas no logotipo do topo para abrir o acesso de operador.
+- Código local inicial: 2711 (pode ser alterado em unlockOperator() no app.js).
+- Selecione manualmente qualquer item das 13 categorias sem girar as roletas.
+- Defina de 0 a 3 níveis de afinidade manual para cada atributo. Cada nível multiplica por 3 o peso dos resultados de maior raridade.
+- As afinidades naturais de raça, classe e arma continuam sendo reconhecidas; o total de fontes aplicadas é limitado a 3.
+- Aplique as escolhas para gerar a ficha quando as 13 categorias estiverem preenchidas.
+
+SEGURANÇA: o código é apenas uma barreira de conveniência no navegador. Como o projeto é um site estático, ele NÃO oferece autenticação segura: o código pode ser descoberto no código-fonte do app.js. Não use esta função para proteger dados ou ações sensíveis. Para autenticação realmente privada, será necessário backend com login.
+
+CACHE: atualizado para BETA 0.9.
