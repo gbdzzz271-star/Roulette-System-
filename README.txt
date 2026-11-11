@@ -20,3 +20,5 @@ IDADE
 As faixas explícitas cadastradas para cada raça são usadas diretamente. Para raças sem intervalo numérico fechado, a faixa configurável da Beta continua provisória.
 
 A ficha usa atributo-base 100 e a fórmula oficial registrada. Modificadores condicionais não são aplicados automaticamente ao atributo-base.
+
+BETA 0.4: 13 roletas e 440 opções. Inclui duas roletas secundárias sem repetição entre si, retrato ilustrativo SVG local e índice de poder experimental não oficial.
