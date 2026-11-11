@@ -1,0 +1,71 @@
+FECHADO! 🎲 A idade também será determinada por sorteio, sem escolha manual.
+
+### REGRA 003 — IDADE ALEATÓRIA
+
+Regra oficial
+
+A idade será uma característica independente da geração, mas terá relação com a raça sorteada.
+
+### Como funcionará
+
+* Primeiro sorteamos a raça.
+
+* Consultamos a expectativa de vida daquela raça.
+
+* Sorteamos a idade respeitando sua longevidade.
+
+* Registramos a idade na ficha.
+
+### Regras especiais
+
+* Raças mortais: idade limitada pela expectativa de vida racial.
+
+* Raças longevas: podem alcançar milhares de anos.
+
+* Raças imortais: idade cronológica sem limite fixo.
+
+* Raças artificiais: idade calculada pela data de criação.
+
+* Raças sem envelhecimento convencional: idade cronológica e idade biológica serão registradas separadamente.
+
+E a regra mais importante: independentemente da idade sorteada, o personagem já começa no ápice de suas capacidades.
+
+Um personagem de 18 anos pode estar no mesmo ápice de potencial que outro de 800 anos.
+
+### Ficha atualizada
+
+Agora cada personagem terá:
+
+* Nome
+
+* Idade sorteada
+
+* Raça
+
+* Classe
+
+* Poder
+
+* Arma
+
+* Seis especializações físicas
+
+* Especialização intelectual
+
+* Nove atributos calculados
+
+* Técnicas e capacidades máximas
+
+* Limitações e fraquezas
+
+🔥 ROULETTE SYSTEM 1.0 atualizado!
+
+Próxima etapa: podemos começar a primeira geração com as 11 roletas e o sorteio de idade.
+
+---
+REGRA OFICIAL V1.1 — PERSONAGENS NO ÁPICE
+O personagem começa com domínio completo das capacidades e técnicas pertencentes a este resultado. Não há treinamento obrigatório, níveis de domínio ou desbloqueio gradual. Custos, limitações, requisitos e condições intrínsecas descritos neste catálogo continuam válidos. Esta regra prevalece sobre qualquer menção antiga a domínio inicial ou progressão de domínio.
+
+
+### ADENDO V1.2 — IMPLEMENTAÇÃO NO APP BETA
+Para longevidades com faixa fechada, sortear um inteiro uniforme entre os limites, incluindo ambos. Para longevidades abertas, imortais, artificiais ou não convencionais, a Beta oferece uma faixa provisória configurável; essa conveniência não passa a ser regra oficial sem confirmação.

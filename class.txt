@@ -1,0 +1,409 @@
+🎰 ROULETTE SYSTEM — DATABASE 003
+
+CLASS DATABASE — AS 20 CLASSES OFICIAIS
+
+(20 CLASSES) (CHAOTIC MODE)
+
+Agora chegamos a uma das roletas mais importantes: a classe determina como o personagem utiliza suas capacidades.
+
+Uma classe não é uma profissão comum. Ela define especialização de combate, técnicas naturais, estilo de atuação e eficiência em determinadas situações.
+
+Um Draconiano Assassino, por exemplo, será completamente diferente de um Draconiano Paladino, mesmo possuindo a mesma raça.
+
+1. Distribuição das raridades
+
+Raridade	Quantidade	Chance individual
+
+Comum	8	5%
+Incomum	5	5%
+Raro	3	5,6667%
+Épico	2	5%
+Lendário	1	5%
+Mítico	0	—
+Divino	1	0,8%
+Transcendente	0	—
+Total	20	100%
+
+
+A classe será independente da raça, do poder e da arma.
+
+2. As 20 classes
+
+001. Guerreiro
+
+(Comum)
+
+5%
+
+image_group{"query":["fantasy medieval warrior knight sword armor character concept art"],"aspect_ratio":"16:9","layout":"carousel","num_per_query":1}
+
+- Descrição: combatente versátil especializado em confronto direto.
+- Buffs: +25% FOR; +20% RES; +15% MAN.
+- Debuffs: -10% ENE; -10% AGI.
+- Especialidade: combate equilibrado.
+- Técnicas: Postura de Combate, Contra-ataque e Investida.
+- Limitação: não possui especialização excepcional em uma única área.
+
+002. Assassino
+
+(Incomum)
+
+5%
+
+image_group{"query":["fantasy dark assassin hooded dual daggers character concept art"],"aspect_ratio":"16:9","layout":"carousel","num_per_query":1}
+
+- Descrição: especialista em mobilidade, precisão e ataques oportunistas.
+- Buffs: +35% AGI; +30% VEL; +25% MAN.
+- Debuffs: -20% RES; -15% FOR.
+- Especialidade: mobilidade e precisão.
+- Técnicas: Passo Silencioso, Golpe Preciso e Deslocamento Rápido.
+- Limitação: desempenho reduzido em confrontos prolongados contra adversários resistentes.
+
+003. Berserker
+
+(Raro)
+
+5,6667%
+
+image_group{"query":["fantasy berserker barbarian massive axe battle armor red aura"],"aspect_ratio":"16:9","layout":"carousel","num_per_query":1}
+
+- Descrição: combatente que transforma esforço e adrenalina em potência física.
+- Buffs: +50% FOR; +35% RES.
+- Debuffs: -25% INT; -20% precisão.
+- Especialidade: potência ofensiva.
+- Técnicas: Fúria Crescente, Ruptura e Último Ímpeto.
+- Limitação: quanto maior a intensidade, mais difícil controlar os movimentos.
+
+004. Paladino
+
+(Incomum)
+
+5%
+
+image_group{"query":["fantasy holy paladin knight golden white armor sword shield"],"aspect_ratio":"16:9","layout":"carousel","num_per_query":1}
+
+- Descrição: combatente defensivo que utiliza energia para proteger e fortalecer a si mesmo.
+- Buffs: +35% RES; +25% ENE; +20% FOR.
+- Debuffs: -15% VEL; -10% AGI.
+- Especialidade: defesa e suporte.
+- Técnicas: Égide, Juramento e Impacto Radiante.
+- Limitação: técnicas defensivas consomem muita energia.
+
+005. Duelista
+
+(Comum)
+
+5%
+
+image_group{"query":["fantasy elegant swordsman duelist rapier fencing warrior character"],"aspect_ratio":"16:9","layout":"carousel","num_per_query":1}
+
+- Descrição: especialista em confrontos individuais e precisão técnica.
+- Buffs: +35% MAN; +25% AGI; +20% PER.
+- Debuffs: -15% RES; -10% eficiência contra múltiplos adversários.
+- Especialidade: combate individual.
+- Técnicas: Estocada Perfeita, Guarda Circular e Resposta Imediata.
+- Limitação: depende de espaço e leitura do adversário.
+
+006. Monge
+
+(Comum)
+
+5%
+
+image_group{"query":["fantasy martial arts monk warrior orange robes glowing energy fists"],"aspect_ratio":"16:9","layout":"carousel","num_per_query":1}
+
+- Descrição: combatente que utiliza controle corporal e energia interna.
+- Buffs: +30% AGI; +30% EQU; +25% RES.
+- Debuffs: -15% MAN com armas.
+- Especialidade: combate desarmado.
+- Técnicas: Punho Concentrado, Respiração Interna e Postura Imóvel.
+- Limitação: depende de concentração para manter o máximo rendimento energético.
+
+007. Arqueiro
+
+(Comum)
+
+5%
+
+image_group{"query":["fantasy elven archer green cloak bow forest character concept art"],"aspect_ratio":"16:9","layout":"carousel","num_per_query":1}
+
+- Descrição: especialista em ataques de longa distância e percepção.
+- Buffs: +35% PER; +30% MAN; +20% AGI.
+- Debuffs: -15% FOR; -15% RES.
+- Especialidade: precisão à distância.
+- Técnicas: Mira Estável, Disparo Duplo e Rastreamento.
+- Limitação: perde eficiência em confrontos muito próximos.
+
+008. Guardião
+
+(Incomum)
+
+5%
+
+image_group{"query":["fantasy massive armored guardian tower shield knight defender"],"aspect_ratio":"16:9","layout":"carousel","num_per_query":1}
+
+- Descrição: especialista em absorver impactos e proteger posições.
+- Buffs: +50% RES; +25% EQU.
+- Debuffs: -30% VEL; -20% AGI.
+- Especialidade: defesa absoluta dentro de sua capacidade.
+- Técnicas: Muralha, Postura Inabalável e Proteção Compartilhada.
+- Limitação: mobilidade reduzida e consumo elevado ao proteger aliados.
+
+009. Necromante
+
+(Raro)
+
+5,6667%
+
+image_group{"query":["dark fantasy necromancer mage black purple robes skull magical aura"],"aspect_ratio":"16:9","layout":"carousel","num_per_query":1}
+
+- Descrição: especialista em energia necromântica, espíritos e manifestações de energia residual.
+- Buffs: +45% ENE; +30% INT; +20% PER.
+- Debuffs: -20% FOR; -15% RES.
+- Especialidade: invocações e manipulação necromântica.
+- Técnicas: Servo Espectral, Marca Necromântica e Vínculo Mortuário.
+- Limitação: invocações exigem energia e não são automaticamente imortais.
+
+010. Invocador
+
+(Épico)
+
+5%
+
+image_group{"query":["fantasy summoner mage surrounded by magical summoned creatures glowing portal"],"aspect_ratio":"16:9","layout":"carousel","num_per_query":1}
+
+- Descrição: combatente especializado em convocar criaturas e entidades compatíveis.
+- Buffs: +50% ENE; +35% INT; +25% PER.
+- Debuffs: -25% FOR; -20% AGI.
+- Especialidade: combate indireto e controle de campo.
+- Técnicas: Chamado, Vínculo e Formação de Invocação.
+- Limitação: número e força das invocações dependem da reserva energética.
+
+011. Artífice
+
+(Incomum)
+
+5%
+
+image_group{"query":["fantasy artificer inventor engineer magical mechanical armor workshop character art"],"aspect_ratio":"16:9","layout":"carousel","num_per_query":1}
+
+- Descrição: especialista em criar equipamentos, mecanismos e ferramentas de combate.
+- Buffs: +40% INT; +35% MAN; +25% PER.
+- Debuffs: -15% FOR; -15% VEL.
+- Especialidade: preparação, equipamentos e tecnologia.
+- Técnicas: Engenharia de Campo, Modificação e Dispositivo Especial.
+- Limitação: necessita de materiais e tempo para desenvolver equipamentos. Não cria itens poderosos instantaneamente.
+
+012. Arcanista
+
+(Raro)
+
+5,6667%
+
+image_group{"query":["fantasy arcane mage wizard purple magical runes floating books character art"],"aspect_ratio":"16:9","layout":"carousel","num_per_query":1}
+
+- Descrição: especialista em manipulação técnica de energia sobrenatural.
+- Buffs: +50% ENE; +40% INT; +25% PER.
+- Debuffs: -20% FOR; -15% RES.
+- Especialidade: controle energético e técnicas arcanas.
+- Técnicas: Canalização, Selo Arcano e Sobrecarga Mágica.
+- Limitação: exige conhecimento, concentração e reserva energética.
+
+013. Lanceiro
+
+(Comum)
+
+5%
+
+image_group{"query":["fantasy spear warrior knight elegant armor long spear character concept art"],"aspect_ratio":"16:9","layout":"carousel","num_per_query":1}
+
+- Descrição: combatente especializado em armas de haste.
+- Buffs: +35% MAN; +25% EQU; +20% PER.
+- Debuffs: -15% AGI em espaços estreitos.
+- Especialidade: alcance e controle de distância.
+- Técnicas: Guarda Longa, Investida e Controle de Alcance.
+- Limitação: depende de espaço adequado para utilizar armas de haste eficientemente.
+
+014. Atirador
+
+(Comum)
+
+5%
+
+image_group{"query":["fantasy gunslinger sharpshooter leather coat futuristic rifle character concept art"],"aspect_ratio":"16:9","layout":"carousel","num_per_query":1}
+
+- Descrição: especialista em armas de disparo e precisão.
+- Buffs: +40% MAN; +30% PER; +20% INT.
+- Debuffs: -15% FOR; -15% combate desarmado.
+- Especialidade: combate à distância.
+- Técnicas: Mira Calculada, Disparo Rápido e Análise Balística.
+- Limitação: depende de munição e manutenção de equipamento.
+
+015. Caçador
+
+(Incomum)
+
+5%
+
+image_group{"query":["fantasy monster hunter ranger leather armor crossbow forest character art"],"aspect_ratio":"16:9","layout":"carousel","num_per_query":1}
+
+- Descrição: especialista em rastreamento, sobrevivência e identificação de criaturas.
+- Buffs: +35% PER; +30% AGI; +25% INT.
+- Debuffs: -15% ENE; -10% RES.
+- Especialidade: rastreamento e adaptação ambiental.
+- Técnicas: Rastreamento Avançado, Conhecimento Bestial e Preparação.
+- Limitação: precisa obter informações sobre o alvo para explorar suas fraquezas.
+
+016. Ilusionista
+
+(Raro)
+
+5,6667%
+
+image_group{"query":["fantasy illusionist magician theatrical masked purple mirror magic character art"],"aspect_ratio":"16:9","layout":"carousel","num_per_query":1}
+
+- Descrição: combatente especializado em distração, ilusões visuais e manipulação perceptiva.
+- Buffs: +45% INT; +40% PER; +30% ENE.
+- Debuffs: -20% FOR; -15% RES.
+- Especialidade: desorientação e controle perceptivo.
+- Técnicas: Imagem Falsa, Reflexo Ilusório e Cenário Fantasma.
+- Limitação: ilusões não possuem massa física e podem ser identificadas por percepção especializada.
+
+017. Médico de Combate
+
+(Comum)
+
+5%
+
+image_group{"query":["fantasy battle medic healer warrior white green cloak medical magic character"],"aspect_ratio":"16:9","layout":"carousel","num_per_query":1}
+
+- Descrição: especialista em primeiros socorros, recuperação e manutenção fisiológica durante conflitos.
+- Buffs: +40% INT; +30% PER; +25% ENE.
+- Debuffs: -15% FOR; -10% MAN.
+- Especialidade: suporte e recuperação.
+- Técnicas: Diagnóstico, Estabilização e Recuperação Assistida.
+- Limitação: não ressuscita mortos nem regenera instantaneamente membros perdidos.
+
+018. Espadachim Arcano
+
+(Lendário)
+
+5%
+
+image_group{"query":["fantasy magical swordsman blue glowing enchanted sword arcane armor warrior"],"aspect_ratio":"16:9","layout":"carousel","num_per_query":1}
+
+- Descrição: combatente que combina domínio técnico de armas com manipulação energética.
+- Buffs: +40% MAN; +35% ENE; +30% AGI; +25% FOR.
+- Debuffs: -25% consumo energético eficiente; -15% RES.
+- Especialidade: combate híbrido.
+- Técnicas: Lâmina Encantada, Corte Energético e Canalização Marcial.
+- Limitação: exige domínio simultâneo de combate armado e controle energético.
+
+019. Imperador de Campo
+
+(Divino)
+
+0,8%
+
+image_group{"query":["epic fantasy battlefield commander royal warrior golden black armor magical aura army"],"aspect_ratio":"16:9","layout":"carousel","num_per_query":1}
+
+- Descrição: classe extremamente rara especializada em coordenar aliados e dominar o campo de batalha.
+- Buffs: +70% INT; +60% PER; +50% ENE; +40% EQU.
+- Debuffs: -20% FOR; -20% AGI.
+- Especialidade: liderança, estratégia e coordenação.
+- Técnicas: Ordem Absoluta, Formação de Combate e Sincronização.
+- Limitação: suas habilidades de coordenação dependem de aliados capazes de receber e executar comandos. Não controla suas vontades.
+
+020. Anomalia
+
+(Transcendente)
+
+0,2%
+
+image_group{"query":["surreal fantasy mysterious warrior faceless black white fragmented armor glowing cosmic energy character"],"aspect_ratio":"16:9","layout":"carousel","num_per_query":1}
+
+- Descrição: uma classe sem tradição conhecida, cujos métodos de combate não seguem uma especialização convencional. Seu estilo se adapta de maneira imprevisível às circunstâncias.
+- Buffs: +50% INT; +50% PER; +40% AGI; +40% ENE.
+- Debuffs: -30% estabilidade técnica; -25% eficiência ao repetir a mesma técnica.
+- Especialidade: adaptação e imprevisibilidade.
+- Técnicas: Improviso, Ruptura de Padrão e Reação Anômala.
+- Limitação: não copia poderes, não aprende técnicas instantaneamente e não consegue prever todos os acontecimentos. Suas técnicas podem produzir resultados inconsistentes.
+
+
+---
+
+3. Distribuição definitiva das classes
+
+Para preservar todas as oito raridades e a distribuição oficial de probabilidades, ficam estabelecidas estas correções de classificação:
+
+- 11. Artífice: Incomum → Épico.
+- 13. Lanceiro: Comum → Incomum.
+- 15. Caçador: Incomum → Comum.
+- 16. Ilusionista: Raro → Mítico.
+
+CLASS DATABASE (20/20)
+
+Raridade	Quantidade
+
+Comum	6
+Incomum	5
+Raro	3
+Épico	2
+Lendário	1
+Mítico	1
+Divino	1
+Transcendente	1
+
+
+
+---
+
+Probabilidades individuais
+
+- Comum: 6,6667%
+
+- Incomum: 5%
+
+- Raro: 5,6667%
+
+- Épico: 5%
+
+- Lendário: 5%
+
+- Mítico: 2%
+
+- Divino: 0,8%
+
+- Transcendente: 0,2%
+
+  100%
+
+4. Regras oficiais das classes
+
+1. A classe não concede automaticamente uma arma.
+2. Técnicas de classe são exclusivas daquela classe e começam com domínio completo; treinamento não é necessário para desbloqueá-las. Desenvolvimento estratégico e narrativo não altera o domínio mecânico.
+3. A classe não substitui o poder sorteado.
+4. Uma classe pode ter sinergia ou conflito com a raça e o poder.
+5. As técnicas possuem custos energéticos definidos na criação das fichas de combate.
+6. Uma classe transcendente não garante vitória contra classes inferiores.
+
+Importante: os buffs de classe serão aplicados sobre os atributos após os modificadores raciais, antes dos modificadores do poder e das especializações.
+
+(DATABASE 003 — CONCLUÍDA)
+
+
+---
+
+Próxima etapa: DATABASE 004 — 50 ARMAS ⚔️
+
+Vamos incluir armas convencionais, lendárias, monstruosas, tecnológicas e completamente absurdas.
+
+Quero também estabelecer uma regra especial: armas terão atributos próprios, como dano, alcance, durabilidade, velocidade de utilização e compatibilidade com o usuário.
+
+Assim, uma espada lendária nas mãos de alguém sem MAN suficiente pode ser menos eficiente que uma espada comum nas mãos de um mestre.
+
+Próxima roleta: 50 armas. 🔥
+
+---
+REGRA OFICIAL V1.1 — PERSONAGENS NO ÁPICE
+O personagem começa com domínio completo das capacidades e técnicas pertencentes a este resultado. Não há treinamento obrigatório, níveis de domínio ou desbloqueio gradual. Custos, limitações, requisitos e condições intrínsecas descritos neste catálogo continuam válidos. Esta regra prevalece sobre qualquer menção antiga a domínio inicial ou progressão de domínio.

@@ -1,0 +1,286 @@
+### 🎰 ROULETTE SYSTEM — DATABASE 001
+
+### OS 150 PODERES OFICIAIS
+
+Agora vamos fechar o catálogo inteiro. Serão 150 poderes, sem dividir a criação em etapas.
+
+Regras definitivas:
+
+* Poderes extremamente variados, inclusive habilidades estranhas e aparentemente inúteis.
+
+* Sem manipulação direta da realidade, conceitos ou leis universais.
+
+* Cada poder possui vantagens e desvantagens.
+
+* Escala representa o potencial máximo, não a capacidade inicial.
+
+* Os poderes não concedem automaticamente imunidades, conhecimentos ou capacidades que não estejam descritos.
+
+Distribuição oficial de raridades:
+
+| Raridade      | Quantidade | Chance individual |
+| ------------- | ---------- | ----------------- |
+| Comum         | 59         | 0,6780%           |
+| Incomum       | 37         | 0,6757%           |
+| Raro          | 25         | 0,6800%           |
+| Épico         | 15         | 0,6667%           |
+| Lendário      | 7          | 0,7143%           |
+| Mítico        | 3          | 0,6667%           |
+| Divino        | 2          | 0,4000%           |
+| Transcendente | 2          | 0,1000%           |
+
+As probabilidades são individuais e somam 100% considerando os 150 poderes. A distribuição mantém a raridade como uma característica independente da força.
+
+### I. Elementais — 001 a 025
+
+| Nº  | Poder          | Raridade | Buffs e debuffs                                                         | Escala e limitação                                             |
+| --- | -------------- | -------- | ----------------------------------------------------------------------- | -------------------------------------------------------------- |
+| 001 | Pirocinese     | Comum    | +40% potência térmica; -20% controle no frio extremo.                   | E2–E5. Consome energia e depende de oxigênio para combustão.   |
+| 002 | Hidrocinese    | Comum    | +40% controle aquático; -20% em ambientes secos.                        | E2–E5. Não controla fluidos internos de organismos.            |
+| 003 | Criocinese     | Comum    | +30% resistência ao frio; -20% mobilidade em calor extremo.             | E2–E5. Criar grandes massas de gelo exige energia.             |
+| 004 | Eletrocinese   | Incomum  | +50% potência elétrica; -15% controle após sobrecarga.                  | E2–E6. Não concede velocidade elétrica.                        |
+| 005 | Geocinese      | Comum    | +35% defesa em contato com solo; -20% em superfícies artificiais.       | E2–E6. Não controla metais refinados.                          |
+| 006 | Aerocinese     | Incomum  | +35% mobilidade; -20% controle em ambientes fechados.                   | E2–E6. Não concede voo automaticamente.                        |
+| 007 | Magmacinese    | Raro     | +60% potência térmica; -25% velocidade de manipulação.                  | E3–E7. Elevado consumo energético.                             |
+| 008 | Ferrocinese    | Incomum  | +50% controle de metais; -15% precisão com massas grandes.              | E2–E6. Não cria metais.                                        |
+| 009 | Arenocinese    | Comum    | +40% controle em desertos; -20% em locais úmidos.                       | E2–E5. Necessita de areia disponível.                          |
+| 010 | Fitocinese     | Comum    | +50% controle vegetal; vulnerabilidade ao fogo.                         | E2–E6. Crescimento exige energia e matéria orgânica.           |
+| 011 | Cristalocinese | Raro     | +60% defesa cristalina; vulnerabilidade a vibrações.                    | E2–E6. Cristais exigem tempo ou energia.                       |
+| 012 | Sonocinese     | Raro     | +50% percepção acústica; sensibilidade a ruídos intensos.               | E1–E5. Ineficaz no vácuo.                                      |
+| 013 | Fotocinese     | Épico    | +50% controle de luz; -30% eficiência sem fontes luminosas.             | E2–E5. Não concede velocidade da luz.                          |
+| 014 | Umbracinese    | Raro     | +40% ocultação; -30% controle sob luz intensa.                          | E2–E5. Necessita de sombras existentes.                        |
+| 015 | Nebulocinese   | Comum    | +45% obscurecimento; baixo dano direto.                                 | E1–E4. Ventos dispersam a névoa.                               |
+| 016 | Acidocinese    | Épico    | +60% corrosividade; -20% resistência a substâncias corrosivas próprias. | E2–E5. Não dissolve qualquer material instantaneamente.        |
+| 017 | Magnetocinese  | Épico    | +60% controle ferromagnético; -25% contra materiais não magnéticos.     | E3–E7. Não controla toda matéria metálica.                     |
+| 018 | Plasmocinese   | Lendário | +70% potência energética; -40% eficiência energética.                   | E4–E9. Exige concentração para estabilização.                  |
+| 019 | Tempestade     | Mítico   | +70% controle meteorológico local; -30% concentração.                   | E4–E9. Não altera instantaneamente o clima planetário.         |
+| 020 | Cinerecinese   | Incomum  | +40% controle de partículas; -20% impacto físico.                       | E1–E4. Necessita de cinzas.                                    |
+| 021 | Vitrocinese    | Incomum  | +50% precisão com vidro; -20% resistência estrutural das construções.   | E2–E5. Não controla areia automaticamente.                     |
+| 022 | Gravocinese    | Divino   | +80% controle gravitacional; -40% eficiência energética.                | E4–E11. Alcance e massa controlada diminuem com a intensidade. |
+| 023 | Vapocinese     | Comum    | +40% controle de vapor; -25% eficiência em ambientes secos.             | E1–E4. Não controla todos os gases.                            |
+| 024 | Oleocinese     | Raro     | +50% controle de óleos; -20% eficiência sem material disponível.        | E1–E4. Não controla gorduras orgânicas internas.               |
+| 025 | Radionese      | Épico    | +50% percepção de radiação; risco de exposição própria.                 | E3–E7. Não concede imunidade radioativa.                       |
+
+### II. Físicos e corporais — 026 a 050
+
+| Nº  | Poder                   | Raridade | Buffs e debuffs                                                                                      | Escala e limitação                                                                                   |
+| --- | ----------------------- | -------- | ---------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- |
+| 026 | Elasticidade            | Comum    | +60% flexibilidade; -15% estabilidade estrutural.                                                    | E1–E4. Não é imune a perfurações.                                                                    |
+| 027 | Densidade Variável      | Épico    | +70% resistência quando denso; -40% velocidade nessa condição.                                       | E2–E7. Alterações extremas consomem energia.                                                         |
+| 028 | Gigantismo              | Raro     | +100% força e alcance por estágio de crescimento; -40% agilidade.                                    | E2–E7. Massa corporal aumenta proporcionalmente.                                                     |
+| 029 | Miniaturização          | Incomum  | +70% furtividade; -60% força física absoluta.                                                        | E0–E3. Não reduz automaticamente a vulnerabilidade.                                                  |
+| 030 | Membros Extras          | Incomum  | +40% coordenação e capacidade de manipulação; -15% equilíbrio inicial.                               | E1–E4. Exige treinamento dos membros adicionais.                                                     |
+| 031 | Ossos de Aço            | Raro     | +70% resistência óssea; -15% flexibilidade.                                                          | E2–E5. Tecidos moles continuam vulneráveis.                                                          |
+| 032 | Pele Blindada           | Comum    | +50% defesa física; -20% sensibilidade tátil.                                                        | E1–E5. Articulações não recebem proteção integral.                                                   |
+| 033 | Regeneração             | Épico    | +80% recuperação biológica; -30% reserva energética.                                                 | E1–E7. Não regenera instantaneamente e possui limites biológicos.                                    |
+| 034 | Adaptação Física        | Lendário | +50% resistência progressiva contra estímulos repetidos; -25% energia.                               | E2–E9. Não adapta instantaneamente a qualquer ameaça.                                                |
+| 035 | Metamorfose Corporal    | Raro     | +60% versatilidade física; -20% estabilidade anatômica.                                              | E1–E6. Não copia poderes de outros seres.                                                            |
+| 036 | Músculos Explosivos     | Incomum  | +70% força momentânea; -35% resistência prolongada.                                                  | E2–E5. Uso contínuo causa fadiga intensa.                                                            |
+| 037 | Anatomia Líquida        | Épico    | +70% mobilidade e deformação; -40% estabilidade.                                                     | E2–E6. Necessita preservar a coesão corporal.                                                        |
+| 038 | Corpo de Pedra          | Raro     | +80% defesa física; -40% velocidade.                                                                 | E2–E6. Vulnerável a forças que fragmentam materiais.                                                 |
+| 039 | Corpo de Borracha       | Incomum  | +60% elasticidade e absorção de impacto; -25% precisão de movimentos.                                | E1–E5. Não absorve todo tipo de energia.                                                             |
+| 040 | Sangue Energético       | Épico    | +50% capacidade energética; -30% recuperação após grandes gastos.                                    | E2–E7. Depende da integridade do sistema circulatório.                                               |
+| 041 | Ossos Retráteis         | Comum    | +35% versatilidade corporal; -15% resistência óssea.                                                 | E1–E3. Exige controle anatômico preciso.                                                             |
+| 042 | Biomecânica Perfeita    | Lendário | +60% eficiência muscular e coordenação; -20% adaptação a movimentos desconhecidos.                   | E2–E7. Não concede conhecimento de combate.                                                          |
+| 043 | Corpo Incandescente     | Raro     | +60% resistência térmica; -30% eficiência em ambientes frios.                                        | E2–E6. Emissão de calor consome energia.                                                             |
+| 044 | Duplicação de Membros   | Incomum  | +50% capacidade de manipulação; -20% coordenação inicial.                                            | E1–E4. Não duplica a massa corporal indefinidamente.                                                 |
+| 045 | Adrenalina Infinita     | Mítico   | +100% desempenho físico temporário; -50% precisão e recuperação após o efeito.                       | E2–E8. A sensação de esforço não desaparece e o corpo continua sujeito a danos.                      |
+| 046 | Corpo Invertebrado      | Épico    | +80% flexibilidade; -35% estabilidade e força de sustentação.                                        | E1–E5. Não permite atravessar matéria sólida.                                                        |
+| 047 | Ossatura Modular        | Raro     | +60% resistência e capacidade de redistribuir estrutura óssea; -20% velocidade.                      | E2–E6. Alterações exigem tempo.                                                                      |
+| 048 | Compressão Muscular     | Épico    | +80% força concentrada; -30% alcance corporal.                                                       | E2–E7. Dificulta movimentos amplos.                                                                  |
+| 049 | Corpo Silencioso        | Comum    | +70% discrição locomotora; -20% sensibilidade a vibrações externas.                                  | E0–E3. Não elimina sons produzidos pelo ambiente.                                                    |
+| 050 | Reconstituição Corporal | Divino   | +90% capacidade de reorganizar tecidos danificados; -60% consumo energético em recuperações severas. | E3–E11. Não recupera energia ilimitadamente nem garante sobrevivência diante de destruição completa. |
+
+### III. Biológicos — 051 a 075
+
+| Nº  | Poder                    | Raridade      | Buffs e debuffs                                                                                                            | Escala e limitação                                                                          |
+| --- | ------------------------ | ------------- | -------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- |
+| 051 | Hemocinese               | Raro          | +60% controle sanguíneo externo; -30% precisão sob estresse.                                                               | E2–E6. Não controla livremente o sangue dentro de organismos.                               |
+| 052 | Venocinese               | Incomum       | +50% produção de substâncias tóxicas próprias; -25% recuperação metabólica.                                                | E1–E4. Não controla venenos externos automaticamente.                                       |
+| 053 | Ferocidade Predatória    | Comum         | +40% percepção e força em situações de perigo; -20% raciocínio estratégico sob excitação.                                  | E1–E4. Não aumenta inteligência.                                                            |
+| 054 | Parasitismo Energético   | Épico         | +50% recuperação de energia ao absorver energia externa compatível; -30% eficiência sem fontes disponíveis.                | E2–E7. Não absorve qualquer forma de energia.                                               |
+| 055 | Simbiose Animal          | Incomum       | +40% percepção e adaptação sensorial; -15% autonomia quando há conflito entre instintos.                                   | E1–E5. Não concede automaticamente poderes de animais.                                      |
+| 056 | Evolução Adaptativa      | Lendário      | +60% capacidade de desenvolver adaptações biológicas; -40% estabilidade durante transformações.                            | E3–E10. Adaptações exigem exposição, tempo e energia.                                       |
+| 057 | Clonagem Biológica       | Raro          | +50% capacidade de multiplicação corporal; -40% reserva energética por clone.                                              | E2–E6. Clones possuem atributos inferiores e não duplicam automaticamente o poder original. |
+| 058 | Controle Hormonal        | Incomum       | +50% controle fisiológico; -20% estabilidade quando múltiplos hormônios são alterados.                                     | E1–E4. Não controla outras pessoas.                                                         |
+| 059 | Comunicação Animal       | Comum         | +100% capacidade de comunicação com animais; -15% processamento de estímulos em ambientes muito movimentados.              | E0–E2. Comunicação não significa obediência.                                                |
+| 060 | Mutação Aleatória        | Épico         | +50% possibilidade de desenvolver características físicas temporárias; -35% previsibilidade dos resultados.                | E2–E8. A mutação pode ser desfavorável e exige energia.                                     |
+| 061 | Controle de Fungos       | Incomum       | +50% controle de estruturas fúngicas; -20% eficiência em ambientes secos.                                                  | E1–E5. Não controla automaticamente todos os organismos microscópicos.                      |
+| 062 | Fotossíntese Humana      | Comum         | +40% recuperação energética sob luz solar; -20% eficiência metabólica durante a noite.                                     | E0–E3. Não substitui completamente alimentação e hidratação.                                |
+| 063 | Corpo Insetoide          | Raro          | +60% mobilidade e resistência corporal; -20% coordenação em ambientes frios.                                               | E2–E6. Não concede habilidades de todos os insetos.                                         |
+| 064 | Neuroplasticidade        | Comum         | +50% velocidade de aprendizagem; -20% estabilidade de memória durante sobrecarga.                                          | E0–E3. Não fornece conhecimentos instantâneos.                                              |
+| 065 | Regeneração Celular      | Épico         | +70% recuperação de tecidos; -35% consumo energético.                                                                      | E2–E7. Não regenera instantaneamente órgãos complexos.                                      |
+| 066 | Metabolismo Acelerado    | Comum         | +50% recuperação física e processamento metabólico; -40% necessidade energética.                                           | E1–E4. Aumenta drasticamente o consumo de nutrientes.                                       |
+| 067 | Mimética Animal          | Raro          | +50% capacidade de reproduzir características físicas de animais; -25% estabilidade da transformação.                      | E1–E6. Apenas uma característica pode ser reproduzida por vez.                              |
+| 068 | Membrana Adaptativa      | Incomum       | +60% resistência ambiental; -20% sensibilidade tátil.                                                                      | E1–E5. Não oferece imunidade absoluta a temperaturas extremas.                              |
+| 069 | Enxame Vivo              | Lendário      | +70% capacidade de controlar organismos minúsculos; -40% concentração quando o enxame é dispersado.                        | E3–E9. Não cria organismos do nada.                                                         |
+| 070 | Controle de Cartilagem   | Incomum       | +50% flexibilidade e resistência articular; -20% estabilidade estrutural.                                                  | E1–E4. Não controla tecidos de terceiros.                                                   |
+| 071 | Bioluminescência         | Comum         | +50% emissão luminosa e comunicação visual; -30% furtividade.                                                              | E0–E3. Não funciona como ataque energético de grande escala.                                |
+| 072 | Memória Genética         | Raro          | +50% acesso a informações hereditárias; -20% velocidade de recuperação de lembranças.                                      | E1–E6. Não acessa memórias pessoais de antepassados automaticamente.                        |
+| 073 | Corpo Simbiótico         | Incomum       | +60% capacidade de utilizar organismos aliados; -30% autonomia fisiológica.                                                | E2–E6. A simbiose exige organismos compatíveis.                                             |
+| 074 | Hipersentidos Biológicos | Comum         | +70% percepção sensorial; -30% tolerância à sobrecarga de estímulos.                                                       | E1–E4. Sentidos ampliados também podem ser confundidos.                                     |
+| 075 | Quimera                  | Transcendente | +100% versatilidade biológica e possibilidade de de combinar até cinco características animais; -60% estabilidade metabólica.	E5–E11. Cada característica possui custo energético e incompatibilidades.
+
+IV. Mentais e sensoriais — 076 a 100
+Nº	Poder	Raridade	Buffs e debuffs	Escala e limitação
+076	Telepatia	Raro	+70% comunicação mental; -30% concentração em ambientes com muitas mentes.	E2–E7. Não lê pensamentos profundamente sem resistência do alvo ser superada.
+077	Clarividência	Épico	+60% percepção de acontecimentos distantes; -30% precisão em situações imprevisíveis.	E2–E8. Não prevê o futuro com certeza.
+078	Ilusionismo Mental	Raro	+60% capacidade de produzir percepções falsas; -25% concentração.	E2–E6. Alvos com percepção elevada podem resistir.
+079	Memória Absoluta	Comum	+100% retenção de informações; -20% velocidade de processamento sob excesso de dados.	E0–E3. Lembrar não significa compreender.
+080	Instinto de Combate	Incomum	+50% reação instintiva; -20% eficiência em situações sem ameaça identificável.	E1–E5. Não prevê movimentos impossíveis de perceber.
+081	Projeção Astral	Épico	+70% exploração extrassensorial; -50% percepção corporal enquanto projetado.	E2–E7. A projeção não possui força física normal.
+082	Hipnose	Incomum	+50% influência sobre atenção; -25% eficiência contra alvos resistentes.	E1–E5. Não controla completamente a vontade de outras pessoas.
+083	Percepção Temporal	Raro	+60% percepção subjetiva de movimentos; -30% fadiga mental.	E1–E6. Não altera o tempo real.
+084	Empatia Sensorial	Comum	+50% leitura emocional; -25% estabilidade emocional própria.	E0–E4. Não identifica pensamentos específicos.
+085	Cálculo Instantâneo	Incomum	+70% velocidade de cálculos; -20% capacidade de improvisação sob excesso de informações.	E1–E5. Não garante que os dados disponíveis estejam corretos.
+086	Sonambulismo Controlado	Comum	+40% desempenho em estados de consciência reduzida; -30% percepção consciente.	E0–E3. Não concede invulnerabilidade durante o sono.
+087	Eco Mental	Raro	+60% capacidade de detectar rastros mentais recentes; -30% precisão com rastros antigos.	E2–E6. Não identifica automaticamente o autor de cada pensamento.
+088	Manipulação de Atenção	Épico	+70% capacidade de direcionar a atenção de alvos; -30% concentração em múltiplos alvos.	E2–E7. Não apaga memórias nem controla decisões.
+089	Sonhos Compartilhados	Incomum	+60% comunicação durante sonhos; -25% controle quando participantes acordam.	E1–E5. Não produz efeitos físicos no mundo real.
+090	Sexto Sentido	Lendário	+80% percepção de perigos próximos; -30% precisão quando existem muitas ameaças simultâneas.	E3–E9. Indica perigo, não necessariamente sua origem.
+091	Visão Multiespectral	Comum	+60% percepção de diferentes faixas luminosas; -20% conforto visual em ambientes comuns.	E0–E4. Não permite enxergar através de qualquer material.
+092	Voz Persuasiva	Incomum	+50% capacidade de persuasão; -20% eficiência em alvos desconfiados.	E0–E4. Não é controle mental.
+093	Leitura de Movimento	Raro	+70% capacidade de interpretar movimentos; -25% eficiência contra movimentos completamente desconhecidos.	E1–E6. Depende de observação e percepção.
+094	Dissociação Sensorial	Épico	+60% resistência a distrações sensoriais; -35% percepção de estímulos secundários.	E1–E6. Pode fazer o usuário ignorar informações importantes.
+095	Sinestesia	Comum	+50% associação de estímulos e reconhecimento de padrões; -15% precisão em ambientes caóticos.	E0–E3. Não concede poderes sobrenaturais de previsão.
+096	Memória Compartilhada	Raro	+60% transmissão de lembranças; -30% estabilidade de identidade durante transmissões prolongadas.	E2–E7. Não transmite habilidades físicas.
+097	Bloqueio Psíquico	Incomum	+70% resistência a invasões mentais; -20% comunicação telepática.	E1–E6. Não protege contra ataques físicos.
+098	Intuição Estatística	Épico	+60% capacidade de estimar probabilidades; -30% precisão diante de eventos sem dados suficientes.	E2–E7. Não modifica a sorte.
+099	Sonar Humano	Comum	+70% percepção espacial por ecos; -30% eficiência em ambientes extremamente barulhentos.	E1–E4. Não funciona no vácuo.
+100	Mente Fragmentada	Mítico	+80% processamento paralelo de tarefas; -40% estabilidade de atenção e identidade funcional.	E4–E10. Os processos mentais podem entrar em conflito e precisam ser coordenados.
+
+V. Energéticos — 101 a 125
+Nº	Poder	Raridade	Buffs e debuffs	Escala e limitação
+101	Absorção Energética	Raro	+70% absorção de energia compatível; -30% controle quando sobrecarregado.	E2–E8. Não absorve qualquer energia indiscriminadamente.
+102	Projeção Energética	Comum	+50% alcance de ataques energéticos; -20% eficiência em longas distâncias.	E1–E5. Projeções consomem reserva energética.
+103	Aura de Pressão	Incomum	+50% pressão física em área; -25% precisão em espaços reduzidos.	E2–E6. Alcance limitado à aura.
+104	Conversão Energética	Raro	+60% eficiência na conversão de energia entre formas compatíveis; -30% rendimento em conversões complexas.	E2–E8. Não cria energia.
+105	Sobrecarga	Comum	+70% potência temporária; -40% eficiência após o efeito.	E2–E6. Exige recuperação entre utilizações intensas.
+106	Campo de Força	Incomum	+70% defesa contra impactos; -30% mobilidade enquanto ativo.	E2–E7. Possui limite de área e capacidade de absorção.
+107	Absorção Cinética	Épico	+60% capacidade de absorver impactos; -30% eficiência contra ataques não cinéticos.	E2–E8. Existe um limite de energia armazenada.
+108	Explosão de Energia	Comum	+60% potência ofensiva; -30% precisão.	E2–E6. A energia precisa ser acumulada.
+109	Condensação Energética	Incomum	+50% densidade de energia; -25% velocidade de emissão.	E2–E7. Exige concentração.
+110	Fissão Energética	Lendário	+90% capacidade de liberar energia acumulada; -50% controle e eficiência.	E5–E11. Necessita de energia previamente armazenada e possui risco de sobrecarga.
+111	Drenagem Energética	Incomum	+60% capacidade de extrair energia de fontes externas; -30% eficiência contra fontes protegidas.	E2–E7. Não absorve automaticamente energia vital.
+112	Revestimento Energético	Comum	+50% ataque e defesa quando revestido; -25% reserva energética.	E1–E5. A proteção depende da energia restante.
+113	Pulsação	Comum	+60% emissão de ondas de energia; -20% precisão em pulsos consecutivos.	E1–E5. As ondas perdem força com a distância.
+114	Ressonância	Incomum	+60% eficiência ao interagir com energias de frequência compatível; -30% contra frequências desconhecidas.	E2–E8. Precisa identificar a frequência.
+115	Energia Reversa	Raro	+50% capacidade de redirecionar energia recebida; -40% estabilidade ao lidar com grandes quantidades.	E3–E9. Não devolve ataques acima de sua capacidade.
+116	Núcleo Interno	Comum	+50% reserva energética; -20% velocidade de recuperação.	E1–E6. O armazenamento possui limite.
+117	Energia Fantasma	Comum	+60% capacidade de ocultar emissões energéticas; -25% potência ofensiva.	E1–E5. Não concede intangibilidade.
+118	Combustão de Energia	Incomum	+70% potência durante liberações concentradas; -35% duração de combate.	E2–E7. Consome rapidamente a reserva.
+119	Circuito Energético	Comum	+50% circulação e distribuição de energia; -20% resistência a interrupções energéticas.	E1–E6. Circuitos podem ser desestabilizados.
+120	Absorção Solar	Comum	+60% recuperação energética sob luz solar; -30% rendimento durante a noite.	E1–E7. Depende da intensidade luminosa.
+121	Energia Vibracional	Incomum	+60% potência de vibrações; -25% precisão em estruturas irregulares.	E2–E7. Não controla livremente a matéria.
+122	Energia Cinética	Comum	+60% armazenamento e liberação de movimento; -30% capacidade quando imóvel.	E2–E7. Não gera movimento sem fonte energética.
+123	Energia Térmica	Comum	+60% absorção e emissão de calor; -30% eficiência em ambientes termicamente extremos.	E2–E7. Não oferece imunidade ao próprio calor.
+124	Energia Vital	Comum	+50% recuperação física através de energia biológica própria; -40% reserva vital disponível.	E1–E6. Não ressuscita mortos nem produz vida.
+125	Energia Inercial	Comum	+60% resistência a mudanças bruscas de movimento; -25% aceleração.	E2–E7. Não anula forças ilimitadas.
+
+VI. Defensivos, espaciais e especiais — 126 a 150
+Nº	Poder	Raridade	Buffs e debuffs	Escala e limitação
+126	Teletransporte	Incomum	+100% mobilidade instantânea; -40% precisão ao atravessar grandes distâncias.	E2–E8. Alcance e frequência dependem da energia.
+127	Portal Dimensional	Raro	+80% mobilidade entre pontos conectados; -40% estabilidade dos portais.	E3–E9. Exige coordenadas conhecidas e dois pontos acessíveis.
+128	Dobra Espacial	Épico	+80% controle de distâncias locais; -40% concentração.	E4–E10. Não permite atravessar qualquer dimensão.
+129	Barreira Absoluta	Lendário	+100% defesa contra ataques dentro de sua capacidade; -60% mobilidade e consumo energético extremo.	E4–E11. Não é literalmente absoluta: possui capacidade máxima e pode ser superada.
+130	Faseamento	Comum	+80% capacidade de atravessar obstáculos sólidos; -50% capacidade de interação física durante a fase.	E2–E7. Não atravessa qualquer campo ou barreira energética.
+131	Ancoragem Espacial	Incomum	+70% resistência a deslocamentos forçados; -30% mobilidade voluntária.	E2–E7. Não impede ataques que não envolvam deslocamento.
+132	Bolha de Isolamento	Comum	+60% proteção contra influências ambientais; -30% comunicação e percepção externa.	E2–E6. Possui tamanho e duração limitados.
+133	Desvio de Trajetória	Raro	+70% capacidade de alterar trajetórias de objetos próximos; -30% controle sobre objetos muito rápidos.	E2–E8. Não funciona contra qualquer fenômeno.
+134	Compressão Espacial	Épico	+70% capacidade de reduzir distâncias locais; -35% estabilidade do espaço afetado.	E3–E9. Não cria dimensões próprias.
+135	Repulsão	Comum	+60% capacidade de afastar objetos; -25% controle de movimentos delicados.	E2–E6. Depende de alcance e força aplicada.
+136	Atração	Incomum	+60% capacidade de aproximar objetos; -25% precisão em múltiplos alvos.	E2–E6. Não atrai objetos acima do limite de força.
+137	Campo de Inércia	Comum	+60% resistência a acelerações externas; -25% agilidade própria.	E2–E7. Não impede danos causados por outros tipos de energia.
+138	Reflexo Espacial	Incomum	+50% capacidade de devolver objetos por superfícies espaciais; -35% estabilidade.	E2–E7. Não reflete automaticamente ataques energéticos.
+139	Armazenamento Dimensional	Comum	+100% capacidade de transportar objetos em espaço próprio; -30% velocidade de acesso.	E1–E5. Possui capacidade máxima de armazenamento e não guarda seres vivos.
+140	Zona de Gravidade Nula	Incomum	+70% mobilidade em ambientes sem gravidade; -30% estabilidade corporal.	E2–E7. Afeta uma área limitada e não concede voo preciso.
+141	Retorno Cinético	Comum	+50% capacidade de recuperar parte da energia de movimentos realizados; -20% eficiência em movimentos interrompidos.	E1–E6. Não restaura energia perdida por qualquer fonte.
+142	Redirecionamento	Comum	+60% capacidade de mudar a direção de forças recebidas; -30% eficiência contra forças muito superiores.	E2–E7. Não elimina a força original.
+143	Microdimensão	Comum	+80% capacidade de criar um pequeno espaço isolado; -40% capacidade de manipulação externa.	E2–E6. O espaço tem tamanho e duração limitados.
+144	Distorção Óptica	Comum	+70% capacidade de alterar a trajetória da luz; -25% precisão em ambientes complexos.	E1–E5. Não altera objetos físicos.
+145	Zona de Amortecimento	Comum	+70% redução de impactos físicos; -30% velocidade de movimentação dentro da área.	E2–E7. Não neutraliza calor, radiação ou outros tipos de energia.
+146	Ponto de Retorno	Incomum	+60% capacidade de retornar a uma posição espacial previamente marcada; -30% reserva energética.	E2–E7. Não restaura ferimentos, energia ou o tempo.
+147	Espelho Dimensional	Comum	+70% criação de superfícies refletoras especiais; -30% resistência das superfícies.	E2–E6. Reflete luz e imagens, não qualquer ataque.
+148	Prisão Espacial	Comum	+70% capacidade de restringir movimentos em uma região delimitada; -30% eficiência contra forças superiores.	E2–E7. Exige concentração e possui duração limitada.
+149	Horizonte Dobrado	Comum	+60% capacidade de ampliar ou reduzir distâncias visuais e percorridas; -25% orientação espacial própria.	E3–E8. Não altera o espaço em escala universal.
+150	Singularidade	Transcendente	+100% capacidade de produzir um campo gravitacional extremamente concentrado; -80% controle, mobilidade e eficiência energética.	E8–E11. Alcance minúsculo, duração limitada e risco de colapso do próprio campo.
+
+
+7. Correções de raridade e fechamento oficial
+Para respeitar exatamente a distribuição de probabilidades que estabelecemos, algumas classificações precisam ser corrigidas:
+- 016, 017 e 025: Épico → Raro.
+- 101, 104, 107, 115, 127, 128, 133 e 134: passam a Comum.
+- 129: Lendário → Incomum.
+Essas são as classificações definitivas.
+8. Probabilidade individual definitiva
+Cada poder recebe a probabilidade correspondente à sua raridade:
+Raridade	Quantidade final	Chance por poder
+Comum	59	0,677966%
+Incomum	37	0,675676%
+Raro	25	0,68%
+Épico	15	0,666667%
+Lendário	7	0,714286%
+Mítico	3	0,666667%
+Divino	2	0,4%
+Transcendente	2	0,1%
+
+9. Banco de dados final
+POWER DATABASE
+150/150
+
+150 poderes
+Todas as entradas registradas e classificadas.
+Elementais
+
+25/25
+
+
+
+
+Físicos e corporais
+
+25/25
+
+
+
+
+Biológicos
+
+25/25
+
+
+
+
+Mentais e sensoriais
+
+25/25
+
+
+
+
+Energéticos
+
+25/25
+
+
+
+
+Defensivos, espaciais e especiais
+
+25/25
+
+
+
+
+
+Probabilidade total
+100%
+
+
+POWER DATABASE — OFICIAL
+REGRA ATUALIZADA (V1.1): o personagem começa no ápice de domínio e acessa desde a geração as aplicações descritas para o poder. Custos energéticos, condições, limitações, requisitos e efeitos que dependem de exposição ou tempo continuam válidos. As escalas E0–E11 indicam a escala da capacidade, não uma etapa de desbloqueio.
+Próxima etapa: RACE DATABASE — 50 RAÇAS
+
+---
+REGRA OFICIAL V1.1 — PERSONAGENS NO ÁPICE
+O personagem começa com domínio completo das capacidades e técnicas pertencentes a este resultado. Não há treinamento obrigatório, níveis de domínio ou desbloqueio gradual. Custos, limitações, requisitos e condições intrínsecas descritos neste catálogo continuam válidos. Esta regra prevalece sobre qualquer menção antiga a domínio inicial ou progressão de domínio.

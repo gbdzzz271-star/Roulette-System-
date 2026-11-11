@@ -1,0 +1,891 @@
+TEM SIM! KKKKK 🔥 Vamos fechar o ROULETTE SYSTEM de uma vez!
+
+Em vez de fazer uma especialização por vez, vou criar as 60 especializações físicas restantes, divididas nas seis categorias, com todos os detalhes.
+
+### ROULETTE SYSTEM
+
+### DATABASE 005–010 — ESPECIALIZAÇÕES FÍSICAS
+
+Cada categoria terá 10 resultados independentes, seguindo esta distribuição:
+
+| Raridade      | Quantidade | Chance individual |
+| ------------- | ---------- | ----------------- |
+| Comum         | 2          | 20%               |
+| Incomum       | 2          | 12,5%             |
+| Raro          | 1          | 17%               |
+| Épico         | 1          | 10%               |
+| Lendário      | 1          | 5%                |
+| Mítico        | 1          | 2%                |
+| Divino        | 1          | 0,8%              |
+| Transcendente | 1          | 0,2%              |
+| Total         | 10         | 100%              |
+
+A raridade não determina sozinha a força: cada especialização terá sua própria escala de potencial, vantagens e limitações.
+
+### 005 — FORÇA (FOR)
+
+Especializações voltadas à capacidade muscular, força física, impacto e potência corporal.
+
+### 001\. Musculatura Desenvolvida
+
+Comum
+
+* Descrição: Desenvolvimento muscular acima da média, proporcionando força física superior.
+
+* Buffs: +15% FOR; +5% RES.
+
+* Debuffs: -5% AGI.
+
+* Escala: FOR 1–3.
+
+* Limitação: Não concede resistência proporcional à força produzida.
+
+### 002\. Potência Explosiva
+
+Comum
+
+* Descrição: Capacidade de concentrar força em movimentos curtos e explosivos.
+
+* Buffs: +20% FOR em movimentos de impacto; +5% VEL.
+
+* Debuffs: -10% resistência durante esforços prolongados.
+
+* Escala: FOR 1–4.
+
+* Limitação: Pouco eficiente em atividades contínuas.
+
+### 003\. Força de Impacto
+
+Incomum
+
+* Descrição: Especialização na transferência de força para golpes e colisões.
+
+* Buffs: +25% FOR em impactos; +10% EQU.
+
+* Debuffs: -5% AGI.
+
+* Escala: FOR 2–5.
+
+* Limitação: Não aumenta automaticamente a velocidade dos movimentos.
+
+### 004\. Força de Sustentação
+
+Incomum
+
+* Descrição: Capacidade de sustentar cargas extremamente pesadas.
+
+* Buffs: +25% FOR; +15% RES em atividades de sustentação.
+
+* Debuffs: -10% VEL enquanto carrega peso elevado.
+
+* Escala: FOR 2–5.
+
+* Limitação: Não oferece a mesma eficiência em movimentos explosivos.
+
+### 005\. Força Titânica
+
+Raro
+
+* Descrição: Desenvolvimento físico extraordinário, ultrapassando os limites humanos convencionais.
+
+* Buffs: +40% FOR; +10% RES.
+
+* Debuffs: -10% AGI.
+
+* Escala: FOR 3–7.
+
+* Limitação: O corpo precisa suportar a própria potência.
+
+### 006\. Força Sísmica
+
+Épico
+
+* Descrição: Capacidade de produzir impactos capazes de transmitir ondas de força pelo ambiente.
+
+* Buffs: +60% FOR; +20% alcance de impacto.
+
+* Debuffs: -15% controle fino.
+
+* Escala: FOR 4–8.
+
+* Limitação: Exige contato físico ou uma superfície adequada para transmitir a força.
+
+### 007\. Gigantismo de Potência
+
+Lendário
+
+* Descrição: A força física cresce de maneira extraordinária conforme o usuário concentra sua musculatura.
+
+* Buffs: +100% FOR; +30% RES.
+
+* Debuffs: -20% AGI.
+
+* Escala: FOR 5–9.
+
+* Limitação: O aumento de potência exige maior consumo energético.
+
+### 008\. Força Adaptativa
+
+Mítico
+
+* Descrição: A musculatura adapta sua capacidade de produção de força aos desafios enfrentados.
+
+* Buffs: +100% FOR inicial; crescimento progressivo mediante treinamento e experiência.
+
+* Debuffs: Evolução lenta diante de estímulos repetidos.
+
+* Escala: FOR 5–10.
+
+* Limitação: Não copia habilidades nem concede força ilimitada imediatamente.
+
+### 009\. Força Celestial
+
+Divino
+
+* Descrição: O corpo manifesta uma força de origem superior, capaz de ultrapassar limites físicos e energéticos convencionais.
+
+* Buffs: +250% FOR; +50% RES.
+
+* Debuffs: Elevado consumo de ENE.
+
+* Escala: FOR 7–11.
+
+* Limitação: A manifestação completa depende do domínio da energia.
+
+### 010\. Soberania da Força
+
+Transcendente
+
+* Descrição: O usuário possui domínio sobre o conceito de força aplicada ao próprio corpo. Seu potencial não encontra um teto definido.
+
+* Buffs: FOR potencialmente ilimitada; capacidade de superar limites anteriores.
+
+* Debuffs: Controle, compreensão e energia determinam o quanto desse potencial pode ser manifestado.
+
+* Escala: FOR 11+.
+
+* Limitação: Potencial infinito não significa força infinita desde o nascimento.
+
+### 006 — VELOCIDADE (VEL)
+
+Especializações voltadas à velocidade de deslocamento, aceleração, reação e movimentação.
+
+### 011\. Corredor Natural
+
+Comum
+
+* Descrição: Aptidão natural para deslocamentos rápidos.
+
+* Buffs: +15% VEL; +5% AGI.
+
+* Debuffs: -5% FOR.
+
+* Escala: VEL 1–3.
+
+* Limitação: Não melhora significativamente os reflexos.
+
+### 012\. Arranque Explosivo
+
+Comum
+
+* Descrição: Capacidade de atingir velocidades elevadas em pouco tempo.
+
+* Buffs: +20% aceleração; +10% VEL inicial.
+
+* Debuffs: -10% resistência em movimentos prolongados.
+
+* Escala: VEL 1–4.
+
+* Limitação: Perde eficiência em longas distâncias.
+
+### 013\. Reflexos Aprimorados
+
+Incomum
+
+* Descrição: O sistema nervoso processa estímulos com maior velocidade.
+
+* Buffs: +25% VEL de reação; +10% PER.
+
+* Debuffs: -5% ENE.
+
+* Escala: VEL 2–5.
+
+* Limitação: Perceber um estímulo não significa conseguir reagir fisicamente a ele.
+
+### 014\. Passada Predatória
+
+Incomum
+
+* Descrição: Especialização em movimentações rápidas, mudanças de direção e perseguições.
+
+* Buffs: +25% VEL; +15% AGI durante deslocamentos.
+
+* Debuffs: -10% EQU em terrenos instáveis.
+
+* Escala: VEL 2–5.
+
+* Limitação: Menos eficiente em espaços muito apertados.
+
+### 015\. Velocidade Supersônica
+
+Raro
+
+* Descrição: Capacidade de alcançar velocidades superiores à barreira do som.
+
+* Buffs: +40% VEL; +10% AGI.
+
+* Debuffs: -15% controle de movimentos em alta velocidade.
+
+* Escala: VEL 3–7.
+
+* Limitação: O corpo precisa suportar as consequências da aceleração.
+
+### 016\. Movimento Relâmpago
+
+Épico
+
+* Descrição: O usuário consegue executar deslocamentos extremamente rápidos em intervalos curtos.
+
+* Buffs: +60% VEL; +25% aceleração.
+
+* Debuffs: Consumo elevado de ENE.
+
+* Escala: VEL 4–8.
+
+* Limitação: Não permite manter o desempenho máximo continuamente.
+
+### 017\. Velocidade Absoluta
+
+Lendário
+
+* Descrição: O usuário possui domínio extraordinário sobre a própria velocidade física.
+
+* Buffs: +100% VEL; +30% reação.
+
+* Debuffs: -15% precisão em movimentos não treinados.
+
+* Escala: VEL 5–9.
+
+* Limitação: A velocidade não anula obstáculos nem garante invulnerabilidade.
+
+### 018\. Aceleração Evolutiva
+
+Mítico
+
+* Descrição: A capacidade de aceleração melhora progressivamente conforme o usuário utiliza sua velocidade.
+
+* Buffs: +100% VEL inicial; crescimento adaptativo.
+
+* Debuffs: O crescimento exige esforço e possui períodos de adaptação.
+
+* Escala: VEL 5–10.
+
+* Limitação: Não ultrapassa instantaneamente qualquer adversário.
+
+### 019\. Velocidade Divina
+
+Divino
+
+* Descrição: O corpo manifesta uma velocidade que ultrapassa os limites convencionais da matéria.
+
+* Buffs: +250% VEL; +50% reação.
+
+* Debuffs: Consumo energético extremamente elevado.
+
+* Escala: VEL 7–11.
+
+* Limitação: A velocidade máxima depende do controle corporal.
+
+### 020\. Soberania do Movimento
+
+Transcendente
+
+* Descrição: O usuário possui potencial ilimitado de evolução sobre o próprio movimento.
+
+* Buffs: VEL potencialmente ilimitada; evolução contínua.
+
+* Debuffs: Controle e percepção podem limitar a velocidade utilizável.
+
+* Escala: VEL 11+.
+
+* Limitação: Não concede onipresença nem movimento instantâneo automaticamente.
+
+### 007 — RESISTÊNCIA (RES)
+
+Especializações voltadas à durabilidade, resistência física, recuperação e tolerância a condições extremas.
+
+### 021\. Constituição Robusta
+
+Comum
+
+* Descrição: Corpo naturalmente resistente ao desgaste físico.
+
+* Buffs: +15% RES; +5% FOR.
+
+* Debuffs: -5% AGI.
+
+* Escala: RES 1–3.
+
+* Limitação: Não oferece proteção especial contra energia ou magia.
+
+### 022\. Fôlego Prolongado
+
+Comum
+
+* Descrição: Maior capacidade de manter esforços físicos durante longos períodos.
+
+* Buffs: +20% resistência à fadiga; +10% ENE.
+
+* Debuffs: -5% VEL.
+
+* Escala: RES 1–4.
+
+* Limitação: Não aumenta diretamente a resistência a impactos.
+
+### 023\. Ossatura Reforçada
+
+Incomum
+
+* Descrição: Estrutura óssea mais densa e resistente.
+
+* Buffs: +25% RES; +10% proteção estrutural.
+
+* Debuffs: -5% AGI.
+
+* Escala: RES 2–5.
+
+* Limitação: Não protege igualmente músculos e órgãos.
+
+### 024\. Resistência à Dor
+
+Incomum
+
+* Descrição: O organismo apresenta maior tolerância a estímulos dolorosos.
+
+* Buffs: +25% resistência à dor; +10% concentração sob pressão.
+
+* Debuffs: Pode dificultar a percepção de limites físicos.
+
+* Escala: RES 2–5.
+
+* Limitação: Não impede que o corpo sofra danos.
+
+### 025\. Corpo de Ferro
+
+Raro
+
+* Descrição: A estrutura corporal possui resistência comparável à de materiais extremamente densos.
+
+* Buffs: +40% RES; +15% proteção física.
+
+* Debuffs: -10% AGI.
+
+* Escala: RES 3–7.
+
+* Limitação: Não oferece imunidade a ataques especializados.
+
+### 026\. Resistência Adaptativa
+
+Épico
+
+* Descrição: O corpo desenvolve resistência progressiva a condições físicas que enfrenta.
+
+* Buffs: +60% RES; adaptação gradual.
+
+* Debuffs: Necessita de tempo para desenvolver novas resistências.
+
+* Escala: RES 4–8.
+
+* Limitação: Não oferece imunidade imediata a qualquer ameaça.
+
+### 027\. Fortificação Absoluta
+
+Lendário
+
+* Descrição: O corpo consegue elevar sua resistência física a níveis extraordinários.
+
+* Buffs: +100% RES; +30% durabilidade corporal.
+
+* Debuffs: -15% mobilidade durante fortificação máxima.
+
+* Escala: RES 5–9.
+
+* Limitação: A fortificação máxima exige concentração.
+
+### 028\. Imortalidade Funcional
+
+Mítico
+
+* Descrição: O organismo apresenta uma capacidade extraordinária de continuar funcionando mesmo diante de desgaste extremo.
+
+* Buffs: +100% RES; recuperação física aprimorada.
+
+* Debuffs: Recuperação consome ENE.
+
+* Escala: RES 5–10.
+
+* Limitação: Não representa invulnerabilidade nem garante sobrevivência a qualquer situação.
+
+### 029\. Resistência Celestial
+
+Divino
+
+* Descrição: A resistência corporal transcende os padrões físicos convencionais.
+
+* Buffs: +250% RES; +50% durabilidade.
+
+* Debuffs: Consumo energético elevado ao manifestar a resistência máxima.
+
+* Escala: RES 7–11.
+
+* Limitação: Ataques conceituais ou habilidades específicas ainda podem ultrapassá-la.
+
+### 030\. Soberania da Durabilidade
+
+Transcendente
+
+* Descrição: O potencial de resistência do usuário não possui limite definido.
+
+* Buffs: RES potencialmente ilimitada; evolução contínua da durabilidade.
+
+* Debuffs: A manifestação depende de controle e energia.
+
+* Escala: RES 11+.
+
+* Limitação: Potencial ilimitado não significa imunidade automática.
+
+### 008 — MANUSEIO DE ARMAS (MAN)
+
+Especializações voltadas à técnica, domínio, precisão e eficiência no uso de armamentos.
+
+### 031\. Manejo Básico
+
+Comum
+
+* Descrição: Facilidade natural para utilizar armas convencionais.
+
+* Buffs: +15% MAN; +5% PER com armas.
+
+* Debuffs: -5% eficiência com armas exóticas.
+
+* Escala: MAN 1–3.
+
+* Limitação: Não concede domínio técnico avançado.
+
+### 032\. Empunhadura Perfeita
+
+Comum
+
+* Descrição: Controle superior da empunhadura e estabilidade de armas.
+
+* Buffs: +20% MAN; +10% EQU ao utilizar armas.
+
+* Debuffs: -5% AGI em trocas rápidas de equipamento.
+
+* Escala: MAN 1–4.
+
+* Limitação: Não melhora automaticamente a potência dos ataques.
+
+### 033\. Precisão Armada
+
+Incomum
+
+* Descrição: Capacidade de utilizar armas com precisão acima da média.
+
+* Buffs: +25% MAN; +15% precisão.
+
+* Debuffs: -5% VEL durante ações que exigem precisão máxima.
+
+* Escala: MAN 2–5.
+
+* Limitação: Depende de percepção e treinamento.
+
+### 034\. Versatilidade Bélica
+
+Incomum
+
+* Descrição: Facilidade para alternar entre diferentes categorias de armas.
+
+* Buffs: +25% MAN; +15% adaptação a equipamentos.
+
+* Debuffs: -10% especialização em uma arma específica.
+
+* Escala: MAN 2–5.
+
+* Limitação: Versatilidade não equivale à maestria individual.
+
+### 035\. Mestre das Armas
+
+Raro
+
+* Descrição: Domínio técnico elevado sobre armamentos convencionais.
+
+* Buffs: +40% MAN; +15% eficiência técnica.
+
+* Debuffs: -10% adaptação a armas desconhecidas.
+
+* Escala: MAN 3–7.
+
+* Limitação: O domínio depende da experiência acumulada.
+
+### 036\. Sincronia Bélica
+
+Épico
+
+* Descrição: O usuário desenvolve uma sincronia excepcional entre corpo, mente e arma.
+
+* Buffs: +60% MAN; +20% EQU; +10% AGI durante o manuseio.
+
+* Debuffs: Queda de desempenho quando utiliza equipamentos incompatíveis.
+
+* Escala: MAN 4–8.
+
+* Limitação: A sincronia precisa ser construída com o equipamento.
+
+### 037\. Arsenal Vivo
+
+Lendário
+
+* Descrição: O usuário consegue dominar diferentes armas com extrema naturalidade.
+
+* Buffs: +100% MAN; +30% versatilidade.
+
+* Debuffs: -15% eficiência quando privado de qualquer equipamento.
+
+* Escala: MAN 5–9.
+
+* Limitação: Não cria armas nem garante compatibilidade universal.
+
+### 038\. Maestria Instintiva
+
+Mítico
+
+* Descrição: O corpo assimila padrões de utilização de armas com velocidade extraordinária.
+
+* Buffs: +100% MAN; aprendizado técnico acelerado.
+
+* Debuffs: Técnicas complexas ainda exigem experiência.
+
+* Escala: MAN 5–10.
+
+* Limitação: Não copia habilidades sobrenaturais de outros usuários.
+
+### 039\. Domínio Divino
+
+Divino
+
+* Descrição: O usuário manifesta um domínio excepcional sobre armas e instrumentos de combate.
+
+* Buffs: +250% MAN; +50% precisão técnica.
+
+* Debuffs: Consumo de ENE ao manifestar o domínio máximo.
+
+* Escala: MAN 7–11.
+
+* Limitação: O desempenho ainda depende das propriedades do armamento.
+
+### 040\. Soberania do Arsenal
+
+Transcendente
+
+* Descrição: O potencial de domínio sobre qualquer arma não possui um limite definido.
+
+* Buffs: MAN potencialmente ilimitado; adaptação técnica extraordinária.
+
+* Debuffs: O domínio efetivo depende de compreensão e experiência.
+
+* Escala: MAN 11+.
+
+* Limitação: Não concede automaticamente todas as armas existentes.
+
+### 009 — AGILIDADE (AGI)
+
+Especializações voltadas à mobilidade corporal, coordenação, flexibilidade e capacidade de movimentação.
+
+### 041\. Corpo Flexível
+
+Comum
+
+* Descrição: Flexibilidade corporal superior à média.
+
+* Buffs: +15% AGI; +5% EQU.
+
+* Debuffs: -5% RES.
+
+* Escala: AGI 1–3.
+
+* Limitação: Flexibilidade não representa velocidade automaticamente.
+
+### 042\. Coordenação Aprimorada
+
+Comum
+
+* Descrição: Melhor sincronização entre movimentos corporais.
+
+* Buffs: +20% AGI; +10% PER motora.
+
+* Debuffs: -5% FOR.
+
+* Escala: AGI 1–4.
+
+* Limitação: Não aumenta a velocidade de processamento mental.
+
+### 043\. Acrobacia Natural
+
+Incomum
+
+* Descrição: Facilidade para realizar movimentos corporais complexos.
+
+* Buffs: +25% AGI; +10% EQU.
+
+* Debuffs: -5% RES em movimentos prolongados.
+
+* Escala: AGI 2–5.
+
+* Limitação: Depende de espaço e condições adequadas.
+
+### 044\. Mobilidade Predatória
+
+Incomum
+
+* Descrição: Capacidade de movimentar o corpo com eficiência em diferentes direções.
+
+* Buffs: +25% AGI; +15% mobilidade.
+
+* Debuffs: -10% estabilidade em superfícies irregulares.
+
+* Escala: AGI 2–5.
+
+* Limitação: Não concede aceleração extraordinária.
+
+### 045\. Corpo Elástico
+
+Raro
+
+* Descrição: Estrutura muscular e articular com elasticidade excepcional.
+
+* Buffs: +40% AGI; +15% flexibilidade.
+
+* Debuffs: -10% FOR em movimentos de sustentação.
+
+* Escala: AGI 3–7.
+
+* Limitação: Elasticidade não equivale à capacidade de esticar os membros indefinidamente.
+
+### 046\. Movimento Fluido
+
+Épico
+
+* Descrição: Os movimentos do usuário apresentam transições extremamente eficientes.
+
+* Buffs: +60% AGI; +20% EQU.
+
+* Debuffs: -10% estabilidade ao interromper movimentos abruptamente.
+
+* Escala: AGI 4–8.
+
+* Limitação: Exige controle corporal e concentração.
+
+### 047\. Corpo Intangível
+
+Lendário
+
+* Descrição: O corpo possui mobilidade extraordinária, permitindo movimentos que ultrapassam limites biomecânicos convencionais.
+
+* Buffs: +100% AGI; +30% mobilidade.
+
+* Debuffs: -15% precisão em movimentos inéditos.
+
+* Escala: AGI 5–9.
+
+* Limitação: Não concede intangibilidade literal; isso exigiria outra habilidade.
+
+### 048\. Adaptação Cinética
+
+Mítico
+
+* Descrição: O corpo aprende a executar movimentos com eficiência crescente.
+
+* Buffs: +100% AGI; adaptação progressiva.
+
+* Debuffs: Exige repetição e tempo para aprimoramento.
+
+* Escala: AGI 5–10.
+
+* Limitação: Não elimina limitações anatômicas instantaneamente.
+
+### 049\. Agilidade Celestial
+
+Divino
+
+* Descrição: Controle corporal de nível superior, permitindo movimentos extraordinariamente complexos.
+
+* Buffs: +250% AGI; +50% EQU.
+
+* Debuffs: Elevado consumo energético em movimentos extremos.
+
+* Escala: AGI 7–11.
+
+* Limitação: A execução máxima exige percepção compatível.
+
+### 050\. Soberania Corporal
+
+Transcendente
+
+* Descrição: O usuário possui potencial ilimitado de aperfeiçoamento sobre a própria movimentação corporal.
+
+* Buffs: AGI potencialmente ilimitada; adaptação contínua.
+
+* Debuffs: Controle e percepção limitam a execução.
+
+* Escala: AGI 11+.
+
+* Limitação: Não permite ignorar automaticamente as leis físicas.
+
+### 010 — EQUILÍBRIO (EQU)
+
+Especializações voltadas à estabilidade, postura, controle do centro de gravidade e domínio da posição corporal.
+
+### 051\. Equilíbrio Natural
+
+Comum
+
+* Descrição: Capacidade natural de manter estabilidade corporal.
+
+* Buffs: +15% EQU; +5% AGI.
+
+* Debuffs: -5% FOR.
+
+* Escala: EQU 1–3.
+
+* Limitação: Não oferece resistência especial contra forças externas.
+
+### 052\. Postura Perfeita
+
+Comum
+
+* Descrição: Controle superior da postura e distribuição de peso.
+
+* Buffs: +20% EQU; +10% RES durante sustentação.
+
+* Debuffs: -5% VEL em mudanças bruscas de posição.
+
+* Escala: EQU 1–4.
+
+* Limitação: Exige concentração em situações complexas.
+
+### 053\. Centro de Gravidade
+
+Incomum
+
+* Descrição: Capacidade de controlar a distribuição do próprio peso corporal.
+
+* Buffs: +25% EQU; +10% resistência a desequilíbrios.
+
+* Debuffs: -5% AGI em movimentos aéreos.
+
+* Escala: EQU 2–5.
+
+* Limitação: Não permite manipular a gravidade externa.
+
+### 054\. Estabilidade Dinâmica
+
+Incomum
+
+* Descrição: Facilidade para manter o equilíbrio durante movimentos constantes.
+
+* Buffs: +25% EQU; +15% estabilidade em deslocamento.
+
+* Debuffs: -10% VEL em mudanças repentinas de direção.
+
+* Escala: EQU 2–5.
+
+* Limitação: Menos eficiente quando o ambiente muda constantemente.
+
+### 055\. Ancoragem Física
+
+Raro
+
+* Descrição: Capacidade extraordinária de manter a própria posição.
+
+* Buffs: +40% EQU; +20% estabilidade.
+
+* Debuffs: -10% mobilidade enquanto mantém a ancoragem.
+
+* Escala: EQU 3–7.
+
+* Limitação: Não impede deslocamentos provocados por forças muito superiores.
+
+### 056\. Equilíbrio Absoluto
+
+Épico
+
+* Descrição: O usuário possui controle excepcional da própria estabilidade, mesmo em posições extremamente difíceis.
+
+* Buffs: +60% EQU; +20% AGI.
+
+* Debuffs: -10% eficiência quando precisa alternar entre estabilidade e explosão de movimento.
+
+* Escala: EQU 4–8.
+
+* Limitação: Não anula forças externas.
+
+### 057\. Pilar Inabalável
+
+Lendário
+
+* Descrição: A estabilidade corporal alcança níveis extraordinários.
+
+* Buffs: +100% EQU; +30% RES ao resistir a deslocamentos.
+
+* Debuffs: -15% mobilidade enquanto mantém sua posição.
+
+* Escala: EQU 5–9.
+
+* Limitação: A estabilidade máxima não pode ser mantida indefinidamente.
+
+### 058\. Equilíbrio Adaptativo
+
+Mítico
+
+* Descrição: O organismo adapta sua estabilidade às condições do ambiente.
+
+* Buffs: +100% EQU; adaptação progressiva a superfícies e movimentos.
+
+* Debuffs: Necessita de tempo para adaptação a ambientes desconhecidos.
+
+* Escala: EQU 5–10.
+
+* Limitação: Não permite controlar forças externas.
+
+### 059\. Harmonia Celestial
+
+Divino
+
+* Descrição: O usuário alcança um domínio extraordinário sobre sua posição e estabilidade corporal.
+
+* Buffs: +250% EQU; +50% AGI.
+
+* Debuffs: Consumo elevado de ENE em manifestações máximas.
+
+* Escala: EQU 7–11.
+
+* Limitação: A percepção precisa acompanhar a complexidade dos movimentos.
+
+### 060\. Soberania do Equilíbrio
+
+Transcendente
+
+* Descrição: O potencial estabilidade do usuário não possui limite definido.
+
+* Buffs: EQU potencialmente ilimitado, adaptação contínua
+
+* Debuffs: A manifestação depende de controle e compreensão corporal
+
+* Escala: EQU 11+
+
+* Limitação: Não significa imunidade automática a qualquer força ou manipulação externa.
+
+---
+REGRA OFICIAL V1.1 — PERSONAGENS NO ÁPICE
+O personagem começa com domínio completo das capacidades e técnicas pertencentes a este resultado. Não há treinamento obrigatório, níveis de domínio ou desbloqueio gradual. Custos, limitações, requisitos e condições intrínsecas descritos neste catálogo continuam válidos. Esta regra prevalece sobre qualquer menção antiga a domínio inicial ou progressão de domínio.

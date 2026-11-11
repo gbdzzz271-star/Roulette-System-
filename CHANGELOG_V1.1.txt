@@ -1,0 +1,13 @@
+ROULETTE SYSTEM — CHANGELOG V1.1
+
+ALTERAÇÃO PRINCIPAL: REGRA 002 — PERSONAGENS NO ÁPICE DESDE O INÍCIO.
+
+* Removida a progressão de domínio de 0 a 6.
+* Removida a necessidade de treinamento para acessar o potencial/técnicas já pertencentes aos resultados sorteados.
+* Mantidos custos, limitações, requisitos, condições, compatibilidade, recargas e fraquezas.
+* Atualizado o modelo de ficha para registrar o ápice desde a geração.
+* Desenvolvimento narrativo e estratégico permanece possível, sem progressão mecânica de domínio.
+* Corrigida a contagem do catálogo: 340 resultados, incluindo 10 especializações intelectuais (QI).
+* Idade permanece pendente de decisão.
+
+Os bancos de dados originais foram preservados. Referências antigas a treinamento/domínio devem ser interpretadas conforme a Regra 002 quando tratarem de desbloqueio ou domínio mecânico. Condições inerentes ao funcionamento de cada resultado continuam válidas.

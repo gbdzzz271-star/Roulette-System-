@@ -1,0 +1,218 @@
+AGORA SIM! 🧠🔥 Vamos adicionar a última roleta e fechar oficialmente as 340 entradas do ROULETTE SYSTEM.
+
+### DATABASE 012 — ESPECIALIZAÇÕES DE INTELIGÊNCIA (INT)
+
+Especializações voltadas à capacidade intelectual, raciocínio, memória, aprendizagem, análise e processamento de informações.
+
+Atributos mentais não serão confundidos com PER: INT representa processamento e compreensão; PER representa percepção e captação de estímulos.
+
+### Distribuição da roleta
+
+| Raridade      | Entradas | Chance individual |
+| ------------- | -------- | ----------------- |
+| Comum         | 2        | 20%               |
+| Incomum       | 2        | 12,5%             |
+| Raro          | 1        | 17%               |
+| Épico         | 1        | 10%               |
+| Lendário      | 1        | 5%                |
+| Mítico        | 1        | 2%                |
+| Divino        | 1        | 0,8%              |
+| Transcendente | 1        | 0,2%              |
+| Total         | 10       | 100%              |
+
+### 001\. Raciocínio Lógico
+
+Comum
+
+* Descrição: Facilidade natural para compreender relações lógicas, identificar padrões e solucionar problemas.
+
+* Buffs: +15% INT; +5% PER em análises.
+
+* Debuffs: -5% velocidade de aprendizagem em atividades predominantemente intuitivas.
+
+* Escala: INT 1–3.
+
+* Limitação: Não garante conhecimento prévio sobre assuntos desconhecidos.
+
+### 002\. Memória Desenvolvida
+
+Comum
+
+* Descrição: Capacidade de armazenar e recuperar informações com maior eficiência.
+
+* Buffs: +20% INT; +15% retenção de informações.
+
+* Debuffs: -5% concentração diante de excesso de estímulos.
+
+* Escala: INT 1–4.
+
+* Limitação: Memorizar informações não significa necessariamente compreendê-las.
+
+### 003\. Aprendizagem Acelerada
+
+Incomum
+
+* Descrição: O usuário assimila conhecimentos e técnicas intelectuais com maior velocidade.
+
+* Buffs: +25% INT; +20% velocidade de aprendizagem.
+
+* Debuffs: -10% eficiência quando precisa aprender vários assuntos complexos simultaneamente.
+
+* Escala: INT 2–5.
+
+* Limitação: Não concede conhecimento instantâneo nem substitui experiência.
+
+### 004\. Pensamento Estratégico
+
+Incomum
+
+* Descrição: Facilidade para organizar informações, estabelecer estratégias e antecipar consequências.
+
+* Buffs: +25% INT; +15% capacidade de planejamento.
+
+* Debuffs: -5% velocidade de decisão em situações extremamente imprevisíveis.
+
+* Escala: INT 2–5.
+
+* Limitação: Estratégias dependem da qualidade das informações disponíveis.
+
+### 005\. Intelecto Genial
+
+Raro
+
+* Descrição: Capacidade intelectual extraordinária, permitindo compreender sistemas complexos e desenvolver soluções sofisticadas.
+
+* Buffs: +40% INT; +20% raciocínio analítico.
+
+* Debuffs: -10% concentração em ambientes extremamente desorganizados.
+
+* Escala: INT 3–7.
+
+* Limitação: Não concede domínio automático de todas as áreas do conhecimento.
+
+### 006\. Processamento Paralelo
+
+Épico
+
+* Descrição: Capacidade de processar diferentes conjuntos de informações simultaneamente.
+
+* Buffs: +60% INT; +25% processamento mental.
+
+* Debuffs: Maior consumo de ENE durante atividades intelectuais intensas.
+
+* Escala: INT 4–8.
+
+* Limitação: A quantidade de informações processadas ainda depende da capacidade de concentração e compreensão.
+
+### 007\. Intelecto Supremo
+
+Lendário
+
+* Descrição: O usuário apresenta uma capacidade intelectual extremamente desenvolvida, conseguindo compreender estruturas complexas e conectar conhecimentos aparentemente desconectados.
+
+* Buffs: +100% INT; +30% capacidade analítica.
+
+* Debuffs: -15% eficiência em tarefas que exigem decisões puramente intuitivas.
+
+* Escala: INT 5–9.
+
+* Limitação: Inteligência elevada não significa conhecimento absoluto.
+
+### 008\. Evolução Intelectual
+
+Mítico
+
+* Descrição: A mente evolui continuamente por meio de experiências, desafios e aquisição de conhecimentos.
+
+* Buffs: +100% INT; crescimento intelectual adaptativo.
+
+* Debuffs: A evolução exige estímulos e tempo de assimilação.
+
+* Escala: INT 5–10.
+
+* Limitação: Não permite compreender instantaneamente qualquer informação.
+
+### 009\. Sabedoria Divina
+
+Divino
+
+* Descrição: A mente alcança uma capacidade extraordinária de compreensão, interpretação e conexão de conhecimentos.
+
+* Buffs: +250% INT; +50% raciocínio e compreensão.
+
+* Debuffs: Elevado consumo de ENE ao utilizar o processamento máximo.
+
+* Escala: INT 7–11.
+
+* Limitação: Não representa onisciência. Informações inacessíveis continuam desconhecidas.
+
+### 010\. Soberania Intelectual
+
+Transcendente
+
+* Descrição: O potencial intelectual do usuário não possui limite definido. Sua capacidade de raciocínio, compreensão e evolução mental pode continuar se desenvolvendo indefinidamente.
+
+* Buffs: INT potencialmente ilimitada; evolução intelectual contínua; capacidade de desenvolver novas formas de processamento mental.
+
+* Debuffs: O conhecimento adquirido, o controle e a capacidade de assimilação determinam o desempenho atual.
+
+* Escala: INT 11+.
+
+* Limitação: Potencial intelectual infinito não significa conhecimento infinito desde o nascimento, nem capacidade de saber tudo automaticamente.
+
+### FECHAMENTO DEFINITIVO — ROULETTE SYSTEM 1.0
+
+CATÁLOGO COMPLETO
+
+### 340 / 340
+
+100% concluído!
+
+| Banco de dados | Entradas |
+| -------------- | -------- |
+| Poderes        | 150      |
+| Raças          | 50       |
+| Classes        | 20       |
+| Armas          | 50       |
+| Força          | 10       |
+| Velocidade     | 10       |
+| Resistência    | 10       |
+| Manuseio       | 10       |
+| Agilidade      | 10       |
+| Equilíbrio     | 10       |
+| Inteligência   | 10       |
+| TOTAL          | 340      |
+
+### As 11 roletas oficiais
+
+* Poderes
+
+* Raças
+
+* Classes
+
+* Armas
+
+* Força
+
+* Velocidade
+
+* Resistência
+
+* Manuseio de armas
+
+* Agilidade
+
+* Equilíbrio
+
+* Inteligência
+
+ROULETTE SYSTEM 1.0 — FINALIZADO
+
+Próximo capítulo: PRIMEIRA GERAÇÃO. 🎲
+
+Minha recomendação é testar o sistema com a criação de três personagens simultaneamente, cada um com dez sorteios independentes, para verificar as combinações, os cálculos e as diferenças de potencial.
+
+---
+REGRA OFICIAL V1.1 — PERSONAGENS NO ÁPICE
+O personagem começa com domínio completo das capacidades e técnicas pertencentes a este resultado. Não há treinamento obrigatório, níveis de domínio ou desbloqueio gradual. Custos, limitações, requisitos e condições intrínsecas descritos neste catálogo continuam válidos. Esta regra prevalece sobre qualquer menção antiga a domínio inicial ou progressão de domínio.

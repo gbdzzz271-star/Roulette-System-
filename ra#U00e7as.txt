@@ -1,0 +1,1165 @@
+### 🎰 ROULETTE SYSTEM — DATABASE 002
+
+### RACE DATABASE — AS 50 RAÇAS OFICIAIS
+
+Agora vamos criar algo que pode mudar completamente o destino de um personagem: sua raça. 🧬
+
+E quero estabelecer uma diferença importante: raça não é apenas um pacote de atributos. Ela define fisiologia, capacidades naturais, limitações e capacidades raciais naturalmente disponíveis, já desenvolvidas desde o início conforme a Regra 002.
+
+Um humano pode nascer com um poder absurdo e derrotar um dragão. Um ser cósmico pode ter uma capacidade ofensiva monstruosa, mas uma fisiologia extremamente frágil.
+
+### 1\. Regras da roleta racial
+
+Cada raça terá:
+
+* Nome e descrição.
+
+* Raridade e probabilidade.
+
+* Buffs e debuffs percentuais.
+
+* Características fisiológicas.
+
+* Expectativa de vida.
+
+* Escala racial.
+
+* Limitações naturais.
+
+A distribuição das 50 entradas será:
+
+| Raridade      | Quantidade | Chance individual |
+| ------------- | ---------- | ----------------- |
+| Comum         | 20         | 2%                |
+| Incomum       | 12         | 2,0833%           |
+| Raro          | 8          | 2,125%            |
+| Épico         | 5          | 2%                |
+| Lendário      | 2          | 2,5%              |
+| Mítico        | 1          | 2%                |
+| Divino        | 1          | 0,8%              |
+| Transcendente | 1          | 0,2%              |
+| Total         | 50         | 100%              |
+
+As probabilidades são condicionais à roleta racial. Os resultados de outras roletas não interferem nelas.
+
+### 2\. As 50 raças
+
+### Categoria I — Raças comuns e humanoides (001–010)
+
+Raças relativamente adaptáveis, com características biológicas variadas.
+
+001\. Humano
+
+2%
+
+![Draw original fantasy characters, concept art, fanart by Devast0 | Fiverr](https://images.openai.com/static-rsc-4/KDtO7uh8EkU8ORGBTSYYyhk864nzJw5pGYkmOy-_BY_gTcmkxG3WEyfm04rE1wDIKfMqzzS0fiy37GGlvwAWts-Wza8GZmtGJmsJCuySIqa4jbcGlrqaM2nOXrv8ljaRrDggnToZ3IeDo5n0s2npmV3Kk4baxQWU3KAaNdTfLr1Q4dCs-S7n23w3Vvx42gtg?purpose=fullsize)
+
+* Descrição: espécie humanoide extremamente adaptável, sem especialização biológica extraordinária.
+
+* Buffs: +15% INT; +15% velocidade de aprendizagem.
+
+* Debuffs: nenhum atributo físico recebe bônus racial natural.
+
+* Fisiologia: corpo humano convencional.
+
+* Longevidade: 70–110 anos.
+
+* Escala: R1.
+
+* Limitação: depende de treinamento para competir fisicamente com raças especializadas.
+
+002\. Elfo
+
+2%
+
+![Enchanted Elf Archer in a Lush Forest](https://images.openai.com/static-rsc-4/cHRUNfiCKlZlDNfwkgOXtaAmYimDx5Xv0Wauri1B-T8WjPyyw3sqVkksFr6M3ir12wdt0E8cBBnkXndtueqFaQ1ZQFpa9rf4CIYvRcRHNu8Pgjx9WymbCsN0ulPdsQRLZSCZJXomA5x_C86ROKNmHiseabThFCzuA6XkN9xvx_JpcT-_DMyATdugxj8bDAdc?purpose=fullsize)
+
+* Descrição: humanoides de sentidos apurados e metabolismo prolongado.
+
+* Buffs: +30% PER; +20% AGI.
+
+* Debuffs: -15% FOR.
+
+* Fisiologia: visão e audição aprimoradas.
+
+* Longevidade: 500–1.500 anos.
+
+* Escala: R2.
+
+* Limitação: menor desenvolvimento muscular natural.
+
+003\. Anão
+
+2%
+
+![Dwarf Name Generator (With Lore) | Forge Fantasy](https://images.openai.com/static-rsc-4/me7LK3jOJ0i5iiS0zWzA4pPzcNifQvRAXLCWvBaNfcZ4hiV0CpzjUTD5UAgb1v-9rHSpm2zWPmFMUGQr-dkkXJEKcsmjl-Ayhu1II0WvxmZlrfwrU4d0ds50IzPKr3oMbVKnD5LiMibha0PWnBeHwETqVtbnULljISjyav9HinXjcdFBsWa2B2U44NqFgUN8?purpose=fullsize)
+
+* Descrição: humanoides compactos, robustos e naturalmente resistentes.
+
+* Buffs: +35% RES; +20% FOR.
+
+* Debuffs: -20% VEL; -10% AGI.
+
+* Fisiologia: estrutura óssea densa.
+
+* Longevidade: 250–500 anos.
+
+* Escala: R2.
+
+* Limitação: menor alcance corporal e mobilidade.
+
+004\. Orc
+
+2%
+
+![Wallpaper fantasy, fangs, Creek, Orc for mobile and desktop, section ии арт, resolution 2688x1536 - download](https://images.openai.com/static-rsc-4/kIohvw7xUih4u9ZweikFIghYn8NVkAZCxdnJKRySmr5eoyaJyIQr4xncVH7LmIJcpkVyQgHEyeAmcTyUVy0aiehrrLU4KhmWMNq6_jk0Qrmlsqz5JjGRAEQxtyLfpf8vdWQSen4fX232lhqnp4gNvARxX9g_cbONXkTWyRj9-B_Lwa0zsgi4mxlb3dDVzp6Q?purpose=fullsize)
+
+* Descrição: espécie humanoide de musculatura desenvolvida.
+
+* Buffs: +40% FOR; +20% RES.
+
+* Debuffs: -15% INT; -10% AGI.
+
+* Fisiologia: musculatura e ossatura robustas.
+
+* Longevidade: 60–120 anos.
+
+* Escala: R3.
+
+* Limitação: elevado consumo calórico.
+
+005\. Halfling
+
+2%
+
+![Meet the Mischievous Halfling Thief: A Rogue's Adventure](https://images.openai.com/static-rsc-4/9u1X3VGat8fa1OMXNPQGJv83K9AnLCJHHbsNc-_4EfUzaSCpKC1R2wTX0XvxpBtg6MJHKz0smzScYE2L23mnPccwqG8W_lxXCAiXDzO2F9Vdx3gJ3SHCvSXtBbo442SBgXg0ouoLhpuR76Jphi1KAAXQh2Yof3zXOhRSAep3i-VGJFJhvgZyr__4UA7zso5D?purpose=fullsize)
+
+* Descrição: pequenos humanoides com excelente coordenação corporal.
+
+* Buffs: +35% AGI; +20% EQU.
+
+* Debuffs: -25% FOR; -10% RES.
+
+* Fisiologia: estatura reduzida e centro de gravidade baixo.
+
+* Longevidade: 90–150 anos.
+
+* Escala: R1.
+
+* Limitação: menor força física absoluta.
+
+006\. Gigante
+
+2,0833%
+
+![Stone Giant - Fantasy by ConsensusStudios on DeviantArt](https://images.openai.com/static-rsc-4/YlPw4mqHT8GUMFPO71U3Dm_cUQRzjLDgoK0mYlpyeY3ehvqMPPOrQorUlcD-e4RmS3SInrblOusqODNKSjElpemw46JYPtCTQs3rFrRjUG7PRh3MqCoPh3sZnUeNxVofA8efG8MWS8xDtxbyVfVvqQm5-IFjAipZda08aOf6cFrG4iuYiuQvpwoCWyguz3es?purpose=fullsize)
+
+* Descrição: humanoides de dimensões extraordinárias.
+
+* Buffs: +100% FOR; +60% RES.
+
+* Debuffs: -35% AGI; -25% VEL.
+
+* Fisiologia: corpo de grande massa e ossos espessos.
+
+* Longevidade: 200–600 anos.
+
+* Escala: R5.
+
+* Limitação: alto gasto energético e dificuldade em ambientes pequenos.
+
+007\. Tritão
+
+2%
+
+![Dynamic Triton Warrior: Battle-Ready D&D Fantasy](https://images.openai.com/static-rsc-4/zaxJu78Z6H7qslCkVC4yO_adwi1Qtu3YB3N7GKcX4YEgyubq-FD5Wn57a8AlFbgddPIkCZx5e2vk90lYLD99B9g3qgDX72993lq028IXVw8dhT6rsmqrfUUtvC7UlkSn7fOklxhh6yUpCOnV9h5j_sCD6sVivs7Hc5hpe4M9SfdZMwxwP_B7i60CP7akBXx0?purpose=fullsize)
+
+* Descrição: humanoides adaptados à vida subaquática.
+
+* Buffs: +50% VEL na água; +35% RES à pressão.
+
+* Debuffs: -20% VEL em terra.
+
+* Fisiologia: brânquias e membranas natatórias.
+
+* Longevidade: 150–400 anos.
+
+* Escala: R3.
+
+* Limitação: precisa manter hidratação e condições adequadas fora da água.
+
+008\. Goblin
+
+2%
+
+![Styx: Blades of Greed Opens Pre-Orders and Launches Playable Demo](https://images.openai.com/static-rsc-4/xw1VCK-nJ088TIGuLos75rRHULSvcibeWrjGcmxUAbL-8qMjLspw4meQZryy0cDN4A43TBsNU97TjshOLEohArDyZwQHtQu5ChpsjMJjsGojC3JG3_fsVzc5CZqT1GvUKtC0-H62f0WOJ1qWwLcrsGBGabutkw2psEX81b9vP6I-OonsGt1YlVlHnEf6yO3w?purpose=fullsize)
+
+* Descrição: pequenos humanoides de metabolismo acelerado.
+
+* Buffs: +30% AGI; +25% INT.
+
+* Debuffs: -25% FOR; -15% RES.
+
+* Fisiologia: baixo peso e reflexos rápidos.
+
+* Longevidade: 40–90 anos.
+
+* Escala: R2.
+
+* Limitação: baixa resistência a impactos pesados.
+
+009\. Felinoide
+
+2%
+
+![Liz Liu | Painter & Illustrator](https://images.openai.com/static-rsc-4/Xe1sbg-2f_9FK6brPTmKmbZ_EtgRalP9cHdExgHHmdsD82OFCY86IS1g7SQ_oAAeISpvaGrYj5qQ3Ox8VOsFapJaToB2yVcswLll1sMrx7dTPkBaApcskrWb_n2RiyHqpHK2VoaxtY8kkGjIX4JdXBBJZD-aDq3gNk9W_3giQuOIkoYVATCTSDDbzvpNNS4Y?purpose=fullsize)
+
+* Descrição: humanoides com características anatômicas felinas.
+
+* Buffs: +40% AGI; +30% PER.
+
+* Debuffs: -15% RES.
+
+* Fisiologia: visão noturna e equilíbrio aprimorados.
+
+* Longevidade: 80–140 anos.
+
+* Escala: R2.
+
+* Limitação: sensibilidade elevada a estímulos sensoriais intensos.
+
+010\. Canídeo
+
+2%
+
+![A close up of a person in armor holding a sword - SeaArt AI](https://images.openai.com/static-rsc-4/0TNxPPrUv88uiTNVlq850wcWEg_tJi7T-_WXnagwb2iMdYTyK6vNhAp_6zqOVeGIUzhwkNpcNYwUwoPE5CIOFP7opi5MuSreGd7cMrFBKJ9d0Cyrh7xRs8q7lCF0v-H-iT6NUT7-7QCo47eLiunwvYoZBSBXUaa6LQC8QGOd9iUQNbcIA6Q0mF33iFrkjfom?purpose=fullsize)
+
+* Descrição: humanoides com características de mamíferos caninos.
+
+* Buffs: +35% PER; +25% RES.
+
+* Debuffs: -15% EQU.
+
+* Fisiologia: olfato e audição extremamente desenvolvidos.
+
+* Longevidade: 70–130 anos.
+
+* Escala: R2.
+
+* Limitação: estímulos olfativos muito intensos prejudicam a concentração.
+
+### Categoria II — Raças monstruosas e animais (011–020)
+
+011\. Draconiano
+
+2,125%
+
+![Dragonborn in D&D 5e: Complete Guide to Lore, Abilities & Best Classes](https://images.openai.com/static-rsc-4/yW05F7q0S_dZoYlt-JRnixrTfbK7TuzsRchMkSr4vomi7KYr4rFBHDiJRHztmxudvYptd_NWKhWwWepfO0C34KkqXTmJaoN2S9iu63dBxXPS6c_UvkGjXWVPaZnLxfUI7lNo9nwH4sYHdo1L3kwNZY3ClsJZwrkLRNq_Oriwg0pugyQtJM4r3K2UmQmPymfa?purpose=fullsize)
+
+* Descrição: humanoides descendentes de criaturas dracônicas.
+
+* Buffs: +45% FOR; +35% RES; +25% tolerância térmica.
+
+* Debuffs: -15% AGI; -10% VEL.
+
+* Fisiologia: escamas resistentes e musculatura densa.
+
+* Longevidade: 500–2.000 anos.
+
+* Escala: R4.
+
+* Limitação: crescimento corporal exige grandes quantidades de energia.
+
+012\. Minotauro
+
+2,0833%
+
+![Minotaur - The Chronicles of Covent](https://images.openai.com/static-rsc-4/ukyiTv3TttxZ645LyqQBkAe3Nl2rN_uFby3BU0CLMd_j_9GYHLjHeRiGY_PgaGdjUolfhhBjUqHhhPNY9phRFcFkW1bbsVYcz5BXV7kwAyUDPaCsqSNQT9WQyvLkG4dHb8VGFdIoq5fm0BYgXqnWCA-asoxKTA97UIFnEO_tGsFAUxCdK4XV3ZQRmVVTddOT?purpose=fullsize)
+
+* Descrição: humanoides bovinos de grande força.
+
+* Buffs: +60% FOR; +30% RES.
+
+* Debuffs: -20% AGI; -15% MAN.
+
+* Fisiologia: musculatura pesada e chifres.
+
+* Longevidade: 100–250 anos.
+
+* Escala: R4.
+
+* Limitação: mudanças rápidas de direção são difíceis.
+
+013\. Centauro
+
+2,0833%
+
+![Mitolojik 17 Efsanevi Yaratık](https://images.openai.com/static-rsc-4/4d9eygv8NjxRgeP5VhpjFl4CdIheU_kndzoso8OcUhPLGyet1Sgm1lipw32F70aYQKb2-LPHZRsT1OjRKokY9iviyEM1mBvfqcG4PfIgHyOPjPEP8ycE77S_4H_bawIImLwMGlWYXS9WdycYCiYBFH7sNj6FLL-xsqd8i5C1kxIgoXUg0cgy7Y93rVuDSxh6?purpose=fullsize)
+
+* Descrição: seres com torso humanoide e corpo equino.
+
+* Buffs: +55% VEL; +30% RES.
+
+* Debuffs: -20% AGI em espaços pequenos; -15% EQU.
+
+* Fisiologia: quatro membros locomotores inferiores.
+
+* Longevidade: 100–200 anos.
+
+* Escala: R3.
+
+* Limitação: terrenos estreitos e verticais prejudicam a locomoção.
+
+014\. Vampiro
+
+2,125%
+
+![Join The Inescapable Mists, Curse of Strahd 2e - Foundry VTT / Discord - Pathfinder 2e | StartPlaying Games](https://images.openai.com/static-rsc-4/XUbA4VWHrb0qG4WbTk8lfT8Cy_YXidWEBay5CnkqoGyczDT_IIAydAw5fH7TI6Qs0JWIGbEw8Q_BiuCR0z8RlIvvEu3meT0khrXvBjp6UTPf5p9kVLvpqWiXlhxRR5i280IuRhHGyBBRU5PhB5rRB2ELbM7KiK5KXizKas0GVfdwdQ9hnXP2ebVlmbx6jxP1?purpose=fullsize)
+
+* Descrição: humanoides noturnos com metabolismo sobrenatural.
+
+* Buffs: +45% VEL; +35% PER; +40% recuperação.
+
+* Debuffs: -30% desempenho sob radiação solar intensa.
+
+* Fisiologia: metabolismo sanguíneo e regeneração superior.
+
+* Longevidade: 1.000+ anos.
+
+* Escala: R5.
+
+* Limitação: regeneração consome reservas biológicas e luz solar intensa causa deterioração progressiva.
+
+015\. Licantropo
+
+2,125%
+
+![Lycan Wallpaper (71+ images)](https://images.openai.com/static-rsc-4/-UOO7_LWTUCyler_W0Gi8oKb376MiC_VfRu8wXlO0NPLrzxwb3xCMhnZltTggJbIOza5-qXd-B38rp9t-c_6updm3tKH0ZTF7MjeJ9Yj5kJI0QE_ZbCoqJYPXcHE2qmGVNT-mCDASgrY7nCCpcc_T8MxCe9n9VD6SNkAXiCF6ANmsjH7e1i3vbJmymDp4W_7?purpose=fullsize)
+
+* Descrição: seres capazes de assumir uma forma lupina.
+
+* Buffs: +55% FOR; +40% PER; +35% VEL na transformação.
+
+* Debuffs: -20% INT durante estados instintivos.
+
+* Fisiologia: anatomia mutável e sentidos predatórios.
+
+* Longevidade: 150–500 anos.
+
+* Escala: R5.
+
+* Limitação: transformação exige energia e pode prejudicar o julgamento.
+
+016\. Golem
+
+2,0833%
+
+![Bot Verification](https://images.openai.com/static-rsc-4/aGbRaN3rfyUOskOkhnc7DoneLx6djxHwvnRQ2_R84iDEKg5yHuU1JSylKnuQCqQZnaZJPbTN_QWTqEN4nnQrODSeZ3hvldClpSRUA5s4Bfwgb5xyxaS3PhcWndIPSi5iihuBwAgbQ3pUsCL4s5K9IXAW0UN54KiMSJkGL2aPwvW4cJg5nbcBlTlakTlE-KuC?purpose=fullsize)
+
+* Descrição: seres artificiais constituídos de materiais minerais.
+
+* Buffs: +80% RES; +45% FOR.
+
+* Debuffs: -40% VEL; -30% AGI.
+
+* Fisiologia: corpo mineral sem metabolismo convencional.
+
+* Longevidade: potencialmente milênios.
+
+* Escala: R5.
+
+* Limitação: reparos exigem materiais compatíveis.
+
+017\. Harpia
+
+2%
+
+![ADAM KOHN](https://images.openai.com/static-rsc-4/HJ0OHYzpoilek_Ve3B0yRyeVPdWTAU3DPPmrtF67uAmpFyDZjWPaIUXMG2jSAKHYJo-MQYft-fysMwtHVbJOJsYCnTR04sdKGtu2DK1Jccv1h8CZ-SCXi4O7acIiFUjRUpfGbmaqas5gCZE7fzQfWcLkbDvzIXGsw06Hb7NwEJ_mk_jjZWnmG73xs7Qmiv2I?purpose=fullsize)
+
+* Descrição: humanoides com asas e anatomia aviária.
+
+* Buffs: +50% AGI; +45% VEL aérea.
+
+* Debuffs: -20% FOR; -15% RES.
+
+* Fisiologia: ossos leves e asas funcionais.
+
+* Longevidade: 100–180 anos.
+
+* Escala: R3.
+
+* Limitação: ferimentos nas asas comprometem o voo.
+
+018\. Sereiano
+
+2%
+
+![87 Papel de Parede Sereia grátis em HD e 4K - Fondecranvip.com](https://images.openai.com/static-rsc-4/5ZznEJvTI4cbl32y0EH70rmCGxPFYKMiK5adamdaapwVXj3pDkJAySbrNzeSoINWiVCxdQtPa9o-kRpJuBQIDZkFStlvn135yyBSloyI28Xdhx2iyC4tT1TTcWfn0Cj8wK2WSJn-SxeaZR3v2AeC-MojaKI09hD8Uz0InHJCa30oMmvL1iWCtJ6GjjtbRqKl?purpose=fullsize)
+
+* Descrição: humanoides aquáticos com cauda adaptada à natação.
+
+* Buffs: +70% VEL aquática; +30% PER subaquática.
+
+* Debuffs: -40% mobilidade terrestre.
+
+* Fisiologia: respiração aquática e cauda natatória.
+
+* Longevidade: 200–500 anos.
+
+* Escala: R3.
+
+* Limitação: depende de umidade e condições aquáticas.
+
+019\. Insetoide
+
+2,0833%
+
+![페스티벌에 앞둔 '던파', 월드보스 콘텐츠로 분위기 예열 : 네이트 뉴스](https://images.openai.com/static-rsc-4/o26yiD4-PBFdZ_aJmmgoWRLH4NYRKmi8JWPaFTNtt78U8ZrF5uJS-27TWfdhmNinWOGdGvPu07kehy4Vtj7Hi-qqDhfWgQA5M4qwu_oGDGpVAjG-SWLYFOIJoEMfwYSZCkRkzKkKTRA_oy16Kn54pvnHDXHX89kUVQeTaIfVTuk95KPw7cytoPmvjtRXLS8x?purpose=fullsize)
+
+* Descrição: seres com anatomia baseada em artrópodes.
+
+* Buffs: +45% RES; +35% AGI.
+
+* Debuffs: -20% INT; -15% sensibilidade térmica.
+
+* Fisiologia: exoesqueleto e membros segmentados.
+
+* Longevidade: 80–300 anos.
+
+* Escala: R4.
+
+* Limitação: crescimento exige trocas periódicas de exoesqueleto.
+
+020\. Quimérico
+
+2%
+
+![Chimera: The Three-Headed Fire-Breather | Beast and Myth](https://images.openai.com/static-rsc-4/C2fp7rb66PkkYBd0TMAFY-_9fIItdM-zyl-Ca-575rC8tkDQ9CB1UDL3yqXQxjhVeIDU_zEBICjhuhIC4B-XC27dTeyp4UiB41dOMmbhwqsMWg3_edOVtdSh75YZN_y7qZun1H7J6FpWJefoxzGJv38LGXXlZ7lQjNtQHT40x0kfl0P63TIfS1AlZ4XPUpkS?purpose=fullsize)
+
+* Descrição: raça de anatomia híbrida, combinando características de diferentes animais.
+
+* Buffs: +35% FOR; +35% AGI; +30% PER.
+
+* Debuffs: -25% estabilidade metabólica.
+
+* Fisiologia: composição corporal variável.
+
+* Longevidade: 100–600 anos.
+
+* Escala: R5.
+
+* Limitação: características incompatíveis podem gerar sobrecarga fisiológica.
+
+### Categoria III — Raças mágicas e sobrenaturais (021–030)
+
+021\. Fada
+
+2%
+
+![Enchanting Fairy Girl with Multicolored Hair and Iridescent Wings | AI Art Generator | Easy-Peasy.AI](https://images.openai.com/static-rsc-4/3lfJ5XFzOE1OjzrLnrg9TCibz5yUQ7jK_NudMDQpZ0tmuOBREocRwX5rzDUdnYPgr-DAoo1ioELXSUYsfXsgZa2IHzEYcuT2RgwRDfh_9Ce68uy0dps5joiqgerVA4TI0WqN3I0lrqVu2tCp7-3YUWrjBY9JIAgNzfOfFtUPgGo-xFAthGJcWUE-6ku8ihha?purpose=fullsize)
+
+* Descrição: pequenos seres com afinidade natural por energia mágica.
+
+* Buffs: +45% ENE; +35% AGI.
+
+* Debuffs: -35% FOR; -20% RES.
+
+* Fisiologia: asas e corpo de baixa massa.
+
+* Longevidade: 300–1.000 anos.
+
+* Escala: R3.
+
+* Limitação: reserva energética elevada não significa domínio automático de magia.
+
+022\. Demônio
+
+2%
+
+![Dark fantasy monsters  — Moescape](https://images.openai.com/static-rsc-4/AqK0F6E5s5HzBUsBM9_FXoWfFzBhTrPM1fHdkF-KsYtaa1WWKyxnNhafghHM5jmXDbDhnSg47wSsouGNlb2GepNgRbbBZnyovxYM_KYspn1DNsvGYKN3UIn2gGVuAPbnzfM2g0s5Oqe9zUuwBZOwLq9qXY7SI6hhpGARmC55R2133F3wiB3GnI-82ODPFo-h?purpose=fullsize)
+
+* Descrição: espécie sobrenatural de origem extraplanar.
+
+* Buffs: +50% FOR; +45% RES; +35% ENE.
+
+* Debuffs: -20% PER em ambientes de energia celestial intensa.
+
+* Fisiologia: organismo sustentado parcialmente por energia sobrenatural.
+
+* Longevidade: milhares de anos.
+
+* Escala: R6.
+
+* Limitação: energia sobrenatural precisa ser constantemente estabilizada.
+
+023\. Anjo
+
+2%
+
+![Epic fantasy artwork depicting a celestial warrior | TheBard on BudgetPixel](https://images.openai.com/static-rsc-4/IfSWT0YDs74q3Rdh88VYTMjItm6FT342rR2kQMz9vPcLrGsVMHLe3TMUt10INdSf31Itw2Bt01gnPYZ5SDwHzQAI6xu17sRKMTQZKBXtdFn58ioYEdiPpFOuZhP4fxkBbCRLKvwvxJ6DCtYdkllEkD7I6wWI6jpzmpl80kuvL72vldlC9YF_0ie8rmbW2dDB?purpose=fullsize)
+
+* Descrição: seres celestiais de estrutura energética e biológica.
+
+* Buffs: +45% ENE; +40% PER; +30% RES.
+
+* Debuffs: -20% FOR.
+
+* Fisiologia: asas energéticas e metabolismo celestial.
+
+* Longevidade: milhares de anos.
+
+* Escala: R6.
+
+* Limitação: a manifestação completa das asas exige energia.
+
+024\. Espectral
+
+2,125%
+
+![Ghost Species in Kaladaan | World Anvil](https://images.openai.com/static-rsc-4/Coi6uFIQuqjPLjA_jZmBW0yRMzoxz_n-YgHftdckgom1c0CvKmYw8C0stW5zaZoovf-SIFqFrt-QoMKP6hCGx26yhTdYo4c3Jg-hmtwkBil5YO-JrvT8K5SwhBdgbwjlu-Fqsp8FMsZKxqqgJ39f0-Aj69z9vXm8k9JS9TS-KdKC_gqQqJvCdoY4Y58AdhMI?purpose=fullsize)
+
+* Descrição: seres parcialmente incorpóreos.
+
+* Buffs: +70% resistência a impactos físicos convencionais; +35% PER.
+
+* Debuffs: -60% FOR física.
+
+* Fisiologia: corpo de composição energética.
+
+* Longevidade: indeterminada.
+
+* Escala: R5.
+
+* Limitação: energia e fenômenos espirituais podem afetá-los.
+
+025\. Oni
+
+2,125%
+
+![「鬼」の正体は、あなたの〇〇でした。～仏教と心理学で解く、心の中に棲む3匹の鬼～｜人生が変わる仏教の言葉](https://images.openai.com/static-rsc-4/T0kIdHdsbqcmYVjNjEX5BV4Fcgb5fsJR7qg6v7-jF5R-brpkD1gdusTchX1zrNclW3jRBOqDZPpDFS_2nM1gd4gG0InfVy71pBgn9EehNUW3EQeV-9MWEv8_RLaVZ_utNvBdGWE5qcvVWJTxMnogKkIFB3G5aDynCC3AEETn80KYQlH2dBOhlhFsIHnV-q5c?purpose=fullsize)
+
+* Descrição: criaturas humanoides de origem sobrenatural.
+
+* Buffs: +65% FOR; +40% RES.
+
+* Debuffs: -20% AGI; -15% VEL.
+
+* Fisiologia: musculatura sobrenatural e estrutura óssea reforçada.
+
+* Longevidade: 500–3.000 anos.
+
+* Escala: R5.
+
+* Limitação: metabolismo extremamente exigente.
+
+026\. Djinn
+
+2,125%
+
+![Discover the Fascinating World of Middle Eastern Cryptids
+– Hangar1publishing](https://images.openai.com/static-rsc-4/B-5jv8FEuAFDFU6CqX6v3s56vwrOh1wtKmRYLJKNQEbp9HskB2jRjMBDwVqK2TQG4LhCeuedkucmOoFM0tAc4Fw254digwCCWwQImjk68vg9wWXgblaRk-yvxz_ItKX7esAejtpBbKeMZQqapGnLVC61YxtF6ZZ7iWeW26Lbd0Nfyomvhn2v68RQtoqol4OE?purpose=fullsize)
+
+* Descrição: seres energéticos capazes de assumir formas parcialmente materiais.
+
+* Buffs: +60% ENE; +35% VEL.
+
+* Debuffs: -30% RES física na forma etérea.
+
+* Fisiologia: composição de energia e matéria.
+
+* Longevidade: milhares de anos.
+
+* Escala: R6.
+
+* Limitação: manter uma forma material exige energia constante.
+
+027\. Necroide
+
+2,0833%
+
+![Dark Fantasy Knights Images | Free Photos, PNG Stickers, Wallpapers & Backgrounds - rawpixel](https://images.openai.com/static-rsc-4/i5YkCk2BtQ9E90s4AUA2DD34sAdT1cV6NOhiLMnV72ViOWK92u7oDlkMjFcxkrV2sp3RJUCX7T9YENXtzTlje5tyBtD8HECzmYJlcvdq0_pO3bn-n--4XDwFk8Gd4aX5oL3xyrH72cLaU1-1hctijyCrtkIVw8LKF3I4eK7uGuF2wq1-GWk1tC526Go_6WJD?purpose=fullsize)
+
+* Descrição: seres biologicamente mortos, sustentados por energia residual.
+
+* Buffs: +50% RES; +40% resistência à fadiga.
+
+* Debuffs: -25% recuperação biológica; -20% PER.
+
+* Fisiologia: metabolismo não convencional.
+
+* Longevidade: indefinida enquanto a fonte energética existir.
+
+* Escala: R4.
+
+* Limitação: danos ao núcleo energético comprometem sua existência.
+
+028\. Kitsune
+
+2,125%
+
+![AI狐狸女角色绘画：妖艳狐妖与魅惑气质的东方奇幻女性视觉设计 - FlowPix](https://images.openai.com/static-rsc-4/iR-d1joB1T1xfHVJZW8W6WISbayQUK3apwFJIevtPBFy3Y3I7tMOKjjqTx4fXRyKBxLbYqudKQaixuJ5A4AJXnJM7VL61u8pOjDePUtH9GyBwuLQ_J4XQkGOV4a7UjG0FlBsydMl8clTXxHKZlON9D_q76giUE9hmOEPZT2qZjS9WLKYF8ia8kz_2b2R9gRX?purpose=fullsize)
+
+* Descrição: seres de linhagem espiritual com características de raposas.
+
+* Buffs: +45% AGI; +40% INT; +30% PER.
+
+* Debuffs: -20% RES.
+
+* Fisiologia: caudas que funcionam como órgãos de armazenamento energético.
+
+* Longevidade: 1.000–5.000 anos.
+
+* Escala: R5.
+
+* Limitação: cada cauda adicional exige desenvolvimento e energia.
+
+029\. Celestial
+
+2,5%
+
+![Celestial Guardian in 2025 | Fantasy art warrior, Fantasy concept art, Mythical creatures fantasy](https://images.openai.com/static-rsc-4/UzWF9rGdO1EN-QUT_vXyI7wi3mUwen5ZaeIMCx_sFf_ZurqACbmpg74DFlq89p66VwfDkWSgAYvhDYawRaqiKyarlhQblWfvbVj7z0jBeaIOolTPtEt-1AlT_qwWvUVVF7NmAdAFjvEq8OA6VW9AFwTNxL0HgxBRxdRftPgNRT3cM0H-RaY6jN9-c2O4ibfK?purpose=fullsize)
+
+* Descrição: seres cuja fisiologia ab- absorve e processa energia cósmica.
+- Buffs: +80% ENE; +55% RES; +40% PER.
+- Debuffs: -30% desempenho longe de fontes energéticas compatíveis.
+- Fisiologia: núcleo estelar biológico.
+- Longevidade: milhões de anos.
+- Escala: R9.
+- Limitação: não sobrevive automaticamente à destruição de seu núcleo.
+030. Abissal
+
+Épico
+ 2%
+
+
+
+
+
+
+
+
+story.com
+
+
+- Descrição: seres adaptados a regiões de pressão e energia extremas.
+- Buffs: +70% RES; +45% FOR; +40% resistência à pressão.
+- Debuffs: -30% VEL em ambientes de baixa pressão.
+- Fisiologia: tecidos extremamente compactos.
+- Longevidade: 2.000–10.000 anos.
+- Escala: R7.
+- Limitação: mudanças ambientais bruscas prejudicam a fisiologia.
+Categoria IV — Raças artificiais e tecnológicas (031–040)
+031. Autômato
+
+Comum
+ 2%
+
+
+
+
+
+
+
+
+runicdice.com
+
+
+- Descrição: máquinas humanoides com consciência artificial.
+- Buffs: +40% RES; +35% INT.
+- Debuffs: -25% AGI; -20% recuperação.
+- Fisiologia: componentes mecânicos.
+- Longevidade: indefinida com manutenção.
+- Escala: R3.
+- Limitação: depende de manutenção e fonte energética.
+032. Androide
+
+Incomum
+ 2,0833%
+
+
+
+
+
+
+
+
+templatemonster.com
+
+
+- Descrição: organismos artificiais com aparência humana.
+- Buffs: +45% INT; +35% MAN; +30% FOR.
+- Debuffs: -20% resistência a interferências eletrônicas.
+- Fisiologia: estrutura sintética avançada.
+- Longevidade: séculos.
+- Escala: R4.
+- Limitação: danos aos sistemas internos prejudicam funções específicas.
+033. Nanomorfo
+
+Raro
+ 2,125%
+
+
+
+
+
+
+
+
+communities.springernature.com
+
+
+- Descrição: organismos compostos por milhões de unidades microscópicas artificiais.
+- Buffs: +70% adaptação estrutural; +45% regeneração mecânica.
+- Debuffs: -30% estabilidade sob interferência energética.
+- Fisiologia: corpo modular.
+- Longevidade: indefinida.
+- Escala: R6.
+- Limitação: unidades perdidas precisam ser substituídas.
+034. Homúnculo
+
+Comum
+ 2%
+
+
+
+
+
+
+
+
+us.idyllic.app
+
+
+- Descrição: seres artificiais criados por processos alquímicos.
+- Buffs: +35% ENE; +30% INT.
+- Debuffs: -20% RES.
+- Fisiologia: corpo orgânico artificial.
+- Longevidade: 200–800 anos.
+- Escala: R3.
+- Limitação: depende de um núcleo alquímico funcional.
+035. Bioarmadura
+
+Raro
+ 2,125%
+
+
+
+
+
+
+
+
+zbrushcentral.com
+
+
+- Descrição: organismos que possuem uma camada viva de proteção integrada.
+- Buffs: +60% RES; +40% FOR.
+- Debuffs: -20% AGI; -20% ENE.
+- Fisiologia: tecidos externos simbióticos.
+- Longevidade: 300–1.000 anos.
+- Escala: R5.
+- Limitação: a armadura necessita de nutrientes e manutenção biológica.
+036. Ciborgue
+
+Comum
+ 2%
+
+
+
+
+
+
+
+
+note.com
+
+
+- Descrição: organismo biológico aprimorado por componentes artificiais.
+- Buffs: +35% FOR; +30% MAN; +25% RES.
+- Debuffs: -15% recuperação biológica.
+- Fisiologia: órgãos naturais e sistemas mecânicos integrados.
+- Longevidade: 100–300 anos.
+- Escala: R3.
+- Limitação: componentes artificiais exigem manutenção.
+037. Organismo Sintético
+
+Incomum
+ 2,0833%
+
+
+
+
+
+
+
+
+deviantart.com
+
+
+- Descrição: seres artificiais desenvolvidos com tecidos sintéticos.
+- Buffs: +40% RES; +40% ENE.
+- Debuffs: -20% adaptação biológica natural.
+- Fisiologia: células artificiais.
+- Longevidade: 500–2.000 anos.
+- Escala: R4.
+- Limitação: tecidos sintéticos possuem compatibilidades específicas.
+038. Enxame Mecânico
+
+Épico
+ 2%
+
+
+
+
+
+
+
+
+characterart.com
+
+
+- Descrição: consciência distribuída por inúmeras unidades mecânicas.
+- Buffs: +80% capacidade de reconstrução; +50% percepção distribuída.
+- Debuffs: -40% desempenho quando unidades são dispersadas.
+- Fisiologia: corpo descentralizado.
+- Longevidade: indefinida.
+- Escala: R7.
+- Limitação: precisa preservar uma quantidade mínima de unidades para manter a consciência.
+039. Híbrido Tecno-orgânico
+
+Comum
+ 2%
+
+
+
+
+
+
+
+
+furaffinity.net
+
+
+- Descrição: seres em que componentes tecnológicos cresceram integrados aos tecidos vivos.
+- Buffs: +30% FOR; +30% INT; +30% RES.
+- Debuffs: -20% ENE.
+- Fisiologia: integração de sistemas biológicos e mecânicos.
+- Longevidade: 200–700 anos.
+- Escala: R4.
+- Limitação: incompatibilidades entre sistemas podem reduzir o desempenho.
+040. Arconte Artificial
+
+Lendário
+ 2,5%
+
+
+
+
+
+
+
+
+deepdreamgenerator.com
+
+
+- Descrição: máquinas ancestrais dotadas de núcleos energéticos altamente desenvolvidos.
+- Buffs: +80% INT; +70% ENE; +50% RES.
+- Debuffs: -30% adaptação emocional e sensorial.
+- Fisiologia: núcleo artificial de altíssima complexidade.
+- Longevidade: milhões de anos com manutenção energética.
+- Escala: R9.
+- Limitação: o núcleo possui uma frequência de funcionamento específica.
+Categoria V — Raças ancestrais e cósmicas (041–050)
+Aqui entram as raças mais incomuns do universo. Algumas possuem características que ultrapassam a biologia convencional, mas ainda obedecem a limitações próprias.
+
+041. Leviatã
+
+Épico
+ 2%
+
+
+
+
+
+
+
+
+allmonsters.tistory.com
+
+
+- Descrição: criaturas ancestrais de proporções gigantescas, adaptadas aos oceanos.
+- Buffs: +100% FOR; +90% RES; +50% ENE.
+- Debuffs: -50% AGI; -40% VEL terrestre.
+- Fisiologia: corpo colossal e órgãos de pressão.
+- Longevidade: 10.000–100.000 anos.
+- Escala: R9.
+- Limitação: tamanho gigantesco dificulta interações em ambientes convencionais.
+042. Fênix
+
+Raro
+ 2,125%
+
+
+
+
+
+
+
+
+pikbest.com
+
+
+- Descrição: raça aviária energética capaz de reconstruir o próprio corpo através de um ciclo de renascimento.
+- Buffs: +70% ENE; +60% resistência térmica; +40% VEL aérea.
+- Debuffs: -25% RES durante a reconstrução.
+- Fisiologia: núcleo ígneo e corpo regenerativo.
+- Longevidade: potencialmente milhões de anos.
+- Escala: R8.
+- Limitação: renascimento exige núcleo preservado e grande quantidade de energia; não é instantâneo.
+043. Titã
+
+Mítico
+ 2%
+
+
+
+
+
+
+
+
+deepdreamgenerator.com
+
+
+- Descrição: descendentes de entidades primordiais com anatomia gigantesca.
+- Buffs: +150% FOR; +120% RES; +50% ENE.
+- Debuffs: -40% AGI; -30% VEL.
+- Fisiologia: estrutura corporal extremamente densa.
+- Longevidade: milhões de anos.
+- Escala: R10.
+- Limitação: grandes reservas de energia são necessárias para manter a estrutura corporal.
+044. Serafim
+
+Incomum
+ 2,0833%
+
+
+
+
+
+
+
+
+vivago.ai
+
+
+- Descrição: linhagem celestial com múltiplos órgãos de emissão energética.
+- Buffs: +55% ENE; +45% PER; +35% VEL aérea.
+- Debuffs: -20% FOR.
+- Fisiologia: seis asas energéticas e núcleo luminoso.
+- Longevidade: 10.000–50.000 anos.
+- Escala: R7.
+- Limitação: manifestações energéticas completas exigem concentração.
+045. Vazio
+
+Raro
+ 2,125%
+
+
+
+
+
+
+
+
+deviantart.com
+
+
+- Descrição: seres de origem desconhecida com fisiologia parcialmente composta de matéria exótica.
+- Buffs: +60% RES contra ataques energéticos convencionais; +45% ENE.
+- Debuffs: -30% recuperação biológica.
+- Fisiologia: corpo parcialmente instável.
+- Longevidade: indeterminada.
+- Escala: R8.
+- Limitação: sua estrutura depende de um núcleo de estabilização.
+046. Primordial
+
+Divino
+ 0,8%
+
+
+
+
+
+
+
+
+deepdreamgenerator.com
+
+
+- Descrição: uma das primeiras linhagens surgidas no universo, anterior às civilizações conhecidas.
+- Buffs: +120% FOR; +100% RES; +100% ENE; +60% INT.
+- Debuffs: -40% velocidade de recuperação energética; -30% adaptação a ambientes artificiais.
+- Fisiologia: organismo extremamente antigo, com núcleo energético natural.
+- Longevidade: milhões de anos.
+- Escala: R11.
+- Limitação: seu núcleo exige enormes quantidades de energia para funcionar em potência máxima.
+047. Parasita Astral
+
+Comum
+ 2%
+
+
+
+
+
+
+
+
+pixeldojo.ai
+
+
+- Descrição: organismos capazes de coexistir com outros seres através de vínculos biológicos.
+- Buffs: +45% adaptação; +40% recuperação.
+- Debuffs: -30% autonomia fisiológica.
+- Fisiologia: núcleo parasitário e corpo hospedeiro.
+- Longevidade: depende da compatibilidade com o hospedeiro.
+- Escala: R4.
+- Limitação: sem hospedeiro compatível, sua capacidade física é reduzida.
+048. Astralino
+
+Incomum
+ 2,0833%
+
+
+
+
+
+
+
+
+easy-peasy.ai
+
+
+- Descrição: humanoides com células que armazenam partículas cósmicas.
+- Buffs: +55% ENE; +35% PER; +30% INT.
+- Debuffs: -20% RES física.
+- Fisiologia: células luminosas e núcleo cósmico.
+- Longevidade: 5.000–20.000 anos.
+- Escala: R7.
+- Limitação: ambientes com interferência energética podem desestabilizar seu núcleo.
+049. Devorador Estelar
+
+Épico
+ 2%
+
+
+
+
+
+
+
+
+deepdreamgenerator.com
+
+
+- Descrição: raça de organismos cósmicos que absorvem grandes quantidades de energia estelar.
+- Buffs: +150% ENE; +100% RES; +80% FOR.
+- Debuffs: -50% desempenho sem fontes energéticas compatíveis.
+- Fisiologia: núcleo de absorção estelar.
+- Longevidade: milhões de anos.
+- Escala: R11.
+- Limitação: absorção exige tempo e não concede automaticamente controle sobre a energia capturada.
+050. Eterno
+
+Transcendente
+ 0,2%
+
+
+
+
+
+
+
+
+jaiportal.com
+
+
+- Descrição: uma linhagem extremamente rara de seres cuja estrutura biológica consegue persistir através de eras cósmicas.
+- Buffs: +150% RES; +120% ENE; +100% INT; +80% PER.
+- Debuffs: -50% velocidade de recuperação energética; -40% adaptação a alterações fisiológicas.
+- Fisiologia: núcleo de persistência e tecidos de longevidade extraordinária.
+- Longevidade: potencialmente ilimitada.
+- Escala: R11.
+- Limitação: longevidade não significa invulnerabilidade. A destruição do núcleo pode causar morte definitiva.
+
+3. Banco de dados racial — fechamento
+RACE DATABASE
+50/50
+
+50 raças
+Distribuição oficial das raridades
+Comum
+
+
+20
+
+
+Incomum
+
+
+12
+
+
+Raro
+
+
+8
+
+
+Épico
+
+
+5
+
+
+Lendário
+
+
+2
+
+
+Mítico
+
+
+1
+
+
+Divino
+
+
+1
+
+
+Transcendente
+
+
+1
+
+
+
+Status: catálogo racial registrado.
+
+4. Regras especiais de interação racial
+Algumas regras serão fundamentais para evitar confusões:
+1. Raças não concedem poderes da roleta de poderes. Um Draconiano pode ter características térmicas, mas não ganha Pirocinese automaticamente.
+2. Transformações raciais fazem parte da fisiologia quando especificadas.
+3. Longevidade não equivale a imortalidade.
+4. Bônus raciais são aplicados aos atributos-base, antes dos modificadores de classe, poder e especialização.
+5. Raças artificiais e espirituais terão regras próprias para alimentação, energia e recuperação.
+6. Sinergias raciais serão avaliadas depois que todas as roletas estiverem construídas.
+Uma observação de balanceamento: as raças com maior escala possuem vantagens naturais enormes, mas isso não garante vitória em combate. Domínio, compatibilidade, experiência e limitações continuam decisivos.
+
+---
+REGRA OFICIAL V1.1 — PERSONAGENS NO ÁPICE
+O personagem começa com domínio completo das capacidades e técnicas pertencentes a este resultado. Não há treinamento obrigatório, níveis de domínio ou desbloqueio gradual. Custos, limitações, requisitos e condições intrínsecas descritos neste catálogo continuam válidos. Esta regra prevalece sobre qualquer menção antiga a domínio inicial ou progressão de domínio.

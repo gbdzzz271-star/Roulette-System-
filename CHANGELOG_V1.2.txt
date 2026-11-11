@@ -1,0 +1,9 @@
+ROULETTE SYSTEM — CHANGELOG V1.2
+
+1. Regra 003: idade sorteada automaticamente após a raça.
+2. Faixas fechadas de longevidade: sorteio uniforme entre os limites, inclusive.
+3. Idades especiais: faixa provisória configurável no App Beta; não oficial até aprovação.
+4. Regra 002 de ápice mantida.
+5. Catálogo integrado: 150 poderes, 50 raças, 20 classes, 50 armas, 60 especializações físicas e 10 intelectuais = 340 entradas.
+6. Correção aritmética do exemplo de FOR: 100 × (1 + 1,15) = 215, não 225.
+7. A Beta exibe a chance efetiva normalizada quando as probabilidades transcritas de uma categoria não totalizam exatamente 100%.

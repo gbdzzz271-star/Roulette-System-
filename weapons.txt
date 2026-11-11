@@ -1,0 +1,1154 @@
+### 🎰 ROULETTE SYSTEM — DATABASE 004
+
+### WEAPON DATABASE — AS 50 ARMAS OFICIAIS
+
+CHEGAMOS ÀS ARMAS! ⚔️
+
+Aqui quero estabelecer uma coisa: uma arma não é simplesmente um objeto que aumenta o dano. Ela pode mudar completamente o estilo de combate do personagem.
+
+Um personagem com força absurda pode ter dificuldade para utilizar uma arma extremamente técnica. Já alguém com MAN elevadíssimo pode transformar uma arma aparentemente comum em algo perigosíssimo.
+
+### 1\. Regras da roleta de armas
+
+Cada arma terá:
+
+* Nome e descrição.
+
+* Raridade e probabilidade individual.
+
+* Buffs e debuffs.
+
+* Dano-base (DMG).
+
+* Alcance (ALC).
+
+* Velocidade de utilização (VEL).
+
+* Durabilidade (DUR).
+
+* Compatibilidade.
+
+* Limitações.
+
+Escalas das armas:
+
+| Grau | Capacidade de dano |
+| ---- | ------------------ |
+| W0   | Humana             |
+| W1   | Sobrehumana        |
+| W2   | Edifício           |
+| W3   | Quarteirão         |
+| W4   | Cidade             |
+| W5   | Montanha           |
+| W6   | Ilha               |
+| W7   | Continental        |
+| W8   | Planetária         |
+| W9   | Estelar            |
+| W10  | Cósmica            |
+| W11  | Multiversal        |
+
+A escala representa o potencial máximo de dano da arma quando utilizada adequadamente, não seu dano automático.
+
+### 2\. Distribuição das raridades
+
+| Raridade      | Quantidade | Chance individual |
+| ------------- | ---------- | ----------------- |
+| Comum         | 20         | 2%                |
+| Incomum       | 12         | 2,0833%           |
+| Raro          | 8          | 2,125%            |
+| Épico         | 5          | 2%                |
+| Lendário      | 2          | 2,5%              |
+| Mítico        | 1          | 2%                |
+| Divino        | 1          | 0,8%              |
+| Transcendente | 1          | 0,2%              |
+| Total         | 50         | 100%              |
+
+### 3\. As 50 armas
+
+### Categoria I — Armas convencionais (001–010)
+
+001\. Espada Longa
+
+2%
+
+![The philosophy of power in Game of Thrones | Battle-Merchant ⚔](https://images.openai.com/static-rsc-4/MFx8SZBxGcM6z7fs52dCmUg0Z539tVGkgCdvdUqqTGee-0RE6fkbgS4oArrCZxHHYp5RqdBzp7JCzq1qZIiUHrg6kt8IjJLAhaSRZ5l7H4vsZ3Jz7NFLvqQVMpPKgjDZvXVWzjLRUwWdl4rNejb5-mpNgDNYYHyTm3eoC9-1PY2yL5Mlciou4ZvPBkvWhyqS?purpose=fullsize)
+
+* Descrição: espada de dois gumes, equilibrada para diferentes situações.
+
+* Buffs: +20% MAN; +10% alcance de combate.
+
+* Debuffs: -10% velocidade de utilização em espaços apertados.
+
+* DMG: W1–W3.
+
+* ALC: médio.
+
+* VEL: média.
+
+* DUR: 85/100.
+
+* Compatibilidade: alta com Guerreiro, Duelista e Espadachim Arcano.
+
+* Limitação: não possui habilidades especiais.
+
+002\. Adaga Dupla
+
+2%
+
+![The Best 25 Midjourney Prompts for Weapon](https://images.openai.com/static-rsc-4/w6dvM1s03tRJ6ZinUmr77idV0TRSgECj2hpXRw81hTOVBCg-M5w_NuELUSlrsuZQIHagosaYS8TLsMUyUFLkRTBFwNJh_lmQeyKAYg4cQd0tvZyZZ0PDG12YtUaN9B_yAuqK8h8zjwAT0n5QVDg-KvHAZB5H5CB24hBkhFuz58JrNBujLPVk_FwdKCBHPBhc?purpose=fullsize)
+
+* Descrição: duas lâminas curtas voltadas à velocidade e precisão.
+
+* Buffs: +25% AGI; +20% MAN.
+
+* Debuffs: -20% alcance; -15% impacto.
+
+* DMG: W0–W2.
+
+* ALC: curto.
+
+* VEL: muito alta.
+
+* DUR: 70/100.
+
+* Compatibilidade: Assassino e Duelista.
+
+* Limitação: pouca eficiência contra armaduras resistentes.
+
+003\. Machado de Guerra
+
+2%
+
+![Double battle axe](https://images.openai.com/static-rsc-4/pxw3YY_87fAirJNFax4eo4wCd4OiY82_H_wQ-ZPDJcq7bSiszgzQ03RPUy_akmB1FTtascB6U697l-kV8tK5oxjfT9LvFIHxLe0GGq9uPMblM1C4N089Tgp6C9uW9dRY_A9KPZ-faEuLrtdhgHIZZIm10L-4VRItXnLSm615er91_5T92S5HmPKioiBaIZtP?purpose=fullsize)
+
+* Descrição: arma pesada especializada em potência de impacto.
+
+* Buffs: +30% FOR aplicada; +15% dano de impacto.
+
+* Debuffs: -20% VEL de utilização; -15% AGI.
+
+* DMG: W1–W4.
+
+* ALC: médio.
+
+* VEL: baixa.
+
+* DUR: 90/100.
+
+* Compatibilidade: Berserker e Guerreiro.
+
+* Limitação: exige força suficiente para ser manejado eficientemente.
+
+004\. Lança
+
+2%
+
+![Detailed spear PNG isolated on transparent background, ancient weapon with wooden shaft and metal spearhead for historical reenactment](https://images.openai.com/static-rsc-4/PxQ3kQTg8wZSeuQfW6ROjOTnUpXYCNjT3u2OkfFJC1VDjMbrNwrGD06An7Go5_TqjFMDPJGe3rVoTkERYUTaVtLbkR67t7P92yaS717ZgJpt88SMcHBmoCYSn1nHv29luUfVgkhznNXax51tkVMvhRULXD3k_KHz744lcwZ7tIycC2e6v1Aov2VKMHaTBAxv?purpose=fullsize)
+
+* Descrição: arma de haste com grande alcance.
+
+* Buffs: +25% MAN; +30% alcance.
+
+* Debuffs: -15% AGI em espaços estreitos.
+
+* DMG: W1–W3.
+
+* ALC: longo.
+
+* VEL: média.
+
+* DUR: 80/100.
+
+* Compatibilidade: Lanceiro e Guerreiro.
+
+* Limitação: dificuldade de utilização em espaços reduzidos.
+
+005\. Katana
+
+2,0833%
+
+![Katana Ginga 銀河 | Japanisches Katana](https://images.openai.com/static-rsc-4/EmvIvrD2b4nJacc_yBBu15vTm27e9TzPTL0rX4Q4a25NBeuK6A5VpntUNpMs-UCKqafpS-kaiQPCyXNhOw2SzbCFJGJys5ppDSSaxJeRnLo0sieR_b15bH32uE6xkAskXXy7Q6ooMzFxB8UNhDy02bbGqYg-msyIh6GUeevnIoqboposksGJTtX28eFTyhxN?purpose=fullsize)
+
+* Descrição: espada japonesa de lâmina curva, voltada à precisão e fluidez.
+
+* Buffs: +30% MAN; +15% AGI.
+
+* Debuffs: -15% durabilidade estrutural em impactos inadequados.
+
+* DMG: W1–W4.
+
+* ALC: médio.
+
+* VEL: alta.
+
+* DUR: 75/100.
+
+* Compatibilidade: Duelista e Espadachim Arcano.
+
+* Limitação: exige técnica refinada e manutenção.
+
+006\. Martelo de Guerra
+
+2%
+
+![Fantasy War Hammer | Stelter Mfg Co](https://images.openai.com/static-rsc-4/k5FSbX1BoXpBuJDQU1_lJhdRjwIkzGi0DsxVvfvDDP9GnW6Gns7QATTJMRS3atqVjcn2hdnYGDNWbrN7B6oEc6IO9jU8KZd3CGsl9HGrXOO5o14HxGHAwhDsgkf4T5NHOyNUw18t0BttJ3rDdR7FRYqj4YdQg3O26r2jfZ_7XsJ_c1YLkx9Q5koSZGTBO7jy?purpose=fullsize)
+
+* Descrição: arma contundente de grande massa.
+
+* Buffs: +35% FOR; +25% impacto.
+
+* Debuffs: -30% VEL; -20% AGI.
+
+* DMG: W2–W4.
+
+* ALC: curto.
+
+* VEL: baixa.
+
+* DUR: 95/100.
+
+* Compatibilidade: Berserker e Guardião.
+
+* Limitação: demanda muita força física.
+
+007\. Rapieira
+
+2%
+
+![Cold Steel Ribbed Shell Swept Hilt Rapier 88CHR](https://images.openai.com/static-rsc-4/hba_oWIJBMhr660FUhAYP7mSgWBs3CVSxpv74-TlZ-SZhTVHMsTdbbhJoa_swh9K54IGD_-BMo56eVsceHwHlkq9yZ0GZQFQcb89fEErKl80D2BrQSHzzhXmEeRC5YfZzzCreLFyfKKPFvBZv5ck9o4ro8sZfRNTMr0iF2TS5CZ1KwPx25a0b9mFbBhGVMUO?purpose=fullsize)
+
+* Descrição: espada fina voltada à precisão técnica.
+
+* Buffs: +35% MAN; +20% AGI.
+
+* Debuffs: -20% impacto bruto.
+
+* DMG: W0–W3.
+
+* ALC: médio.
+
+* VEL: muito alta.
+
+* DUR: 65/100.
+
+* Compatibilidade: Duelista.
+
+* Limitação: pouca eficiência em golpes de força bruta.
+
+008\. Arco Longo
+
+2%
+
+![Medieval Longbow and Arrow | 3D 武器 | Unity Asset Store](https://images.openai.com/static-rsc-4/NJYZ4NtDrsZDXybZxa7eryMIx2hYJPTliUTll98RUWZRVtGv6sHhLBDt2uHEjZds-LsLkSYvtlf371guqUuM_UVXnEpCdbLEdUicdHB5Cl-XJeAZ-gAneswY0mS-Dn-gbjCHvO_C1NIMhDhJM_wVM9JVPYv0IIa40VCwjBlvsnC4epotz7kyo2byaRtAdeg2?purpose=fullsize)
+
+* Descrição: arma de disparo de longa distância.
+
+* Buffs: +25% MAN; +30% alcance.
+
+* Debuffs: -20% eficiência em curta distância.
+
+* DMG: W1–W3.
+
+* ALC: longo.
+
+* VEL: média.
+
+* DUR: 75/100.
+
+* Compatibilidade: Arqueiro e Caçador.
+
+* Limitação: necessita de munição e espaço para utilização.
+
+009\. Besta
+
+2%
+
+![Medieval Light Crossbow • Armor Venue](https://images.openai.com/static-rsc-4/ppRJsiuutNOYtF7lFgcd-X7_86vBGJEX_-8Q7-JBRR_tye83ZiWXRc7yGMwZEKOvx44uGeQyIqicbAZNcpq_sPVCylATYu9sxLjf74Pvg7CZvl-VsCBpVDGWtxFhJCXJQizto0RsmcBdN8kmQb5tgQgFGu-BISfKuOGnQdWsRfJn4JvgapYZPuadirsIlLom?purpose=fullsize)
+
+* Descrição: arma mecânica de disparo com elevada estabilidade.
+
+* Buffs: +30% precisão; +20% impacto.
+
+* Debuffs: -25% velocidade de recarga.
+
+* DMG: W1–W3.
+
+* ALC: longo.
+
+* VEL: baixa.
+
+* DUR: 85/100.
+
+* Compatibilidade: Arqueiro e Caçador.
+
+* Limitação: depende de mecanismos e munição.
+
+010\. Escudo Torre
+
+2%
+
+![3D Tower Shield - TurboSquid 1280306](https://images.openai.com/static-rsc-4/0HZCmhxQ948i_eSLm1cMHo0pzqs6ghddbIwVyP2BkCFm01xNvB1kIKv7NoJqwlSwhhsWWrIXvdfRVgquufQcgQVWzSg3s1uOt6hf95Pf8mlz5Z5xrJVnY_beSF9IrQb7hN0QIXgg7e9MuNzg33W8ToaWr9W8i2-I4q1mkM7RVySAamlJXAPhSOMCkcMYm1ou?purpose=fullsize)
+
+* Descrição: escudo de grandes dimensões destinado à proteção.
+
+* Buffs: +40% RES durante bloqueios; +20% EQU.
+
+* Debuffs: -30% AGI; -20% VEL.
+
+* DMG: W0–W2.
+
+* ALC: curto.
+
+* VEL: baixa.
+
+* DUR: 100/100.
+
+* Compatibilidade: Guardião e Paladino.
+
+* Limitação: exige força e posicionamento adequados.
+
+### Categoria II — Armas exóticas e especializadas (011–020)
+
+011\. Foice de Combate
+
+2,0833%
+
+![Helskar, the Reaper's Scythe | Item | Dungeons & Dragons 5e | Statblocks & Sheets  | World Anvil](https://images.openai.com/static-rsc-4/sfppgX6rcoaVLWP34Ixq2p1x8l2XNohJ8dnoFUGd-OKQXEUPWPa0R_arx55TS1ygWt5bxZBY5yBG5GNUZ0jLlI1jzTXazYdB8wtemQL5YyQHL3uBoZohPw9WeU5BP0yDUBXL6WrvMB4UBQzbqw-c5Tf9Bg1LKqKdXrm1hYs3AUYPf5dwaWthsZez67mj96ty?purpose=fullsize)
+
+* Descrição: arma de haste com lâmina curva.
+
+* Buffs: +30% MAN; +20% alcance.
+
+* Debuffs: -20% precisão em espaços estreitos.
+
+* DMG: W1–W4. ALC: longo. VEL: média. DUR: 80/100.
+
+* Compatibilidade: Guerreiro, Necromante e Berserker.
+
+* Limitação: exige adaptação técnica à curvatura da lâmina.
+
+012\. Correntes de Combate
+
+2,0833%
+
+![Dark Ages Flail - 3D Print Files – Galactic Armory](https://images.openai.com/static-rsc-4/bkarA1rGFreEIMxuGyvyC7moFfBhASUBWa69377Q_sfXDf-sMzQM7gQq75pzysYH-vVQ8HoCemFcsDV1DzSP55qafkCem8uMYp5cStbGot3tjMKTg-NiPsah2f6mBAGofl8r90UWh1nQlEv13FMl1RkT84EUvT6py6CRLbpBr7JW547sts3hjLQGSnmUg77o?purpose=fullsize)
+
+* Descrição: correntes metálicas utilizadas como armas flexíveis.
+
+* Buffs: +35% alcance; +25% controle de distância.
+
+* Debuffs: -25% precisão; -15% velocidade de recuperação.
+
+* DMG: W1–W4. ALC: longo. VEL: média. DUR: 85/100.
+
+* Compatibilidade: Assassino e Guerreiro.
+
+* Limitação: exige coordenação elevada e espaço para movimentação.
+
+013\. Manoplas de Combate
+
+2%
+
+![Armour :: Body Armour :: Gauntlets :: Gothic Fluted Gauntlets - Brass knuckles](https://images.openai.com/static-rsc-4/Bkjg5F6H6ottnMlbVntARoftXIjqar9X02rBK06t2xfqTDpaZz5euNpwCpvHSMvLI8DZwp4A3mTGrTEvGNxKYuvgJ32QQ4jwof5r1-Qp_gbuWi1cMCzDNwb7oQWSN7SdpzL41pJ7EwwY7UbrK4IiZEwlltyb35UiiNbc8GLazKY5O8mzvnbpPkE8bLNMsvf6?purpose=fullsize)
+
+* Descrição: equipamento reforçado para combate corporal.
+
+* Buffs: +25% FOR; +20% RES nas mãos.
+
+* Debuffs: -10% AGI dos dedos.
+
+* DMG: W1–W3. ALC: mínimo. VEL: alta. DUR: 90/100.
+
+* Compatibilidade: Monge e Berserker.
+
+* Limitação: exige aproximação física.
+
+014\. Tridente
+
+2%
+
+![The Trident of Poseidon: Mastering the Seas with Myth - Mythology WorldWide](https://images.openai.com/static-rsc-4/V2_znsgFA3KnqSERJMkWaT4lCfNheYtEU7fuCL0BhBZl8gV_zrcQnmWJbNLSoCS-E_Ek__OOTtVoCXE9eeReE1YqYGTWGK7tgl5vk5O6kaEUroCmhk8bBmMxO2eC2xyubbMRGPJwi7o_cSS5eXULRlG_OhUnEtak2k1ekU9QdvcIOzEEeFivK8uOEiOfpu9R?purpose=fullsize)
+
+* Descrição: arma de três pontas com grande versatilidade.
+
+* Buffs: +25% MAN; +25% alcance aquático.
+
+* Debuffs: -15% AGI em espaços pequenos.
+
+* DMG: W1–W3. ALC: longo. VEL: média. DUR: 85/100.
+
+* Compatibilidade: Lanceiro e Tritão.
+
+* Limitação: exige espaço para movimentação.
+
+015\. Chicote
+
+2%
+
+![Historical Leather Whip Coiled Black PNG Graphic by stockmarket · Creative Fabrica](https://images.openai.com/static-rsc-4/uUCW96MX1GhhhOymZ5JZffWA4zG8doZXvyRU8VTwroNOJmRvNEe4NVQUss1c3FNxLQDv2qGBUEhfnaO9_3aK-qPnQe5SVrOLOdkZfKMvqKUD9Ra16wS9TVibxvH73PaWoQOSDyobG-tVwVe3pIR5kFseDruKA3Su9DIQdFEQGWpyr0-jtJiNtsr-Eah-Mo6a?purpose=fullsize)
+
+* Descrição: arma flexível de alcance variável.
+
+* Buffs: +30% alcance; +20% AGI durante o manejo.
+
+* Debuffs: -30% impacto contra superfícies rígidas.
+
+* DMG: W0–W3. ALC: longo. VEL: alta. DUR: 65/100.
+
+* Compatibilidade: Assassino e Duelista.
+
+* Limitação: difícil de dominar e vulnerável a interrupções.
+
+016\. Tonfas
+
+2%
+
+![Tonfas Okinawa, Wood - Round 51 cm - DragonSports.eu](https://images.openai.com/static-rsc-4/XUmZrwKBjbVkS645X_nndfM95zxL-H7dTN7nFmeNz7fkFMorC0f2Sr48i0ylfKn47lPVzFmYKf-IdHmzHnIgCkZZ0_dTod2_o07J7A6BvRtY1q3q9uF7wmwHQleb_OnsJtrxDef7-5qoRqjQGmBLrjs0q96k1ahsmMEMC34t6a4ysRXEuRCmCNsilWNgudlN?purpose=fullsize)
+
+* Descrição: armas curtas de defesa e combate corporal.
+
+* Buffs: +30% MAN; +20% EQU.
+
+* Debuffs: -15% alcance.
+
+* DMG: W0–W2. ALC: curto. VEL: alta. DUR: 90/100.
+
+* Compatibilidade: Monge e Guerreiro.
+
+* Limitação: dependem de combate próximo.
+
+017\. Corrente com Foice
+
+2,125%
+
+![3D Model Kusarigama by Fantasy999d](https://images.openai.com/static-rsc-4/YxPtri7gPlQl27fqlIUKD7Frn8dJhdrIftcZg3iFeN77pEYUHpoXVuIKUWbReRP2hIrTlUWZSQD5S-h98l0uoNJDMbkUMGZGAaonE4zyQxKjnfPa6MzTb1SPrLk2Q-Dkjb4hJYlh_zNBQV3a6C_-aZUDeuDQ2c7YOyzTCzQqllIx9KXZ8Hhoou49qkVSo-NM?purpose=fullsize)
+
+* Descrição: arma composta por uma foice e uma corrente.
+
+* Buffs: +40% MAN; +35% alcance.
+
+* Debuffs: -25% precisão inicial.
+
+* DMG: W1–W5. ALC: longo. VEL: alta. DUR: 80/100.
+
+* Compatibilidade: Assassino e Duelista.
+
+* Limitação: exige domínio de dois componentes diferentes.
+
+018\. Lâminas Retráteis
+
+2,0833%
+
+![Assassins Creed Black Flag Resynced Hidden Blade Replica | Gamers Malta](https://images.openai.com/static-rsc-4/dOwfie97nOMiZmLFV5SxCkbkmNj6pka0tCS9XOPcBxKQCnDmEcl3PyUKf7SinGLH9GR1epIHehFrGtCdjdYCEfuxdyV4gUU9o-nIFJ1L6-oEochjcGxnGetE1TSTLZPlkDFefW3FDBHsNCCzPevfeliEmWpOVG_xh0b_1w4eg5vlooKC4insH8PFRNxwISU0?purpose=fullsize)
+
+* Descrição: lâminas integradas a mecanismos de pulso.
+
+* Buffs: +30% AGI; +25% MAN.
+
+* Debuffs: -15% alcance; -10% durabilidade mecânica.
+
+* DMG: W1–W3. ALC: curto. VEL: muito alta. DUR: 70/100.
+
+* Compatibilidade: Assassino e Artífice.
+
+* Limitação: mecanismos podem travar ou sofrer danos.
+
+019\. Alabarda
+
+2,0833%
+
+![Silver Halberd 3D Model - TurboSquid 2090227](https://images.openai.com/static-rsc-4/NbHQ-S78iHWpwLD_AZDsIS4dgDb4xZgG8UNN_hPxXjvqlG603odDylL8FYfvYxf2k_xogiscU3MWDgIvLGO7p694KzczRbQ5SYCHim2WOgv8HJMqq8BaKDLnDd_IZ79zus4CYUw5QIt5fBSXZ5_QvoMxuaXHKDs8tawTQf3CrplQgqT0A2VJOlNDbNyFy-qB?purpose=fullsize)
+
+* Descrição: arma de haste que combina características de machado e lança.
+
+* Buffs: +35% MAN; +30% alcance.
+
+* Debuffs: -20% VEL; -15% AGI.
+
+* DMG: W2–W4. ALC: longo. VEL: média. DUR: 95/100.
+
+* Compatibilidade: Guerreiro, Guardião e Lanceiro.
+
+* Limitação: exige espaço de movimentação.
+
+020\. Chakram
+
+2,0833%
+
+![A SIKH GOLD DAMASCENED STEEL QUOIT (CHAKRAM), PUNJAB, NORTH INDIA, 19TH CENTURY | Christie's](https://images.openai.com/static-rsc-4/lfRHJs5k25FPd53bLxvAuObiScp7yP23Vt1czQyr4YVogmo3aXmEwLemOBQ2gatTkPGwicB6aDZWHP6k6YFljMn92_h0BfzLyN5B8pPauMyPznEexji9zoJRsBGT0wLrOqLKk2paANZXtXMMAPivQaksNkhry27f8YSZc2A34N0yDsFetUOSY1g1jEbyKo-J?purpose=fullsize)
+
+* Descrição: arma circular metálica de lançamento.
+
+* Buffs: +35% MAN; +25% precisão.
+
+* Debuffs: -20% desempenho em combate próximo.
+
+* DMG: W1–W3. ALC: longo. VEL: alta. DUR: 75/100.
+
+* Compatibilidade: Assassino, Arqueiro e Duelista.
+
+* Limitação: exige recuperação ou substituição após o lançamento.
+
+### Categoria III — Armas mágicas e lendárias (021–030)
+
+021\. Espada Flamejante
+
+2,125%
+
+![The Legendary Legacy: How Mythological Weapons Influenced Cultures! - Mythology WorldWide](https://images.openai.com/static-rsc-4/3xs30uhN6WP-Xn-J6FCfwCCvctQa4s-Ci6LADTZe6oqYwKvPGHOQBu-ABqwPtGV8OlKbI8y-8G6bugymfIpS2UDbdujUv5tSlBPfBnvc6CFaZ0uGYS3BSpam2ZA2WhJur0v9vQIsbxfLdJZ8iTqApPYDG4OVg766YoCg44L9-sB4VbnK7AulZYHLYuUpbcyV?purpose=fullsize)
+
+* Descrição: espada encantada que produz calor e chamas.
+
+* Buffs: +40% dano térmico; +25% MAN.
+
+* Debuffs: -15% consumo energético eficiente.
+
+* DMG: W2–W5. ALC: médio. VEL: média. DUR: 90/100.
+
+* Compatibilidade: Guerreiro e Espadachim Arcano.
+
+* Limitação: as chamas consomem energia e podem ser reduzidas por resfriamento.
+
+022\. Espada Congelante
+
+2,125%
+
+![Pinterest](https://images.openai.com/static-rsc-4/jDeNCBvTXel-AsF0ly9IqndMLVrpsWvGVVo85J8jHqf7MKgPGNh96vVjun__3MooWYLPQvlUWn4w8SS9ficEfC6rpJDBSvhFH9Y1DIeNmcLP00AeJp8ou-nthXRLKIEe_00r-3gxP0k3q8HCemWL0tyPZ8aDM6L0ZmfPoJVvLOsdBmc_345p6CI9guhGI1ev?purpose=fullsize)
+
+* Descrição: lâmina que libera energia térmica negativa e forma gelo.
+
+* Buffs: +40% eficiência criogênica; +25% MAN.
+
+* Debuffs: -15% VEL em ambientes quentes.
+
+* DMG: W2–W5. ALC: médio. VEL: média. DUR: 85/100.
+
+* Compatibilidade: Guerreiro e Arcanista.
+
+* Limitação: a energia congelante é finita e precisa ser recarregada.
+
+023\. Cajado Arcano
+
+2%
+
+![Reynard's Staff FULL - 3D model by Ofir Harel (@ofir.harel12) \[395de06\] - Sketchfab](https://images.openai.com/static-rsc-4/baiTI53LaNJlUEO00VgOxCJL0ugzDeU6nfIx3atlUt-8wYigMXWrMgyP1tYn_9E0ftZIT-S3g2jchfJ9QcqNkHQyWPhZsBaCbzBr2_W0QfRDURD-6h7IUVcmIt9yvFoGtj6zCJe7BC0nvwTXietv2a5rcyxpaZQ8CmIkC7PK0Atl4Oo3hvHAIEytI8Cf4rrv?purpose=fullsize)
+
+* Descrição: instrumento de canalização e estabilização energética.
+
+* Buffs: +35% ENE; +25% precisão de canalização.
+
+* Debuffs: -20% desempenho em combate corporal.
+
+* DMG: W0–W3. ALC: médio. VEL: baixa. DUR: 75/100.
+
+* Compatibilidade: Arcanista, Invocador e Necromante.
+
+* Limitação: não cria energia, apenas melhora seu direcionamento.
+
+024\. Grimório Vivo
+
+2%
+
+![🔭 Through a Spyglass Darkly 🔭 | KaW Forum](https://images.openai.com/static-rsc-4/lbNUO1sSwwMb9ef9TH-ARqlpVE9K8PxBQI_tqe3r_1yacYVCIhsCLV3QY3dVYQbJBAqomWvAl8qYJxrnXwjqqsqygNUSu0ZnSPPXG57oDaSOgf3SAjjJ_enmOuNzxriP_vmnXjVVITtFkkQlOtprBZMLw55t7WVf4Czq71D6lXedmPWc3wEOMAtzZo05du-n?purpose=fullsize)
+
+* Descrição: livro orgânico que armazena técnicas arcanas e reage ao usuário.
+
+* Buffs: +50% INT; +40% ENE.
+
+* Debuffs: -20% velocidade de execução das técnicas armazenadas.
+
+* DMG: W1–W6. ALC: variável. VEL: baixa. DUR: 90/100.
+
+* Compatibilidade: Arcanista, Necromante e Invocador.
+
+* Limitação: possui capacidade limitada de armazenamento e precisa aprender técnicas antes de reproduzi-las.
+
+025\. Foice dos Mortos
+
+2,125%
+
+!["a medieval fantasy scythe, the blade of which is made of black obsidian and has glowing purple runes on it. highest quality and highest definition." - Download free 3D models generated with Meshy AI by @givemecreditsnow](https://images.openai.com/static-rsc-4/ZT6GodJPkHDiMKolSUy8FQRuWYjObvlf06wt1iTyo-1eK1EFoOMgnpyqKpHYXneU_GqBm__nEylbQvryyNDChXz_Zu4YJJhM2_jTL3G6YLQPQs-0-ssxNYpss6YJs3rAkwZX2jQyoYfrHvXCIJeUCxnTDVPSuhucUy2KDB1U-jhDQp16VBpJrHeh9Lt6dpDT?purpose=fullsize)
+
+* Descrição: foice impregnada com energia necromântica.
+
+* Buffs: +45% ENE; +30% dano contra manifestações espirituais.
+
+* Debuffs: -20% eficiência contra alvos sem energia espiritual.
+
+* DMG: W2–W6. ALC: longo. VEL: média. DUR: 90/100.
+
+* Compatibilidade: Necromante e Berserker.
+
+* Limitação: sua afinidade espiritual não significa que possa eliminar almas automaticamente.
+
+026\. Lança Celestial
+
+2%
+
+![A radiant spear that glows with an ethereal light. Crafted from luminite and wind feathers, the spear has a celestial quality that hints at its divine power and reach. - AI Image Generator Prompt](https://images.openai.com/static-rsc-4/l82WslsObSbgOK7NX9ks7Fi6TGOsWTeGcUfzPkOban3LYSp_WCXcfBLVbAsnSqEIGZX_BJnf0k9feh9CzcsHEiglFVXp9D7sYzh4JPD5GIVkL6rs55wHmp23-DtSd15m9m8fnD5OG2wzT2YiwZkR7RUQoSJzn4yG7aDBHHVCobqSVDi2Dg1ao1eOtdtANANp?purpose=fullsize)
+
+* Descrição: arma de origem celestial que canaliza energia luminosa.
+
+* Buffs: +50% ENE; +40% MAN.
+
+* Debuffs: -20% eficiência energética em ambientes de forte interferência.
+
+* DMG: W3–W7. ALC: longo. VEL: alta. DUR: 95/100.
+
+* Compatibilidade: Paladino e Lanceiro.
+
+* Limitação: exige energia compatível para liberar seu potencial.
+
+027\. Katana do Vazio
+
+2,5%
+
+![AI Generated Spacebackground Photos and Artwork | Deep Dream Generator](https://images.openai.com/static-rsc-4/HbaukOEV2Iy6dXdN6MjEBhCAy69UeGfw77e47ii_ReREu3E-3x4bKzYQUgM2UtcH1Ioy7K23o8idURxtubm7v80VbduWoxyD0O603j4aWdmLM02Bu_L1PLXLEWZ5-L3qlUqATikst-TEcelJc8NEnhgnHBYK1T6js3FeIyUux_u6mNr_DcCIDCwgL-3LtvHA?purpose=fullsize)
+
+* Descrição: espada que absorve parte da energia dos impactos e a armazena na lâmina.
+
+* Buffs: +60% MAN; +50% absorção de energia cinética compatível.
+
+* Debuffs: -35% controle quando sobrecarregada.
+
+* DMG: W3–W8. ALC: médio. VEL: muito alta. DUR: 95/100.
+
+* Compatibilidade: Duelista e Espadachim Arcano.
+
+* Limitação: armazenamento limitado; não absorve qualquer tipo de energia.
+
+028\. Arco da Tempestade
+
+Raro
+ 2,125%
+
+
+
+
+
+
+
+
+goenhance.ai
+
+
+- Descrição: arco que converte energia acumulada em projéteis elétricos.
+- Buffs: +45% MAN; +50% potência elétrica.
+- Debuffs: -25% precisão quando descarregado.
+- DMG: W2–W6. ALC: muito longo. VEL: alta. DUR: 85/100.
+- Compatibilidade: Arqueiro e Caçador.
+- Limitação: precisa armazenar energia antes de liberar projéteis especiais.
+029. Martelo do Colosso
+
+Épico
+ 2%
+
+
+
+
+
+
+
+
+storage.googleapis.com
+
+
+- Descrição: martelo ancestral com núcleo de compressão energética.
+- Buffs: +65% FOR aplicada; +50% impacto.
+- Debuffs: -40% AGI; -30% VEL.
+- DMG: W3–W8. ALC: curto. VEL: baixa. DUR: 100/100.
+- Compatibilidade: Berserker e Guardião.
+- Limitação: exige força elevada e consome energia ao comprimir os impactos.
+030. Espelho de Guerra
+
+Raro
+ 2,125%
+
+
+
+
+
+
+
+
+dotarush.com
+
+
+- Descrição: escudo espelhado capaz de redirecionar luz e determinados projéteis.
+- Buffs: +50% defesa frontal; +35% EQU.
+- Debuffs: -25% mobilidade.
+- DMG: W1–W5. ALC: curto. VEL: baixa. DUR: 95/100.
+- Compatibilidade: Guardião e Paladino.
+- Limitação: não reflete automaticamente ataques físicos de força superior à sua capacidade.
+Categoria IV — Armas tecnológicas e monstruosas (031–040)
+031. Canhão de Pulso
+
+Incomum
+ 2,0833%
+
+
+
+
+
+
+
+
+cgtrader.com
+
+
+- Descrição: arma tecnológica que libera descargas energéticas concentradas.
+- Buffs: +45% potência de disparo; +30% alcance.
+- Debuffs: -35% velocidade de utilização.
+- DMG: W2–W6. ALC: longo. VEL: baixa. DUR: 85/100.
+- Compatibilidade: Atirador e Artífice.
+- Limitação: possui bateria limitada e necessita de recarga.
+032. Lâmina Monomolecular
+
+Raro
+ 2,125%
+
+
+
+
+
+
+
+
+sketchfab.com
+
+
+- Descrição: lâmina tecnológica extremamente fina, projetada para concentrar força em uma superfície reduzida.
+- Buffs: +55% penetração de materiais compatíveis; +30% MAN.
+- Debuffs: -30% durabilidade estrutural.
+- DMG: W2–W6. ALC: médio. VEL: alta. DUR: 55/100.
+- Compatibilidade: Assassino e Duelista.
+- Limitação: materiais extremamente resistentes podem danificar sua estrutura.
+033. Braço Mecânico de Combate
+
+Incomum
+ 2,0833%
+
+
+
+
+
+
+
+
+deviantart.com
+
+
+- Descrição: equipamento mecânico que amplifica a força aplicada pelo braço.
+- Buffs: +50% FOR aplicada pelo membro equipado; +25% RES do braço.
+- Debuffs: -20% AGI durante movimentos complexos.
+- DMG: W2–W5. ALC: curto. VEL: média. DUR: 90/100.
+- Compatibilidade: Guerreiro, Artífice e Monge.
+- Limitação: depende de energia e manutenção.
+034. Lança Orgânica
+
+Incomum
+ 2,0833%
+
+
+
+
+
+
+
+
+note.com
+
+
+- Descrição: arma viva que cresce e altera sua estrutura conforme o ambiente.
+- Buffs: +35% MAN; +30% regeneração da própria estrutura.
+- Debuffs: -20% eficiência quando desidratada.
+- DMG: W1–W5. ALC: variável. VEL: média. DUR: 90/100.
+- Compatibilidade: Lanceiro e Caçador.
+- Limitação: precisa de nutrientes para regeneração.
+035. Pistola Dimensional
+
+Épico
+ 2%
+
+
+
+
+
+
+
+
+starwarsrp.net
+
+
+- Descrição: arma que dispara projéteis energéticos capazes de percorrer pequenas distâncias por dobras espaciais.
+- Buffs: +60% precisão em trajetórias especiais; +40% alcance efetivo.
+- Debuffs: -30% ENE; -20% velocidade de recarga.
+- DMG: W3–W7. ALC: longo. VEL: média. DUR: 85/100.
+- Compatibilidade: Atirador e Artífice.
+- Limitação: não atravessa qualquer barreira e possui alcance dimensional limitado.
+036. Metralhadora Orgânica
+
+Raro
+ 2,125%
+
+
+
+
+
+
+
+
+deviantart.com
+
+
+- Descrição: organismo artificial capaz de produzir projéteis orgânicos.
+- Buffs: +55% cadência; +30% adaptação de munição.
+- Debuffs: -35% consumo energético eficiente.
+- DMG: W2–W5. ALC: longo. VEL: muito alta. DUR: 80/100.
+- Compatibilidade: Atirador e Artífice.
+- Limitação: precisa de nutrientes e tempo para produzir munição.
+037. Espada de Plasma
+
+Épico
+ 2%
+
+
+
+
+
+
+
+
+wall.alphacoders.com
+
+
+- Descrição: lâmina formada por plasma estabilizado.
+- Buffs: +65% dano térmico; +35% MAN.
+- Debuffs: -40% consumo energético eficiente.
+- DMG: W3–W7. ALC: médio. VEL: alta. DUR: 80/100.
+- Compatibilidade: Guerreiro e Espadachim Arcano.
+- Limitação: precisa de um estabilizador energético funcional.
+038. Canhão Gravitacional
+
+Lendário
+ 2,5%
+
+
+
+
+
+
+
+
+store.steampowered.com
+
+
+- Descrição: dispositivo que concentra campos gravitacionais em uma região de impacto.
+- Buffs: +80% potência gravitacional; +50% alcance.
+- Debuffs: -50% VEL de utilização; -40% estabilidade do equipamento.
+- DMG: W4–W9. ALC: muito longo. VEL: muito baixa. DUR: 90/100.
+- Compatibilidade: Artífice e Atirador.
+- Limitação: exige grande reserva energética e possui área de atuação limitada.
+039. Mandíbulas de Aço
+
+Incomum
+ 2,0833%
+
+
+
+
+
+
+
+
+etsy.com
+
+
+- Descrição: equipamento mecânico de captura e compressão.
+- Buffs: +45% FOR aplicada; +35% capacidade de retenção.
+- Debuffs: -20% AGI das mãos.
+- DMG: W1–W4. ALC: curto. VEL: média. DUR: 95/100.
+- Compatibilidade: Berserker e Artífice.
+- Limitação: necessita de contato físico e possui abertura limitada.
+040. Lâmina de Frequência
+
+Raro
+ 2,125%
+
+
+
+
+
+
+
+
+khemaridh.substack.com
+
+
+- Descrição: arma tecnológica que utiliza vibrações controladas na lâmina.
+- Buffs: +55% eficiência contra estruturas compatíveis; +30% MAN.
+- Debuffs: -25% durabilidade durante utilização contínua.
+- DMG: W2–W7. ALC: médio. VEL: alta. DUR: 65/100.
+- Compatibilidade: Duelista e Artífice.
+- Limitação: materiais com propriedades especiais podem resistir às vibrações.
+Categoria V — Armas lendárias, anômalas e cósmicas (041–050)
+041. Excalibur
+
+Mítico
+ 2%
+
+
+
+
+
+
+
+
+montahanews.com
+
+
+- Descrição: espada ancestral que acumula energia luminosa em seu núcleo.
+- Buffs: +70% MAN; +60% ENE; +40% resistência energética.
+- Debuffs: -20% eficiência quando utilizada sem controle energético.
+- DMG: W4–W9. ALC: médio. VEL: alta. DUR: 100/100.
+- Compatibilidade: Paladino, Guerreiro e Espadachim Arcano.
+- Limitação: sua capacidade máxima depende da energia armazenada; não possui poder ilimitado.
+042. Gungnir
+
+Épico
+ 2%
+
+
+
+
+
+
+
+
+valhalla-blog.de
+
+
+- Descrição: lança ancestral com excelente estabilidade e precisão.
+- Buffs: +65% MAN; +50% precisão; +40% alcance.
+- Debuffs: -20% velocidade de utilização.
+- DMG: W3–W8. ALC: muito longo. VEL: alta. DUR: 100/100.
+- Compatibilidade: Lanceiro e Paladino.
+- Limitação: precisão extraordinária não significa acerto garantido.
+043. Mjölnir
+
+Raro
+ 2,125%
+
+
+
+
+
+
+
+
+ameblo.jp
+
+
+- Descrição: martelo que armazena e libera energia elétrica.
+- Buffs: +65% FOR aplicada; +60% potência elétrica.
+- Debuffs: -35% VEL; -20% AGI.
+- DMG: W4–W9. ALC: curto. VEL: média. DUR: 100/100.
+- Compatibilidade: Berserker e Paladino.
+- Limitação: necessita de energia acumulada e não concede controle sobre tempestades.
+044. Lâmina do Devorador
+
+Épico
+ 2%
+
+
+
+
+
+
+
+
+deviantart.com
+
+
+- Descrição: espada orgânica que absorve pequenas quantidades de energia de impactos compatíveis.
+- Buffs: +50% FOR aplicada; +45% absorção energética.
+- Debuffs: -30% ENE em períodos sem alimentação.
+- DMG: W3–W8. ALC: médio. VEL: média. DUR: 90/100.
+- Compatibilidade: Berserker e Necromante.
+- Limitação: possui necessidade energética própria e não absorve automaticamente a energia vital de adversários.
+045. Arco de Órion
+
+Raro
+ 2,125%
+
+
+
+
+
+
+
+
+steamcommunity.com
+
+
+- Descrição: arco que utiliza partículas luminosas acumuladas para produzir flechas energéticas.
+- Buffs: +65% MAN; +50% PER; +40% alcance.
+- Debuffs: -30% eficiência sem energia armazenada.
+- DMG: W3–W8. ALC: muito longo. VEL: alta. DUR: 90/100.
+- Compatibilidade: Arqueiro e Caçador.
+- Limitação: precisa acumular partículas luminosas compatíveis.
+046. Lança do Fim
+
+Lendário
+ 2,5%
+
+
+
+
+
+
+
+
+seaart.ai
+
+
+- Descrição: arma ancestral com núcleo de energia extremamente concentrada.
+- Buffs: +80% FOR aplicada; +70% penetração energética.
+- Debuffs: -45% ENE; -30% VEL.
+- DMG: W5–W10. ALC: longo. VEL: média. DUR: 100/100.
+- Compatibilidade: Lanceiro e Guerreiro.
+- Limitação: sua potência máxima exige uma grande quantidade de energia e não ignora defesas ilimitadamente.
+047. Orbe de Pandora
+
+Incomum
+ 2,0833%
+
+
+
+
+
+
+
+
+czepeku.com
+
+
+- Descrição: artefato capaz de armazenar uma técnica energética previamente registrada.
+- Buffs: +45% ENE; +35% INT.
+- Debuffs: -20% velocidade de ativação.
+- DMG: W1–W7. ALC: variável. VEL: baixa. DUR: 80/100.
+- Compatibilidade: Arcanista, Invocador e Artífice.
+- Limitação: armazena somente uma técnica por vez e não consegue copiar técnicas desconhecidas.
+048. Lâmina do Eclipse
+
+Raro
+ 2,125%
+
+
+
+
+
+
+
+
+goodfon.com
+
+
+- Descrição: espada que alterna entre emissão luminosa e absorção parcial de luz.
+- Buffs: +55% MAN; +45% eficiência em ambientes de baixa luminosidade.
+- Debuffs: -25% ENE em ambientes de iluminação intensa.
+- DMG: W3–W8. ALC: médio. VEL: muito alta. DUR: 95/100.
+- Compatibilidade: Assassino e Espadachim Arcano.
+- Limitação: alternar modos exige energia e tempo de estabilização.
+049. Núcleo Bélico
+
+Incomum
+ 2,0833%
+
+
+
+
+
+
+
+
+mkisrael.co.il
+
+
+- Descrição: núcleo tecnológico que pode assumir diferentes formatos de armamento.
+- Buffs: +40% MAN; +35% adaptação de equipamento.
+- Debuffs: -30% durabilidade quando muda repetidamente de formato.
+- DMG: W1–W7. ALC: variável. VEL: variável. DUR: 85/100.
+- Compatibilidade: Artífice e Guerreiro.
+- Limitação: pode assumir somente três configurações previamente programadas.
+050. Arsenal do Infinito
+
+Transcendente
+ 0,2%
+
+
+
+
+
+
+
+
+basedlabs.ai
+
+
+- Descrição: artefato transcendental capaz de manifestar armas energéticas de um arsenal dimensional próprio.
+- Buffs: +100% MAN; +80% versatilidade de armamento; +70% ENE.
+- Debuffs: -60% eficiência energética ao manifestar múltiplas armas; -35% concentração.
+- DMG: W5–W11. ALC: variável. VEL: variável. DUR: 100/100.
+- Compatibilidade: todas as classes.
+- Limitação: pode manifestar no máximo cinco armas simultaneamente. Cada manifestação exige energia, e nenhuma arma pode ultrapassar a capacidade do próprio artefato.
+
+4. Ajustes oficiais de raridade
+Para respeitar a distribuição de 50 armas, ficam estabelecidas estas classificações definitivas:
+- 17. Corrente com Foice: Raro → Comum.
+- 21. Espada Flamejante: Raro → Comum.
+- 22. Espada Congelante: Raro → Comum.
+- 25. Foice dos Mortos: Raro → Comum.
+- 24. Grimório Vivo: Épico → Comum.
+- 26. Lança Celestial: Épico → Comum.
+- 46. Lança do Fim: Lendário → Divino.
+A raridade representa a frequência de obtenção, não uma classificação absoluta de poder.
+5. Banco de dados definitivo
+WEAPON DATABASE
+50/50
+
+50 armas registradas
+Raridade	Quantidade
+Comum	20
+Incomum	12
+Raro	8
+Épico	5
+Lendário	2
+Mítico	1
+Divino	1
+Transcendente	1
+
+
+Probabilidades individuais
+- Comum: 2%
+- Incomum: 2,0833%
+- Raro: 2,125%
+- Épico: 2%
+- Lendário: 2,5%
+- Mítico: 2%
+- Divino: 0,8%
+- Transcendente: 0,2%
+
+DATABASE 004 — CONCLUÍDA
+6. Regras adicionais de armamento
+A partir de agora:
+1. Uma arma não aumenta automaticamente todos os atributos do usuário.
+2. Armas podem ter requisitos mínimos de FOR e MAN.
+3. Armas incompatíveis podem gerar penalidades adicionais.
+4. Armas danificadas perdem eficiência.
+5. Armas especiais possuem habilidades próprias e reservas energéticas.
+6. Uma arma pode evoluir através de aprimoramentos, mas sua raridade original não muda.
+
+---
+REGRA OFICIAL V1.1 — PERSONAGENS NO ÁPICE
+O personagem começa com domínio completo das capacidades e técnicas pertencentes a este resultado. Não há treinamento obrigatório, níveis de domínio ou desbloqueio gradual. Custos, limitações, requisitos e condições intrínsecas descritos neste catálogo continuam válidos. Esta regra prevalece sobre qualquer menção antiga a domínio inicial ou progressão de domínio.

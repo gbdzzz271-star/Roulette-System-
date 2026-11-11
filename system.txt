@@ -1,0 +1,375 @@
+AGORA VAMOS FECHAR O ROULETTE SYSTEM! 🔥
+
+Chegamos à última etapa: transformar os 340 resultados cadastrados em um sistema funcional de criação de personagens. A ideia é que qualquer personagem possa ser gerado pelas roletas, com resultados aleatórios, cálculos consistentes e sem manipulação de sorteios.
+
+### DATABASE 011 — SISTEMA DE GERAÇÃO E CÁLCULO
+
+### 1\. Estrutura de uma geração
+
+A criação de personagem será dividida em sorteios independentes:
+
+* Poder.
+
+* Raça.
+
+* Idade (sorteada automaticamente após a raça, conforme a Regra 003).
+
+* Classe.
+
+* Arma.
+
+* Especialização de FOR.
+
+* Especialização de VEL.
+
+* Especialização de RES.
+
+* Especialização de MAN.
+
+* Especialização de AGI.
+
+* Especialização de EQU.
+
+* Especialização intelectual (QI).
+
+Cada categoria terá sua própria roleta. O resultado de uma não altera a probabilidade das outras.
+
+Regras fundamentais:
+
+* Repetições são permitidas.
+
+* Não existe garantia de raridade.
+
+* Não existe sistema de piedade (pity).
+
+* Não existe teto de poder.
+
+* Nenhum resultado pode ser alterado para beneficiar um personagem.
+
+* A ordem dos sorteios não modifica suas probabilidades.
+
+* Todos os resultados devem ser registrados no histórico.
+
+### 2\. Atributos iniciais
+
+Todo personagem começa com os mesmos atributos-base:
+
+| Atributo | Valor inicial |
+| -------- | ------------- |
+| FOR      | 100           |
+| VEL      | 100           |
+| RES      | 100           |
+| MAN      | 100           |
+| AGI      | 100           |
+| EQU      | 100           |
+| INT      | 100           |
+| ENE      | 100           |
+| PER      | 100           |
+
+Importante: os valores representam unidades de atributo, não porcentagens.
+
+INT e PER não recebem especializações físicas, mas ainda podem ser modificados por raças, classes e poderes.
+
+### 3\. Fórmula oficial dos atributos
+
+Para evitar que os bônus se multipliquem descontroladamente, o sistema utilizará acúmulo aditivo de modificadores percentuais.
+
+A_f=A_b\\times\\left(1+\\frac{\\sum M}{100}\\right)
+
+Onde:
+
+* : atributo final.
+
+* : atributo-base.
+
+* : soma dos modificadores ativos.
+
+A ordem de aplicação será:
+
+* Atributos-base.
+
+* Modificadores raciais.
+
+* Modificadores de classe.
+
+* Modificadores do poder.
+
+* Modificadores da arma equipada.
+
+* Modificadores da especialização física.
+
+Exemplo prático:
+
+Um personagem possui FOR 100 e recebe:
+
+* Raça: +20% FOR.
+
+* Classe: +15% FOR.
+
+* Poder: +30% FOR.
+
+* Arma: +10% FOR.
+
+* Especialização: +40% FOR.
+
+FOR=100\\times(1+1,15)=215FOR final: 215
+
+Os modificadores condicionais só entram na conta enquanto suas condições estiverem sendo cumpridas.
+
+Regra importante: bônus de atributos diferentes não são somados entre si. +20% FOR e +20% VEL afetam atributos separados.
+
+### 4\. Compatibilidade entre os resultados
+
+Nem toda combinação precisa funcionar perfeitamente. Isso é parte da graça do sistema.
+
+| Combinação              | Resultado                                                             |
+| ----------------------- | --------------------------------------------------------------------- |
+| Compatível              | Todos os efeitos funcionam normalmente.                               |
+| Parcialmente compatível | Alguns efeitos são reduzidos ou ficam indisponíveis.                  |
+| Incompatível            | O personagem não consegue utilizar determinado efeito ou equipamento. |
+| Sinérgica               | Dois ou mais resultados possuem interação especial.                   |
+
+### Exemplos
+
+* Um humano com classe Guerreiro e espada longa: combinação compatível.
+
+* Um personagem com corpo mecânico e regeneração biológica: compatibilidade parcial, dependendo da descrição de ambos.
+
+* Um personagem com uma arma que exige manipulação de energia e sem capacidade energética suficiente: não consegue acessar todos os recursos da arma.
+
+* Um usuário com poder de eletricidade e arma condutora: pode apresentar sinergia, desde que as descrições permitam.
+
+Regra de ouro: incompatibilidade não apaga resultados. O resultado sorteado continua fazendo parte da ficha.
+
+### 5. Personagens no ápice desde o início
+
+REGRA OFICIAL — ÁPICE
+
+Todo personagem gerado começa no ápice de domínio e desenvolvimento de seus resultados sorteados. Não existe progressão de domínio de 0 a 6, nem treinamento obrigatório para desbloquear o potencial básico ou máximo que já pertence ao resultado.
+
+Isso se aplica a:
+
+* Poder: domínio completo e acesso às aplicações descritas, respeitando custos, condições e limitações.
+* Raça: capacidades raciais naturalmente disponíveis já estão plenamente desenvolvidas.
+* Classe: domínio completo das técnicas e especialidades previstas.
+* Arma: domínio e compatibilidade máximos que a própria arma permite, respeitando requisitos e propriedades.
+* Especializações: bônus e capacidades descritos já estão plenamente desenvolvidos.
+* Atributos: todos os modificadores aplicáveis são considerados integralmente no cálculo inicial.
+
+**Ápice não significa onipotência ou invulnerabilidade.** Custos energéticos, alcance, duração, condições de ativação, requisitos fisiológicos, compatibilidade, recargas, riscos e demais limitações continuam válidos. Se uma habilidade exige exposição, material, condição ambiental ou um evento específico para produzir determinado efeito, essa condição não é removida pelo ápice.
+
+As escalas E0–E11 indicam a escala/potencial da capacidade, mas o personagem já começa dominando o que sua descrição permite realizar. Uma escala alta não apaga limitações nem garante vitória.
+
+### 6. Desenvolvimento narrativo sem progressão de domínio
+
+O personagem não precisa evoluir níveis de domínio, treinar para liberar técnicas que já fazem parte de seu resultado ou aumentar gradualmente o acesso ao potencial sorteado. A ficha inicial já representa o ápice de suas capacidades sorteadas.
+
+Treinamento, experiência e estratégia ainda podem aparecer na narrativa para desenvolver conhecimento, criatividade, relações, táticas e decisões do personagem, mas não funcionam como requisito para liberar o poder ou aumentar o domínio mecânico de uma capacidade já recebida.
+
+Efeitos cujo próprio funcionamento depende de tempo, exposição, assimilação, transformação, aprimoramento externo ou outra condição específica continuam sujeitos a essas condições. Isso não é progressão de domínio: é uma regra interna do efeito.
+
+Não existem estágios de domínio numerados. Qualquer ficha ou documento que ainda contenha campos como “domínio atual”, “estágio 0–6”, “técnicas desbloqueadas” ou “potencial ainda não acessível” deve ser interpretado como legado da versão anterior e não aplicado.
+
+### 7\. Energia e recursos
+
+O atributo ENE representa a capacidade energética geral do personagem.
+
+Para habilidades que consomem energia, cada uma terá:
+
+* Custo de ativação.
+
+* Custo de manutenção.
+
+* Consumo por intensidade.
+
+* Tempo de recuperação.
+
+* Condições especiais.
+
+A fórmula de custo não será universal, porque uma habilidade pode funcionar de maneira completamente diferente de outra.
+
+O consumo deverá respeitar a descrição original de cada poder.
+
+Regra: se ENE chegar a zero, o personagem não poderá ativar habilidades que dependam de energia até recuperar o necessário.
+
+### 8\. Sistema de armas
+
+Cada arma terá cinco características independentes:
+
+| Característica  | Significado                      |
+| --------------- | -------------------------------- |
+| DMG             | Potencial de dano.               |
+| Alcance         | Distância de utilização.         |
+| Velocidade      | Rapidez de utilização.           |
+| Durabilidade    | Capacidade de suportar desgaste. |
+| Compatibilidade | Afinidade com o usuário.         |
+
+A escala W0–W11 representa o potencial da arma, não um multiplicador automático de dano.
+
+Uma arma lendária não será necessariamente melhor em todas as situações que uma arma comum.
+
+Por exemplo, uma adaga comum pode ser mais adequada a um personagem extremamente ágil do que um martelo lendário incompatível com seu estilo.
+
+### 9\. Regras oficiais das roletas
+
+Todas as roletas terão as seguintes regras:
+
+* Cada sorteio é independente.
+
+* Resultados repetidos são válidos.
+
+* A raridade é determinada pela probabilidade, não pela força aparente.
+
+* Nenhum resultado pode ser escolhido manualmente.
+
+* Nenhum sorteio pode ser refeito por insatisfação.
+
+* A ausência de uma raridade em determinado sorteio não aumenta suas chances no próximo.
+
+* O histórico de resultados deve ser preservado.
+
+### Probabilidades gerais
+
+| Raridade      | Probabilidade |
+| ------------- | ------------- |
+| Comum         | 40%           |
+| Incomum       | 25%           |
+| Raro          | 17%           |
+| Épico         | 10%           |
+| Lendário      | 5%            |
+| Mítico        | 2%            |
+| Divino        | 0,8%          |
+| Transcendente | 0,2%          |
+
+A probabilidade individual de cada resultado depende da quantidade de entradas de sua raridade naquela categoria.
+
+Por exemplo, na roleta de poderes, existem 59 poderes comuns. Cada um possui uma chance individual de aproximadamente 0,678%.
+
+### 10\. Ficha oficial do personagem
+
+Toda geração deverá produzir uma ficha neste formato:
+
+### ROULETTE SYSTEM
+
+### FICHA DE PERSONAGEM
+
+Identificação e resultados da geração
+
+IDENTIFICAÇÃO
+
+* Nome:
+
+* Idade:
+
+* Gênero:
+
+* Origem:
+
+* Personalidade:
+
+* História:
+
+RESULTADOS DAS ROLETA
+
+| Categoria | Resultado |
+| --------- | --------- |
+| Poder     | —         |
+| Raça      | —         |
+| Classe    | —         |
+| Arma      | —         |
+| FOR       | —         |
+| VEL       | —         |
+| RES       | —         |
+| MAN       | —         |
+| AGI       | —         |
+| EQU       | —         |
+
+ATRIBUTOS
+
+| Atributo | Base | Final |
+| -------- | ---- | ----- |
+| FOR      | 100  | —     |
+| VEL      | 100  | —     |
+| RES      | 100  | —     |
+| MAN      | 100  | —     |
+| AGI      | 100  | —     |
+| EQU      | 100  | —     |
+| INT      | 100  | —     |
+| ENE      | 100  | —     |
+| PER      | 100  | —     |
+
+ESTADO INICIAL — ÁPICE
+
+* Domínio dos resultados: Completo desde a geração.
+* Acesso ao potencial descrito: Integral, respeitando condições e limitações.
+* Controle energético: Conforme os atributos, custos e regras específicas da ficha.
+* Limitações e condições: Permanecem integralmente válidas.
+* Técnicas pertencentes aos resultados: Disponíveis desde o início.
+
+HISTÓRICO
+
+* Número de gerações:
+
+* Resultados anteriores:
+
+* Alterações de atributos:
+
+* Desenvolvimentos narrativos e estratégicos registrados:
+
+### 11\. Integridade do sistema
+
+Para evitar inconsistências futuras, ficam estabelecidas mais quatro regras:
+
+* Imutabilidade: depois de sorteado, um resultado não pode ser trocado.
+
+* Rastreabilidade: cada geração terá seu histórico completo.
+
+* Transparência: todas as probabilidades serão conhecidas antes dos sorteios.
+
+* Consistência: nenhuma regra nova poderá contradizer uma regra já estabelecida sem uma atualização oficial do sistema.
+
+### AUDITORIA FINAL
+
+Temos uma pequena correção matemática importante antes de declarar o catálogo encerrado:
+
+| Categoria                    | Entradas |
+| ---------------------------- | -------- |
+| Poderes                              | 150      |
+| Raças                                | 50       |
+| Classes                              | 20       |
+| Armas                                | 50       |
+| Seis especializações físicas         | 60       |
+| Especializações intelectuais (QI)    | 10       |
+| Total real                           | 340      |
+
+A contagem correta é 340 entradas: as 60 especializações físicas e as 10 especializações intelectuais (QI) fazem parte do catálogo.
+
+SISTEMA DE GERAÇÃO CONCLUÍDO
+
+### 340 entradas
+
+ROULETTE SYSTEM — versão 1.2
+
+* Catálogo de poderes, raças, classes e armas.
+
+* Seis categorias de especialização física e uma categoria de especialização intelectual (QI).
+
+* Sistema de probabilidades.
+
+* Cálculo de atributos.
+
+* Compatibilidade.
+
+* Estado de ápice desde a geração; desenvolvimento narrativo e estratégico sem progressão de domínio.
+
+* Controle de energia.
+
+* Histórico de sorteios.
+
+* Ficha padronizada.
+
+A categoria de especializações intelectuais (QI) já está incluída no catálogo, totalizando 340 entradas. A versão 1.2 incorpora oficialmente a Regra 002 — Personagens no Ápice desde o Início — e a Regra 003 — Idade Aleatória. O próximo passo é testar a geração de personagens e validar a aplicação das regras na prática. 🎲🔥
+
+
+### REGRA 003 — IDADE ALEATÓRIA (V1.2)
+A idade é sorteada imediatamente após a raça. Para raças com faixa de longevidade numérica fechada, o sorteio é uniforme entre os limites, inclusive. Para raças de longevidade aberta, imortais, artificiais ou sem envelhecimento convencional, o método e a faixa operacional devem respeitar a natureza descrita e precisam ser definidos por regra específica. A faixa provisória do App Beta é configurável e não altera o regulamento oficial até aprovação.

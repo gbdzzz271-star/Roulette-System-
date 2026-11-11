@@ -1,0 +1,45 @@
+ROULETTE SYSTEM — REGULAMENTO OFICIAL
+VERSÃO 1.2 — ÁPICE + IDADE ALEATÓRIA
+
+REGRA 002 — PERSONAGENS NO ÁPICE DESDE O INÍCIO
+
+1. REGRA GERAL
+Todo personagem gerado começa no ápice de domínio e desenvolvimento de seus resultados sorteados. A ficha inicial já representa o máximo de domínio que cada resultado permite.
+
+2. APLICAÇÃO POR CATEGORIA
+* Poder: domínio completo e acesso às aplicações descritas.
+* Raça: capacidades raciais naturalmente disponíveis plenamente desenvolvidas.
+* Classe: domínio completo das técnicas e especialidades previstas.
+* Arma: domínio e compatibilidade máximos permitidos pelas propriedades da arma.
+* Especializações: bônus e capacidades plenamente desenvolvidos.
+* Atributos: modificadores aplicados integralmente conforme a fórmula oficial.
+
+3. SEM PROGRESSÃO DE DOMÍNIO
+Fica eliminada a progressão de domínio de 0 a 6. Não há treinamento obrigatório, nível inicial ou desbloqueio gradual para acessar capacidades que já fazem parte do resultado sorteado. Todas as técnicas e aplicações pertencentes ao resultado estão disponíveis desde a geração.
+
+4. LIMITAÇÕES PRESERVADAS
+O ápice não significa invulnerabilidade, onipotência ou vitória automática. Custos energéticos, alcance, duração, recargas, requisitos, compatibilidade, condições de ativação, riscos e fraquezas continuam valendo. Condições internas de um efeito — como exposição, assimilação, tempo, materiais ou aprimoramentos externos — não são anuladas por esta regra.
+
+5. DESENVOLVIMENTO NARRATIVO
+Treinamento e experiência podem desenvolver estratégia, criatividade, conhecimento e decisões narrativas, mas não aumentam o domínio mecânico nem desbloqueiam o potencial que já está disponível desde o início.
+
+6. ESCALAS
+As escalas E0–E11 indicam a escala da capacidade. O personagem começa dominando o que a descrição do resultado permite realizar, mas a escala não remove limitações nem determina vitória automática.
+
+7. FICHA
+Campos antigos como “domínio atual”, “estágio 0–6”, “técnicas desbloqueadas” e “potencial ainda não acessível” são considerados obsoletos e não devem ser usados. A ficha deve registrar domínio completo desde a geração, custos, condições e limitações.
+
+8. CONTAGEM DO CATÁLOGO
+A estrutura registrada contém 340 resultados: 150 poderes, 50 raças, 20 classes, 50 armas, 60 especializações físicas e 10 especializações intelectuais (QI).
+
+9. REGRA 003 — IDADE ALEATÓRIA
+A idade é sorteada automaticamente depois da raça. O sorteio respeita a longevidade e a natureza biológica descritas na entrada racial.
+
+* Quando a raça possui faixa numérica explícita (ex.: 70–110 anos), a idade é sorteada uniformemente entre o mínimo e o máximo, inclusive.
+* Raças longevas com indicação aberta (ex.: milhares de anos ou 1.000+ anos) precisam de faixa operacional definida para o sorteio.
+* Raças imortais, artificiais ou sem envelhecimento convencional exigem tratamento específico: idade cronológica, idade desde a criação e idade biológica podem ser campos distintos.
+* Nenhuma idade sorteada altera o ápice de capacidades definido na Regra 002.
+
+Na versão Beta do aplicativo, raças sem intervalo fechado utilizam uma faixa provisória configurável pelo usuário. Essa faixa é apenas operacional para testes e NÃO constitui regra oficial definitiva até aprovação.
+
+FIM DAS REGRAS 002 E 003 — VERSÃO 1.2
