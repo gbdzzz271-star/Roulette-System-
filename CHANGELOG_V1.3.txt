@@ -1,0 +1,16 @@
+ROULETTE SYSTEM — APP BETA 0.3
+
+MUDANÇA PRINCIPAL: ROLETAS VISUAIS INDIVIDUAIS
+- Cada categoria abre sua própria roleta circular.
+- Cada resultado do catálogo participa de uma fatia da roleta.
+- As fatias respeitam os pesos/probabilidades cadastrados; não são necessariamente iguais.
+- A animação gira e para no resultado sorteado pelo peso oficial.
+- A lista completa dos itens fica disponível abaixo da roleta para consulta, inclusive nas categorias com muitas fatias.
+- Sorteios são feitos um de cada vez, sob comando do usuário.
+- O progresso mostra quantas das 11 categorias já foram sorteadas.
+- A idade é sorteada junto da roleta de raça.
+- Ao concluir as 11 categorias, a ficha é montada automaticamente.
+- Mantidos catálogo oficial, fórmula de atributos, histórico e exportação TXT.
+
+OBSERVAÇÃO VISUAL:
+Em roletas com 150 itens, as fatias são muito estreitas para que todos os nomes fiquem legíveis simultaneamente em uma tela de celular. Por isso, a roleta mostra rótulos compactos nas fatias e oferece a lista completa, com todos os nomes, logo abaixo.
