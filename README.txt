@@ -1,33 +1,22 @@
-ROULETTE SYSTEM — APP BETA 0.2
+ROULETTE SYSTEM — APP BETA 0.3
 
-O ZIP contém um PWA instalável no Android quando publicado em HTTPS.
-Inclui catálogo JSON com 340 resultados: 150 poderes, 50 raças, 20 classes, 50 armas, 60 especializações físicas e 10 intelectuais.
+Esta versão apresenta roletas circulares individuais. Escolha uma categoria, abra a roleta e toque em GIRAR ROLETA. Cada categoria é sorteada separadamente. A idade é sorteada junto com a raça. Quando as 11 categorias forem concluídas, a ficha é montada.
 
-FUNCIONALIDADES
-- 11 roletas individuais.
-- Geração completa: poder, raça, idade, classe, arma, seis especializações físicas e especialização intelectual.
-- Idade sorteada após a raça.
-- Ficha com nove atributos e fórmula aditiva.
-- Histórico local e exportação TXT da ficha.
-- Importação de catálogo JSON.
+ARQUIVOS PRINCIPAIS
+- index.html: tela do aplicativo
+- styles.css: visual e animações
+- app.js: sorteios, roletas e ficha
+- catalogo-oficial.json: catálogo integrado com 340 resultados
+- manifest.webmanifest e sw.js: suporte PWA
+
+PUBLICAÇÃO NO GITHUB PAGES
+Envie os arquivos diretamente para a raiz do repositório. O arquivo index.html precisa estar na raiz, ao lado de app.js, styles.css, catalogo-oficial.json, manifest.webmanifest, sw.js e icon.svg.
+Em Settings > Pages, selecione Deploy from a branch, branch main, pasta /(root).
+
+NOTA SOBRE A ROLETA
+Cada fatia corresponde a um item. O tamanho da fatia acompanha o peso/probabilidade cadastrado, então os resultados não têm necessariamente a mesma chance. Em categorias muito grandes, a lista completa abaixo da roleta permite consultar todos os nomes com clareza.
 
 IDADE
-Raças com faixa numérica fechada usam sorteio uniforme entre os limites, inclusive. Raças com longevidade aberta, imortais, artificiais ou sem envelhecimento convencional usam a faixa provisória configurável no app (padrão 1–10.000 anos; raças descritas como milenares começam em 1.000). Isso é somente uma conveniência Beta e NÃO é regra oficial definitiva.
+As faixas explícitas cadastradas para cada raça são usadas diretamente. Para raças sem intervalo numérico fechado, a faixa configurável da Beta continua provisória.
 
-CÁLCULO
-Atributo final = atributo-base × (1 + soma dos modificadores / 100). Base de cada atributo: 100.
-
-ATENÇÃO À AUDITORIA
-- O catálogo de raças e armas não registra raridade individual em todas as entradas; a Beta conserva as probabilidades listadas, sem inventar raridade.
-- Algumas probabilidades transcritas em classes e armas não totalizam 100%; o app normaliza os pesos e mostra a chance efetiva calculada.
-- Modificadores percentuais explícitos são aplicados automaticamente. Condições contextuais precisam ser conferidas na descrição.
-- O app não é APK nativo. É PWA instalável pelo Chrome após hospedagem HTTPS.
-
-COMO USAR
-1. Extraia o ZIP.
-2. Hospede a pasta inteira em HTTPS (por exemplo, GitHub Pages).
-3. Abra o endereço no Chrome Android.
-4. Menu do Chrome > Instalar aplicativo ou Adicionar à tela inicial.
-
-MODIFICADORES
-O cálculo automático aplica modificadores percentuais diretos e incondicionais identificados no texto. Modificadores que dependem de contexto (por exemplo, bônus na água, durante um impacto ou sob determinada condição) ficam fora do atributo-base calculado e continuam descritos na ficha/entrada para aplicação situacional.
+A ficha usa atributo-base 100 e a fórmula oficial registrada. Modificadores condicionais não são aplicados automaticamente ao atributo-base.
