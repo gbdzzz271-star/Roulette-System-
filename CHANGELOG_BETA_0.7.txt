@@ -1,0 +1,12 @@
+ROULETTE SYSTEM — BETA 0.7 ARENA EDITION
+
+1. Arena de combate redesenhada para celular, com apresentação lado a lado dos combatentes.
+2. Cada BOT agora recebe ficha própria: raça, classe, arma, poder principal, dois poderes secundários, atributos e índice de poder.
+3. Resultado da rodada mostra pontuação dos dois combatentes, variação da partida e narração curta do confronto.
+4. Afinidades de raça, classe e arma passam a ser identificadas separadamente por atributo.
+5. Cada fonte que possui bônus permanente explícito para o atributo contribui +0,7 de peso; o bônus acumulado é limitado a +1,5.
+6. O bônus é distribuído entre os resultados de maior raridade da roleta correspondente, sem escolher arbitrariamente apenas um item.
+7. A ficha do último resultado informa quais fontes de afinidade foram aplicadas.
+8. Cache do PWA atualizado para beta 0.7.
+
+Nota: o campeonato segue sendo uma simulação local contra BOT, sem multiplayer online. O índice de poder permanece experimental.

@@ -13,3 +13,33 @@ header{gap:12px}.hero-art{position:relative;isolation:isolate;overflow:hidden;ba
 
 /* BETA 0.6 — campeonato */
 .championship-options{display:grid;gap:9px;margin:14px 0}.championship-panel{border-color:#9873b5;background:radial-gradient(circle at 100% 0,#70469b33,transparent 50%),linear-gradient(145deg,#211a2c,#17121e)}.championship-panel h2{font:800 27px 'Barlow Condensed';margin:6px 0}.match-result{background:#100d18;border:1px solid #5c4770;border-radius:12px;padding:12px;margin:10px 0}.match-result>b{color:var(--gold);font:800 22px 'Barlow Condensed'}.match-result p{margin:6px 0;color:var(--muted)}
+
+/* BETA 0.7 — arena de campeonato e leitura clara das afinidades */
+.affinity-note{margin:10px 0 0;padding:10px 12px;border-left:3px solid #c99aee;border-radius:7px;background:#8d55bd18;color:#e4c9ff;font-size:12px}
+.arena-shell{margin-top:14px;padding:14px;border:1px solid #76558f;border-radius:18px;background:radial-gradient(ellipse at 50% 0,#7544a744,transparent 55%),linear-gradient(145deg,#171020,#0c0a12);box-shadow:0 12px 35px #0007;overflow:hidden}
+.arena-topline{display:flex;justify-content:space-between;align-items:center;color:#caa9e9;font-size:10px;font-weight:900;letter-spacing:1.6px;padding-bottom:12px;border-bottom:1px solid #ffffff18}
+.arena-versus{display:grid;grid-template-columns:minmax(0,1fr) 34px minmax(0,1fr);gap:8px;align-items:center;padding:14px 0}
+.fighter-card{min-width:0;overflow:hidden;border:1px solid #76558f;border-radius:13px;background:linear-gradient(180deg,#292039,#100d18);box-shadow:0 8px 18px #0006}
+.fighter-card:last-child{border-color:#9c654f}
+.fighter-portrait{height:118px;display:grid;place-items:center;background:radial-gradient(ellipse at 50% 90%,#a77ad544,transparent 65%),#0c0912;overflow:hidden}
+.fighter-card:last-child .fighter-portrait{background:radial-gradient(ellipse at 50% 90%,#d47c4b44,transparent 65%),#0c0912}
+.fighter-portrait img{height:100%;max-width:100%;object-fit:contain}
+.fighter-info{padding:9px}
+.fighter-info>small{font-size:8px;letter-spacing:1px;color:#c6a2e8;font-weight:900}
+.fighter-info h3{font-size:clamp(13px,3.5vw,18px);line-height:1.1;margin:5px 0;color:#fff;overflow-wrap:anywhere}
+.fighter-role{font-size:9px;color:#e3c994;line-height:1.35;min-height:24px;margin:0 0 8px}
+.fighter-powers{display:flex;flex-direction:column;gap:4px;padding:7px;background:#09070d88;border-radius:8px;min-height:72px}
+.fighter-powers b{font-size:8px;color:#c6a2e8;letter-spacing:1px}
+.fighter-powers span{font-size:9px;color:#eee;line-height:1.25;overflow-wrap:anywhere}
+.fighter-stats{display:grid;grid-template-columns:1fr 1fr;gap:5px;margin:8px 0}
+.fighter-stats span{display:flex;justify-content:space-between;padding:4px 5px;border-radius:5px;background:#ffffff0b;color:#bfb2cc;font-size:8px}
+.fighter-stats b{color:#f4d99b;font-size:9px}
+.fighter-score{border-top:1px solid #ffffff18;padding-top:7px;display:flex;flex-direction:column;gap:2px;color:#bda9d1;font-size:8px;letter-spacing:.5px}
+.fighter-score strong{font-size:19px;color:#f4d99b}
+.versus-mark{display:grid;place-items:center;width:34px;height:34px;border-radius:50%;background:linear-gradient(145deg,#f2d18c,#9e6d38);color:#201426;font-weight:1000;font-style:italic;font-size:12px;box-shadow:0 0 20px #e7bd6855}
+.arena-scoreboard{display:grid;grid-template-columns:1fr 22px 1fr;align-items:center;gap:8px;padding:12px;border:1px solid #ffffff1c;border-radius:12px;background:#08060dcc;text-align:center}
+.arena-scoreboard>div{display:flex;flex-direction:column;gap:3px}.arena-scoreboard small{font-size:8px;color:#bba7d0;letter-spacing:.8px}.arena-scoreboard strong{font-size:25px;color:#f2d18c}.arena-scoreboard span{font-size:9px;color:#a99bb6}.arena-scoreboard>b{color:#a78ac3;font-size:17px}
+.arena-announcer{margin-top:10px;padding:12px;border-radius:10px;background:linear-gradient(90deg,#6b3d8d33,#b9823c18);border:1px solid #a77bc544}
+.arena-announcer>b{font-size:19px;color:#f4d99b;letter-spacing:1px}.arena-announcer p{margin:5px 0;color:#eee;font-size:12px;line-height:1.5}.arena-announcer small{color:#bca9cd;font-size:10px}
+.arena-intro{padding:10px;border-radius:9px;background:#8b59b31c;color:#e6d3f5}
+@media(max-width:360px){.arena-versus{gap:5px;grid-template-columns:minmax(0,1fr) 28px minmax(0,1fr)}.versus-mark{width:28px;height:28px;font-size:10px}.fighter-info{padding:7px}.fighter-portrait{height:95px}}
