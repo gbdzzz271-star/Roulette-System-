@@ -1,0 +1,10 @@
+ROULETTE SYSTEM — BETA 0.4 VISUAL
+
+- Identidade visual roxo, violeta e dourado.
+- Logotipo ilustrado criado por IA e recortado da arte-conceito.
+- Tela de carregamento com barra animada.
+- Fundo ilustrado no menu principal.
+- Arte de fundo no painel de roleta.
+- Service worker atualizado para cache visual v0.4.
+
+Observação: os arquivos de arte são fundos decorativos; os botões, textos e roletas continuam sendo elementos reais e funcionais da aplicação.
