@@ -1,0 +1,8 @@
+ROULETTE SYSTEM — APP BETA 0.4
+
+- Adicionadas duas roletas de poderes secundários, com 50 opções cada.
+- As duas roletas não permitem selecionar o mesmo poder secundário duas vezes.
+- Ficha final agora apresenta retrato ilustrativo gerado localmente por SVG, derivado da combinação de raça, poder e classe. Não usa geração de imagem por IA externa.
+- Adicionado Índice de Poder Total experimental (0–100), explicitamente provisório e não oficial.
+- Total de opções: 440 (340 anteriores + 100 secundárias).
+- A fórmula do índice experimental usa atributos normalizados e raridade como aproximação de Hax; deve ser aprovada/revisada antes de virar regra oficial.
