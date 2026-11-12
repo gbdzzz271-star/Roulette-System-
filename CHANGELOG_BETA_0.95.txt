@@ -12,3 +12,5 @@ NOVAS ROLETAS E SISTEMAS
 
 OBSERVAÇÃO
 Os bônus de títulos são pontos adicionados diretamente ao atributo final, além dos modificadores percentuais já existentes. O índice de poder continua experimental. O arquivo expansao-0.95.json é um códice narrativo complementar.
+
+CORREÇÃO: a quantidade sorteada agora controla a quantidade real de roletas de poderes. Cada poder tem sua própria roleta (1 a 5), sem repetição; ficha, BOT, operador e exportação usam a lista completa.
