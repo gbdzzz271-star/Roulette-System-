@@ -1,0 +1,23 @@
+ROULETTE SYSTEM — INTEGRAÇÃO FRONTEND DA LIGA ONLINE v0.1
+
+Arquivos incluídos (substituir na raiz do repositório GitHub):
+- index.html
+- styles.css
+- sw.js
+- league.js (novo arquivo)
+
+IMPORTANTE:
+1. Faça backup dos quatro arquivos atuais antes de substituir.
+2. Envie os três arquivos existentes (index.html, styles.css, sw.js) para a raiz do repositório, substituindo os antigos.
+3. Envie league.js também para a raiz do repositório como arquivo novo.
+4. Não substitua supabase-config.js, cloud.js, app.js ou outros arquivos.
+5. Aguarde o GitHub Pages publicar e atualize o site. Se o navegador mantiver a versão antiga, feche e reabra o site ou limpe os dados/cache do site.
+
+O frontend usa a Edge Function chamada quick-action e as tabelas characters/matches/match_players já configuradas.
+A Liga exige login e personagem previamente salvo na nuvem.
+
+Limitações desta versão:
+- Fila simples e atualização periódica a cada 3,5 segundos; não é ainda atualização Realtime instantânea.
+- Não implementa cancelamento de fila, abandono, ranking ou temporadas.
+- Requer teste real com duas contas diferentes e dois personagens salvos.
+- O servidor e o frontend ainda precisam de validação em partida real; esta integração não é garantia de funcionamento sem ajustes.
