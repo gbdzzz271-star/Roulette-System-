@@ -54,8 +54,26 @@
   }
   async function loadCharacters(){
     if(!currentUser)return;
-    const {data,error}=await client.from('characters').select('id,name,created_at,character_data').order('created_at',{ascending:false}).limit(30);
-    if(error){$('cloudCharacters').textContent='Erro ao carregar personagens: '+error.message;return;}
+    $('cloudCharacters').textContent='Verificando sessão e carregando personagens…';
+    // Revalida a sessão antes da consulta para garantir que o PostgREST receba
+    // o JWT do jogador, e não apenas a chave pública do projeto.
+    let {data:sessionData,error:sessionError}=await client.auth.getSession();
+    if(sessionError){$('cloudCharacters').textContent='Erro ao verificar sessão: '+sessionError.message;return;}
+    let session=sessionData.session;
+    if(!session?.access_token){
+      const refreshed=await client.auth.refreshSession();
+      if(refreshed.error){$('cloudCharacters').textContent='Sessão expirada. Saia e entre novamente.';return;}
+      session=refreshed.data.session;
+    }
+    if(!session?.user?.id || session.user.id!==currentUser.id){
+      $('cloudCharacters').textContent='Sua sessão não corresponde à conta conectada. Saia e entre novamente.';return;
+    }
+    const {data,error}=await client.from('characters')
+      .select('id,name,created_at,character_data')
+      .eq('user_id',session.user.id)
+      .order('created_at',{ascending:false})
+      .limit(30);
+    if(error){$('cloudCharacters').textContent='Erro ao carregar personagens ('+(error.code||'sem código')+'): '+error.message;return;}
     if(!data?.length){$('cloudCharacters').textContent='Você ainda não salvou personagens.';return;}
     $('cloudCharacters').innerHTML='<h3>Seus personagens na nuvem</h3>'+data.map(row=>`<div class="cloud-character"><div><b>${safe(row.name)}</b><small>${new Date(row.created_at).toLocaleString('pt-BR')}</small></div><button class="subtle" data-load-character="${row.id}">Abrir ficha</button></div>`).join('');
     $('cloudCharacters').querySelectorAll('[data-load-character]').forEach(button=>button.addEventListener('click',()=>{
