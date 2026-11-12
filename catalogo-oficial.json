@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "system_version": "4",
+  "system_version": "0.95",
   "age_rule": "Sorteada após a raça, respeitando a longevidade. Faixas especiais sem limite definido exigem regra específica.",
   "categories": {
     "powers": [
@@ -5428,12 +5428,1853 @@
         "debuffs": "Sujeito a custo, alcance e condição descritos na ficha do personagem.",
         "limitation": "Efeito secundário; não substitui nem amplia automaticamente o poder principal."
       }
+    ],
+    "titles": [
+      {
+        "id": "TIT-01",
+        "name": "O Indomável",
+        "rarity": "Comum",
+        "weight": 1,
+        "description": "Título conquistado por feitos reconhecidos em diferentes regiões. O Indomável representa uma reputação que influencia a maneira como aliados, rivais e organizações enxergam este personagem. Seus bônus são permanentes na ficha e não substituem treinamento, experiência ou habilidades.",
+        "bonuses": {
+          "FOR": 1,
+          "VEL": 4
+        },
+        "bonus_text": "+1 FOR • +4 VEL"
+      },
+      {
+        "id": "TIT-02",
+        "name": "A Última Esperança",
+        "rarity": "Comum",
+        "weight": 1,
+        "description": "Título conquistado por feitos reconhecidos em diferentes regiões. A Última Esperança representa uma reputação que influencia a maneira como aliados, rivais e organizações enxergam este personagem. Seus bônus são permanentes na ficha e não substituem treinamento, experiência ou habilidades.",
+        "bonuses": {
+          "RES": 8,
+          "ENE": 15
+        },
+        "bonus_text": "+8 RES • +15 ENE"
+      },
+      {
+        "id": "TIT-03",
+        "name": "O Flagelo dos Reis",
+        "rarity": "Comum",
+        "weight": 1,
+        "description": "Título conquistado por feitos reconhecidos em diferentes regiões. O Flagelo dos Reis representa uma reputação que influencia a maneira como aliados, rivais e organizações enxergam este personagem. Seus bônus são permanentes na ficha e não substituem treinamento, experiência ou habilidades.",
+        "bonuses": {
+          "EQU": 15,
+          "RES": 6
+        },
+        "bonus_text": "+15 EQU • +6 RES"
+      },
+      {
+        "id": "TIT-04",
+        "name": "A Muralha Viva",
+        "rarity": "Comum",
+        "weight": 1,
+        "description": "Título conquistado por feitos reconhecidos em diferentes regiões. A Muralha Viva representa uma reputação que influencia a maneira como aliados, rivais e organizações enxergam este personagem. Seus bônus são permanentes na ficha e não substituem treinamento, experiência ou habilidades.",
+        "bonuses": {
+          "FOR": 2,
+          "PER": 17
+        },
+        "bonus_text": "+2 FOR • +17 PER"
+      },
+      {
+        "id": "TIT-05",
+        "name": "O Gênio Improvável",
+        "rarity": "Comum",
+        "weight": 1,
+        "description": "Título conquistado por feitos reconhecidos em diferentes regiões. O Gênio Improvável representa uma reputação que influencia a maneira como aliados, rivais e organizações enxergam este personagem. Seus bônus são permanentes na ficha e não substituem treinamento, experiência ou habilidades.",
+        "bonuses": {
+          "RES": 9,
+          "MAN": 8
+        },
+        "bonus_text": "+9 RES • +8 MAN"
+      },
+      {
+        "id": "TIT-06",
+        "name": "A Lâmina Silenciosa",
+        "rarity": "Comum",
+        "weight": 1,
+        "description": "Título conquistado por feitos reconhecidos em diferentes regiões. A Lâmina Silenciosa representa uma reputação que influencia a maneira como aliados, rivais e organizações enxergam este personagem. Seus bônus são permanentes na ficha e não substituem treinamento, experiência ou habilidades.",
+        "bonuses": {
+          "EQU": 16,
+          "FOR": 19
+        },
+        "bonus_text": "+16 EQU • +19 FOR"
+      },
+      {
+        "id": "TIT-07",
+        "name": "O Portador do Eclipse",
+        "rarity": "Comum",
+        "weight": 1,
+        "description": "Título conquistado por feitos reconhecidos em diferentes regiões. O Portador do Eclipse representa uma reputação que influencia a maneira como aliados, rivais e organizações enxergam este personagem. Seus bônus são permanentes na ficha e não substituem treinamento, experiência ou habilidades.",
+        "bonuses": {
+          "FOR": 3,
+          "AGI": 10
+        },
+        "bonus_text": "+3 FOR • +10 AGI"
+      },
+      {
+        "id": "TIT-08",
+        "name": "A Fênix Renascida",
+        "rarity": "Comum",
+        "weight": 1,
+        "description": "Título conquistado por feitos reconhecidos em diferentes regiões. A Fênix Renascida representa uma reputação que influencia a maneira como aliados, rivais e organizações enxergam este personagem. Seus bônus são permanentes na ficha e não substituem treinamento, experiência ou habilidades.",
+        "bonuses": {
+          "RES": 10,
+          "QI": 1
+        },
+        "bonus_text": "+10 RES • +1 QI"
+      },
+      {
+        "id": "TIT-09",
+        "name": "O Herdeiro do Vazio",
+        "rarity": "Comum",
+        "weight": 1,
+        "description": "Título conquistado por feitos reconhecidos em diferentes regiões. O Herdeiro do Vazio representa uma reputação que influencia a maneira como aliados, rivais e organizações enxergam este personagem. Seus bônus são permanentes na ficha e não substituem treinamento, experiência ou habilidades.",
+        "bonuses": {
+          "EQU": 17
+        },
+        "bonus_text": "+17 EQU"
+      },
+      {
+        "id": "TIT-10",
+        "name": "O Santo das Ruínas",
+        "rarity": "Incomum",
+        "weight": 1,
+        "description": "Título conquistado por feitos reconhecidos em diferentes regiões. O Santo das Ruínas representa uma reputação que influencia a maneira como aliados, rivais e organizações enxergam este personagem. Seus bônus são permanentes na ficha e não substituem treinamento, experiência ou habilidades.",
+        "bonuses": {
+          "FOR": 4,
+          "VEL": 3
+        },
+        "bonus_text": "+4 FOR • +3 VEL"
+      },
+      {
+        "id": "TIT-11",
+        "name": "O Rei Sem Trono",
+        "rarity": "Incomum",
+        "weight": 1,
+        "description": "Título conquistado por feitos reconhecidos em diferentes regiões. O Rei Sem Trono representa uma reputação que influencia a maneira como aliados, rivais e organizações enxergam este personagem. Seus bônus são permanentes na ficha e não substituem treinamento, experiência ou habilidades.",
+        "bonuses": {
+          "RES": 11,
+          "ENE": 14
+        },
+        "bonus_text": "+11 RES • +14 ENE"
+      },
+      {
+        "id": "TIT-12",
+        "name": "A Tempestade Errante",
+        "rarity": "Incomum",
+        "weight": 1,
+        "description": "Título conquistado por feitos reconhecidos em diferentes regiões. A Tempestade Errante representa uma reputação que influencia a maneira como aliados, rivais e organizações enxergam este personagem. Seus bônus são permanentes na ficha e não substituem treinamento, experiência ou habilidades.",
+        "bonuses": {
+          "EQU": 18,
+          "RES": 5
+        },
+        "bonus_text": "+18 EQU • +5 RES"
+      },
+      {
+        "id": "TIT-13",
+        "name": "O Caçador de Deuses",
+        "rarity": "Incomum",
+        "weight": 1,
+        "description": "Título conquistado por feitos reconhecidos em diferentes regiões. O Caçador de Deuses representa uma reputação que influencia a maneira como aliados, rivais e organizações enxergam este personagem. Seus bônus são permanentes na ficha e não substituem treinamento, experiência ou habilidades.",
+        "bonuses": {
+          "FOR": 5,
+          "PER": 16
+        },
+        "bonus_text": "+5 FOR • +16 PER"
+      },
+      {
+        "id": "TIT-14",
+        "name": "O Punho de Ferro",
+        "rarity": "Incomum",
+        "weight": 1,
+        "description": "Título conquistado por feitos reconhecidos em diferentes regiões. O Punho de Ferro representa uma reputação que influencia a maneira como aliados, rivais e organizações enxergam este personagem. Seus bônus são permanentes na ficha e não substituem treinamento, experiência ou habilidades.",
+        "bonuses": {
+          "RES": 12,
+          "MAN": 7
+        },
+        "bonus_text": "+12 RES • +7 MAN"
+      },
+      {
+        "id": "TIT-15",
+        "name": "A Voz do Abismo",
+        "rarity": "Incomum",
+        "weight": 1,
+        "description": "Título conquistado por feitos reconhecidos em diferentes regiões. A Voz do Abismo representa uma reputação que influencia a maneira como aliados, rivais e organizações enxergam este personagem. Seus bônus são permanentes na ficha e não substituem treinamento, experiência ou habilidades.",
+        "bonuses": {
+          "EQU": 19,
+          "FOR": 18
+        },
+        "bonus_text": "+19 EQU • +18 FOR"
+      },
+      {
+        "id": "TIT-16",
+        "name": "O Estrategista Supremo",
+        "rarity": "Incomum",
+        "weight": 1,
+        "description": "Título conquistado por feitos reconhecidos em diferentes regiões. O Estrategista Supremo representa uma reputação que influencia a maneira como aliados, rivais e organizações enxergam este personagem. Seus bônus são permanentes na ficha e não substituem treinamento, experiência ou habilidades.",
+        "bonuses": {
+          "FOR": 6,
+          "AGI": 9
+        },
+        "bonus_text": "+6 FOR • +9 AGI"
+      },
+      {
+        "id": "TIT-17",
+        "name": "A Estrela Caída",
+        "rarity": "Incomum",
+        "weight": 1,
+        "description": "Título conquistado por feitos reconhecidos em diferentes regiões. A Estrela Caída representa uma reputação que influencia a maneira como aliados, rivais e organizações enxergam este personagem. Seus bônus são permanentes na ficha e não substituem treinamento, experiência ou habilidades.",
+        "bonuses": {
+          "RES": 13,
+          "QI": 20
+        },
+        "bonus_text": "+13 RES • +20 QI"
+      },
+      {
+        "id": "TIT-18",
+        "name": "O Guardião Eterno",
+        "rarity": "Incomum",
+        "weight": 1,
+        "description": "Título conquistado por feitos reconhecidos em diferentes regiões. O Guardião Eterno representa uma reputação que influencia a maneira como aliados, rivais e organizações enxergam este personagem. Seus bônus são permanentes na ficha e não substituem treinamento, experiência ou habilidades.",
+        "bonuses": {
+          "EQU": 20
+        },
+        "bonus_text": "+20 EQU"
+      },
+      {
+        "id": "TIT-19",
+        "name": "O Pecado Original",
+        "rarity": "Raro",
+        "weight": 1,
+        "description": "Título conquistado por feitos reconhecidos em diferentes regiões. O Pecado Original representa uma reputação que influencia a maneira como aliados, rivais e organizações enxergam este personagem. Seus bônus são permanentes na ficha e não substituem treinamento, experiência ou habilidades.",
+        "bonuses": {
+          "FOR": 7,
+          "VEL": 2
+        },
+        "bonus_text": "+7 FOR • +2 VEL"
+      },
+      {
+        "id": "TIT-20",
+        "name": "A Besta Coroada",
+        "rarity": "Raro",
+        "weight": 1,
+        "description": "Título conquistado por feitos reconhecidos em diferentes regiões. A Besta Coroada representa uma reputação que influencia a maneira como aliados, rivais e organizações enxergam este personagem. Seus bônus são permanentes na ficha e não substituem treinamento, experiência ou habilidades.",
+        "bonuses": {
+          "RES": 14,
+          "ENE": 13
+        },
+        "bonus_text": "+14 RES • +13 ENE"
+      },
+      {
+        "id": "TIT-21",
+        "name": "O Salvador Improvável",
+        "rarity": "Raro",
+        "weight": 1,
+        "description": "Título conquistado por feitos reconhecidos em diferentes regiões. O Salvador Improvável representa uma reputação que influencia a maneira como aliados, rivais e organizações enxergam este personagem. Seus bônus são permanentes na ficha e não substituem treinamento, experiência ou habilidades.",
+        "bonuses": {
+          "EQU": 1,
+          "RES": 4
+        },
+        "bonus_text": "+1 EQU • +4 RES"
+      },
+      {
+        "id": "TIT-22",
+        "name": "O Senhor das Chamas",
+        "rarity": "Raro",
+        "weight": 1,
+        "description": "Título conquistado por feitos reconhecidos em diferentes regiões. O Senhor das Chamas representa uma reputação que influencia a maneira como aliados, rivais e organizações enxergam este personagem. Seus bônus são permanentes na ficha e não substituem treinamento, experiência ou habilidades.",
+        "bonuses": {
+          "FOR": 8,
+          "PER": 15
+        },
+        "bonus_text": "+8 FOR • +15 PER"
+      },
+      {
+        "id": "TIT-23",
+        "name": "O Fantasma de Guerra",
+        "rarity": "Raro",
+        "weight": 1,
+        "description": "Título conquistado por feitos reconhecidos em diferentes regiões. O Fantasma de Guerra representa uma reputação que influencia a maneira como aliados, rivais e organizações enxergam este personagem. Seus bônus são permanentes na ficha e não substituem treinamento, experiência ou habilidades.",
+        "bonuses": {
+          "RES": 15,
+          "MAN": 6
+        },
+        "bonus_text": "+15 RES • +6 MAN"
+      },
+      {
+        "id": "TIT-24",
+        "name": "O Arquiteto do Caos",
+        "rarity": "Raro",
+        "weight": 1,
+        "description": "Título conquistado por feitos reconhecidos em diferentes regiões. O Arquiteto do Caos representa uma reputação que influencia a maneira como aliados, rivais e organizações enxergam este personagem. Seus bônus são permanentes na ficha e não substituem treinamento, experiência ou habilidades.",
+        "bonuses": {
+          "EQU": 2,
+          "FOR": 17
+        },
+        "bonus_text": "+2 EQU • +17 FOR"
+      },
+      {
+        "id": "TIT-25",
+        "name": "A Coroa Partida",
+        "rarity": "Raro",
+        "weight": 1,
+        "description": "Título conquistado por feitos reconhecidos em diferentes regiões. A Coroa Partida representa uma reputação que influencia a maneira como aliados, rivais e organizações enxergam este personagem. Seus bônus são permanentes na ficha e não substituem treinamento, experiência ou habilidades.",
+        "bonuses": {
+          "FOR": 9,
+          "AGI": 8
+        },
+        "bonus_text": "+9 FOR • +8 AGI"
+      },
+      {
+        "id": "TIT-26",
+        "name": "O Último Dragão",
+        "rarity": "Raro",
+        "weight": 1,
+        "description": "Título conquistado por feitos reconhecidos em diferentes regiões. O Último Dragão representa uma reputação que influencia a maneira como aliados, rivais e organizações enxergam este personagem. Seus bônus são permanentes na ficha e não substituem treinamento, experiência ou habilidades.",
+        "bonuses": {
+          "RES": 16,
+          "QI": 19
+        },
+        "bonus_text": "+16 RES • +19 QI"
+      },
+      {
+        "id": "TIT-27",
+        "name": "O Oráculo de Guerra",
+        "rarity": "Raro",
+        "weight": 1,
+        "description": "Título conquistado por feitos reconhecidos em diferentes regiões. O Oráculo de Guerra representa uma reputação que influencia a maneira como aliados, rivais e organizações enxergam este personagem. Seus bônus são permanentes na ficha e não substituem treinamento, experiência ou habilidades.",
+        "bonuses": {
+          "EQU": 3
+        },
+        "bonus_text": "+3 EQU"
+      },
+      {
+        "id": "TIT-28",
+        "name": "O Tirano Benevolente",
+        "rarity": "Épico",
+        "weight": 1,
+        "description": "Título conquistado por feitos reconhecidos em diferentes regiões. O Tirano Benevolente representa uma reputação que influencia a maneira como aliados, rivais e organizações enxergam este personagem. Seus bônus são permanentes na ficha e não substituem treinamento, experiência ou habilidades.",
+        "bonuses": {
+          "FOR": 10,
+          "VEL": 1
+        },
+        "bonus_text": "+10 FOR • +1 VEL"
+      },
+      {
+        "id": "TIT-29",
+        "name": "O Viajante Imortal",
+        "rarity": "Épico",
+        "weight": 1,
+        "description": "Título conquistado por feitos reconhecidos em diferentes regiões. O Viajante Imortal representa uma reputação que influencia a maneira como aliados, rivais e organizações enxergam este personagem. Seus bônus são permanentes na ficha e não substituem treinamento, experiência ou habilidades.",
+        "bonuses": {
+          "RES": 17,
+          "ENE": 12
+        },
+        "bonus_text": "+17 RES • +12 ENE"
+      },
+      {
+        "id": "TIT-30",
+        "name": "A Mão do Destino",
+        "rarity": "Épico",
+        "weight": 1,
+        "description": "Título conquistado por feitos reconhecidos em diferentes regiões. A Mão do Destino representa uma reputação que influencia a maneira como aliados, rivais e organizações enxergam este personagem. Seus bônus são permanentes na ficha e não substituem treinamento, experiência ou habilidades.",
+        "bonuses": {
+          "EQU": 4,
+          "RES": 3
+        },
+        "bonus_text": "+4 EQU • +3 RES"
+      },
+      {
+        "id": "TIT-31",
+        "name": "O Devorador de Lendas",
+        "rarity": "Épico",
+        "weight": 1,
+        "description": "Título conquistado por feitos reconhecidos em diferentes regiões. O Devorador de Lendas representa uma reputação que influencia a maneira como aliados, rivais e organizações enxergam este personagem. Seus bônus são permanentes na ficha e não substituem treinamento, experiência ou habilidades.",
+        "bonuses": {
+          "FOR": 11,
+          "PER": 14
+        },
+        "bonus_text": "+11 FOR • +14 PER"
+      },
+      {
+        "id": "TIT-32",
+        "name": "O Herói Esquecido",
+        "rarity": "Épico",
+        "weight": 1,
+        "description": "Título conquistado por feitos reconhecidos em diferentes regiões. O Herói Esquecido representa uma reputação que influencia a maneira como aliados, rivais e organizações enxergam este personagem. Seus bônus são permanentes na ficha e não substituem treinamento, experiência ou habilidades.",
+        "bonuses": {
+          "RES": 18,
+          "MAN": 5
+        },
+        "bonus_text": "+18 RES • +5 MAN"
+      },
+      {
+        "id": "TIT-33",
+        "name": "O Carrasco Celestial",
+        "rarity": "Épico",
+        "weight": 1,
+        "description": "Título conquistado por feitos reconhecidos em diferentes regiões. O Carrasco Celestial representa uma reputação que influencia a maneira como aliados, rivais e organizações enxergam este personagem. Seus bônus são permanentes na ficha e não substituem treinamento, experiência ou habilidades.",
+        "bonuses": {
+          "EQU": 5,
+          "FOR": 16
+        },
+        "bonus_text": "+5 EQU • +16 FOR"
+      },
+      {
+        "id": "TIT-34",
+        "name": "A Sombra do Trono",
+        "rarity": "Épico",
+        "weight": 1,
+        "description": "Título conquistado por feitos reconhecidos em diferentes regiões. A Sombra do Trono representa uma reputação que influencia a maneira como aliados, rivais e organizações enxergam este personagem. Seus bônus são permanentes na ficha e não substituem treinamento, experiência ou habilidades.",
+        "bonuses": {
+          "FOR": 12,
+          "AGI": 7
+        },
+        "bonus_text": "+12 FOR • +7 AGI"
+      },
+      {
+        "id": "TIT-35",
+        "name": "O Coração de Aço",
+        "rarity": "Épico",
+        "weight": 1,
+        "description": "Título conquistado por feitos reconhecidos em diferentes regiões. O Coração de Aço representa uma reputação que influencia a maneira como aliados, rivais e organizações enxergam este personagem. Seus bônus são permanentes na ficha e não substituem treinamento, experiência ou habilidades.",
+        "bonuses": {
+          "RES": 19,
+          "QI": 18
+        },
+        "bonus_text": "+19 RES • +18 QI"
+      },
+      {
+        "id": "TIT-36",
+        "name": "O Monarca Carmesim",
+        "rarity": "Épico",
+        "weight": 1,
+        "description": "Título conquistado por feitos reconhecidos em diferentes regiões. O Monarca Carmesim representa uma reputação que influencia a maneira como aliados, rivais e organizações enxergam este personagem. Seus bônus são permanentes na ficha e não substituem treinamento, experiência ou habilidades.",
+        "bonuses": {
+          "EQU": 6
+        },
+        "bonus_text": "+6 EQU"
+      },
+      {
+        "id": "TIT-37",
+        "name": "O Profeta Cego",
+        "rarity": "Lendário",
+        "weight": 1,
+        "description": "Título conquistado por feitos reconhecidos em diferentes regiões. O Profeta Cego representa uma reputação que influencia a maneira como aliados, rivais e organizações enxergam este personagem. Seus bônus são permanentes na ficha e não substituem treinamento, experiência ou habilidades.",
+        "bonuses": {
+          "FOR": 13,
+          "VEL": 20
+        },
+        "bonus_text": "+13 FOR • +20 VEL"
+      },
+      {
+        "id": "TIT-38",
+        "name": "O General das Mil Batalhas",
+        "rarity": "Lendário",
+        "weight": 1,
+        "description": "Título conquistado por feitos reconhecidos em diferentes regiões. O General das Mil Batalhas representa uma reputação que influencia a maneira como aliados, rivais e organizações enxergam este personagem. Seus bônus são permanentes na ficha e não substituem treinamento, experiência ou habilidades.",
+        "bonuses": {
+          "RES": 20,
+          "ENE": 11
+        },
+        "bonus_text": "+20 RES • +11 ENE"
+      },
+      {
+        "id": "TIT-39",
+        "name": "O Sobrevivente",
+        "rarity": "Lendário",
+        "weight": 1,
+        "description": "Título conquistado por feitos reconhecidos em diferentes regiões. O Sobrevivente representa uma reputação que influencia a maneira como aliados, rivais e organizações enxergam este personagem. Seus bônus são permanentes na ficha e não substituem treinamento, experiência ou habilidades.",
+        "bonuses": {
+          "EQU": 7,
+          "RES": 2
+        },
+        "bonus_text": "+7 EQU • +2 RES"
+      },
+      {
+        "id": "TIT-40",
+        "name": "A Ruína dos Imortais",
+        "rarity": "Lendário",
+        "weight": 1,
+        "description": "Título conquistado por feitos reconhecidos em diferentes regiões. A Ruína dos Imortais representa uma reputação que influencia a maneira como aliados, rivais e organizações enxergam este personagem. Seus bônus são permanentes na ficha e não substituem treinamento, experiência ou habilidades.",
+        "bonuses": {
+          "FOR": 14,
+          "PER": 13
+        },
+        "bonus_text": "+14 FOR • +13 PER"
+      },
+      {
+        "id": "TIT-41",
+        "name": "O Príncipe das Cinzas",
+        "rarity": "Lendário",
+        "weight": 1,
+        "description": "Título conquistado por feitos reconhecidos em diferentes regiões. O Príncipe das Cinzas representa uma reputação que influencia a maneira como aliados, rivais e organizações enxergam este personagem. Seus bônus são permanentes na ficha e não substituem treinamento, experiência ou habilidades.",
+        "bonuses": {
+          "RES": 1,
+          "MAN": 4
+        },
+        "bonus_text": "+1 RES • +4 MAN"
+      },
+      {
+        "id": "TIT-42",
+        "name": "O Lobo Solitário",
+        "rarity": "Lendário",
+        "weight": 1,
+        "description": "Título conquistado por feitos reconhecidos em diferentes regiões. O Lobo Solitário representa uma reputação que influencia a maneira como aliados, rivais e organizações enxergam este personagem. Seus bônus são permanentes na ficha e não substituem treinamento, experiência ou habilidades.",
+        "bonuses": {
+          "EQU": 8,
+          "FOR": 15
+        },
+        "bonus_text": "+8 EQU • +15 FOR"
+      },
+      {
+        "id": "TIT-43",
+        "name": "O Campeão das Fronteiras",
+        "rarity": "Lendário",
+        "weight": 1,
+        "description": "Título conquistado por feitos reconhecidos em diferentes regiões. O Campeão das Fronteiras representa uma reputação que influencia a maneira como aliados, rivais e organizações enxergam este personagem. Seus bônus são permanentes na ficha e não substituem treinamento, experiência ou habilidades.",
+        "bonuses": {
+          "FOR": 15,
+          "AGI": 6
+        },
+        "bonus_text": "+15 FOR • +6 AGI"
+      },
+      {
+        "id": "TIT-44",
+        "name": "O Feiticeiro Primordial",
+        "rarity": "Lendário",
+        "weight": 1,
+        "description": "Título conquistado por feitos reconhecidos em diferentes regiões. O Feiticeiro Primordial representa uma reputação que influencia a maneira como aliados, rivais e organizações enxergam este personagem. Seus bônus são permanentes na ficha e não substituem treinamento, experiência ou habilidades.",
+        "bonuses": {
+          "RES": 2,
+          "QI": 17
+        },
+        "bonus_text": "+2 RES • +17 QI"
+      },
+      {
+        "id": "TIT-45",
+        "name": "A Ira dos Antigos",
+        "rarity": "Lendário",
+        "weight": 1,
+        "description": "Título conquistado por feitos reconhecidos em diferentes regiões. A Ira dos Antigos representa uma reputação que influencia a maneira como aliados, rivais e organizações enxergam este personagem. Seus bônus são permanentes na ficha e não substituem treinamento, experiência ou habilidades.",
+        "bonuses": {
+          "EQU": 9
+        },
+        "bonus_text": "+9 EQU"
+      },
+      {
+        "id": "TIT-46",
+        "name": "O Rei das Feras",
+        "rarity": "Mítico",
+        "weight": 1,
+        "description": "Título conquistado por feitos reconhecidos em diferentes regiões. O Rei das Feras representa uma reputação que influencia a maneira como aliados, rivais e organizações enxergam este personagem. Seus bônus são permanentes na ficha e não substituem treinamento, experiência ou habilidades.",
+        "bonuses": {
+          "FOR": 16,
+          "VEL": 19
+        },
+        "bonus_text": "+16 FOR • +19 VEL"
+      },
+      {
+        "id": "TIT-47",
+        "name": "O Escolhido Imperfeito",
+        "rarity": "Mítico",
+        "weight": 1,
+        "description": "Título conquistado por feitos reconhecidos em diferentes regiões. O Escolhido Imperfeito representa uma reputação que influencia a maneira como aliados, rivais e organizações enxergam este personagem. Seus bônus são permanentes na ficha e não substituem treinamento, experiência ou habilidades.",
+        "bonuses": {
+          "RES": 3,
+          "ENE": 10
+        },
+        "bonus_text": "+3 RES • +10 ENE"
+      },
+      {
+        "id": "TIT-48",
+        "name": "O Quebrador de Correntes",
+        "rarity": "Mítico",
+        "weight": 1,
+        "description": "Título conquistado por feitos reconhecidos em diferentes regiões. O Quebrador de Correntes representa uma reputação que influencia a maneira como aliados, rivais e organizações enxergam este personagem. Seus bônus são permanentes na ficha e não substituem treinamento, experiência ou habilidades.",
+        "bonuses": {
+          "EQU": 10,
+          "RES": 1
+        },
+        "bonus_text": "+10 EQU • +1 RES"
+      },
+      {
+        "id": "TIT-49",
+        "name": "O Senhor do Horizonte",
+        "rarity": "Mítico",
+        "weight": 1,
+        "description": "Título conquistado por feitos reconhecidos em diferentes regiões. O Senhor do Horizonte representa uma reputação que influencia a maneira como aliados, rivais e organizações enxergam este personagem. Seus bônus são permanentes na ficha e não substituem treinamento, experiência ou habilidades.",
+        "bonuses": {
+          "FOR": 17,
+          "PER": 12
+        },
+        "bonus_text": "+17 FOR • +12 PER"
+      },
+      {
+        "id": "TIT-50",
+        "name": "A Lenda Viva",
+        "rarity": "Mítico",
+        "weight": 1,
+        "description": "Título conquistado por feitos reconhecidos em diferentes regiões. A Lenda Viva representa uma reputação que influencia a maneira como aliados, rivais e organizações enxergam este personagem. Seus bônus são permanentes na ficha e não substituem treinamento, experiência ou habilidades.",
+        "bonuses": {
+          "RES": 4,
+          "MAN": 3
+        },
+        "bonus_text": "+4 RES • +3 MAN"
+      }
+    ],
+    "powerCount": [
+      {
+        "id": "QTD-1",
+        "name": "1 poder",
+        "rarity": "Comum",
+        "weight": 5,
+        "count": 1,
+        "description": "O personagem terá 1 poder(es) na ficha."
+      },
+      {
+        "id": "QTD-2",
+        "name": "2 poderes",
+        "rarity": "Comum",
+        "weight": 4,
+        "count": 2,
+        "description": "O personagem terá 2 poder(es) na ficha."
+      },
+      {
+        "id": "QTD-3",
+        "name": "3 poderes",
+        "rarity": "Raro",
+        "weight": 3,
+        "count": 3,
+        "description": "O personagem terá 3 poder(es) na ficha."
+      },
+      {
+        "id": "QTD-4",
+        "name": "4 poderes",
+        "rarity": "Raro",
+        "weight": 2,
+        "count": 4,
+        "description": "O personagem terá 4 poder(es) na ficha."
+      },
+      {
+        "id": "QTD-5",
+        "name": "5 poderes",
+        "rarity": "Raro",
+        "weight": 1,
+        "count": 5,
+        "description": "O personagem terá 5 poder(es) na ficha."
+      }
+    ],
+    "alignment": [
+      {
+        "id": "ALN-01",
+        "name": "Herói",
+        "rarity": "Alinhamento",
+        "weight": 1,
+        "description": "Age para proteger, salvar ou defender um ideal. Suas decisões podem ser controversas, mas sua intenção central é ajudar."
+      },
+      {
+        "id": "ALN-02",
+        "name": "Anti-herói",
+        "rarity": "Alinhamento",
+        "weight": 1,
+        "description": "Busca objetivos próprios e aceita métodos questionáveis. Pode salvar alguém hoje e desafiar o mundo amanhã."
+      },
+      {
+        "id": "ALN-03",
+        "name": "Vilão",
+        "rarity": "Alinhamento",
+        "weight": 1,
+        "description": "Coloca sua ambição, ideologia ou desejo acima das convenções morais. Não precisa ser cruel em todas as situações."
+      }
+    ],
+    "origin": [
+      {
+        "id": "ORG-01",
+        "name": "Órfão de guerra",
+        "rarity": "Comum",
+        "weight": 1,
+        "description": "Origem: Órfão de guerra. Este passado influencia os vínculos, os conhecimentos e as oportunidades que o personagem encontrou antes de iniciar sua jornada. Não determina seu destino: decisões futuras ainda podem transformar sua história."
+      },
+      {
+        "id": "ORG-02",
+        "name": "Nascido em uma cidade-estado",
+        "rarity": "Comum",
+        "weight": 1,
+        "description": "Origem: Nascido em uma cidade-estado. Este passado influencia os vínculos, os conhecimentos e as oportunidades que o personagem encontrou antes de iniciar sua jornada. Não determina seu destino: decisões futuras ainda podem transformar sua história."
+      },
+      {
+        "id": "ORG-03",
+        "name": "Herança de uma família caída",
+        "rarity": "Comum",
+        "weight": 1,
+        "description": "Origem: Herança de uma família caída. Este passado influencia os vínculos, os conhecimentos e as oportunidades que o personagem encontrou antes de iniciar sua jornada. Não determina seu destino: decisões futuras ainda podem transformar sua história."
+      },
+      {
+        "id": "ORG-04",
+        "name": "Criado por mercadores itinerantes",
+        "rarity": "Comum",
+        "weight": 1,
+        "description": "Origem: Criado por mercadores itinerantes. Este passado influencia os vínculos, os conhecimentos e as oportunidades que o personagem encontrou antes de iniciar sua jornada. Não determina seu destino: decisões futuras ainda podem transformar sua história."
+      },
+      {
+        "id": "ORG-05",
+        "name": "Sobrevivente de uma expedição",
+        "rarity": "Comum",
+        "weight": 1,
+        "description": "Origem: Sobrevivente de uma expedição. Este passado influencia os vínculos, os conhecimentos e as oportunidades que o personagem encontrou antes de iniciar sua jornada. Não determina seu destino: decisões futuras ainda podem transformar sua história."
+      },
+      {
+        "id": "ORG-06",
+        "name": "Discípulo de uma ordem antiga",
+        "rarity": "Comum",
+        "weight": 1,
+        "description": "Origem: Discípulo de uma ordem antiga. Este passado influencia os vínculos, os conhecimentos e as oportunidades que o personagem encontrou antes de iniciar sua jornada. Não determina seu destino: decisões futuras ainda podem transformar sua história."
+      },
+      {
+        "id": "ORG-07",
+        "name": "Exilado de seu próprio povo",
+        "rarity": "Comum",
+        "weight": 1,
+        "description": "Origem: Exilado de seu próprio povo. Este passado influencia os vínculos, os conhecimentos e as oportunidades que o personagem encontrou antes de iniciar sua jornada. Não determina seu destino: decisões futuras ainda podem transformar sua história."
+      },
+      {
+        "id": "ORG-08",
+        "name": "Criado nas fronteiras",
+        "rarity": "Comum",
+        "weight": 1,
+        "description": "Origem: Criado nas fronteiras. Este passado influencia os vínculos, os conhecimentos e as oportunidades que o personagem encontrou antes de iniciar sua jornada. Não determina seu destino: decisões futuras ainda podem transformar sua história."
+      },
+      {
+        "id": "ORG-09",
+        "name": "Filho de uma pesquisadora",
+        "rarity": "Comum",
+        "weight": 1,
+        "description": "Origem: Filho de uma pesquisadora. Este passado influencia os vínculos, os conhecimentos e as oportunidades que o personagem encontrou antes de iniciar sua jornada. Não determina seu destino: decisões futuras ainda podem transformar sua história."
+      },
+      {
+        "id": "ORG-10",
+        "name": "Fugitivo de uma prisão",
+        "rarity": "Comum",
+        "weight": 1,
+        "description": "Origem: Fugitivo de uma prisão. Este passado influencia os vínculos, os conhecimentos e as oportunidades que o personagem encontrou antes de iniciar sua jornada. Não determina seu destino: decisões futuras ainda podem transformar sua história."
+      },
+      {
+        "id": "ORG-11",
+        "name": "Nascido em uma ilha isolada",
+        "rarity": "Raro",
+        "weight": 1,
+        "description": "Origem: Nascido em uma ilha isolada. Este passado influencia os vínculos, os conhecimentos e as oportunidades que o personagem encontrou antes de iniciar sua jornada. Não determina seu destino: decisões futuras ainda podem transformar sua história."
+      },
+      {
+        "id": "ORG-12",
+        "name": "Aprendiz de um artesão lendário",
+        "rarity": "Raro",
+        "weight": 1,
+        "description": "Origem: Aprendiz de um artesão lendário. Este passado influencia os vínculos, os conhecimentos e as oportunidades que o personagem encontrou antes de iniciar sua jornada. Não determina seu destino: decisões futuras ainda podem transformar sua história."
+      },
+      {
+        "id": "ORG-13",
+        "name": "Antigo protegido da nobreza",
+        "rarity": "Raro",
+        "weight": 1,
+        "description": "Origem: Antigo protegido da nobreza. Este passado influencia os vínculos, os conhecimentos e as oportunidades que o personagem encontrou antes de iniciar sua jornada. Não determina seu destino: decisões futuras ainda podem transformar sua história."
+      },
+      {
+        "id": "ORG-14",
+        "name": "Criado por uma comunidade rural",
+        "rarity": "Raro",
+        "weight": 1,
+        "description": "Origem: Criado por uma comunidade rural. Este passado influencia os vínculos, os conhecimentos e as oportunidades que o personagem encontrou antes de iniciar sua jornada. Não determina seu destino: decisões futuras ainda podem transformar sua história."
+      },
+      {
+        "id": "ORG-15",
+        "name": "Sobrevivente de um desastre mágico",
+        "rarity": "Raro",
+        "weight": 1,
+        "description": "Origem: Sobrevivente de um desastre mágico. Este passado influencia os vínculos, os conhecimentos e as oportunidades que o personagem encontrou antes de iniciar sua jornada. Não determina seu destino: decisões futuras ainda podem transformar sua história."
+      },
+      {
+        "id": "ORG-16",
+        "name": "Descendente de exploradores",
+        "rarity": "Raro",
+        "weight": 1,
+        "description": "Origem: Descendente de exploradores. Este passado influencia os vínculos, os conhecimentos e as oportunidades que o personagem encontrou antes de iniciar sua jornada. Não determina seu destino: decisões futuras ainda podem transformar sua história."
+      },
+      {
+        "id": "ORG-17",
+        "name": "Ex-membro de uma guilda",
+        "rarity": "Raro",
+        "weight": 1,
+        "description": "Origem: Ex-membro de uma guilda. Este passado influencia os vínculos, os conhecimentos e as oportunidades que o personagem encontrou antes de iniciar sua jornada. Não determina seu destino: decisões futuras ainda podem transformar sua história."
+      },
+      {
+        "id": "ORG-18",
+        "name": "Criado em um templo",
+        "rarity": "Raro",
+        "weight": 1,
+        "description": "Origem: Criado em um templo. Este passado influencia os vínculos, os conhecimentos e as oportunidades que o personagem encontrou antes de iniciar sua jornada. Não determina seu destino: decisões futuras ainda podem transformar sua história."
+      },
+      {
+        "id": "ORG-19",
+        "name": "Vindo de uma colônia distante",
+        "rarity": "Raro",
+        "weight": 1,
+        "description": "Origem: Vindo de uma colônia distante. Este passado influencia os vínculos, os conhecimentos e as oportunidades que o personagem encontrou antes de iniciar sua jornada. Não determina seu destino: decisões futuras ainda podem transformar sua história."
+      },
+      {
+        "id": "ORG-20",
+        "name": "Herança desconhecida",
+        "rarity": "Raro",
+        "weight": 1,
+        "description": "Origem: Herança desconhecida. Este passado influencia os vínculos, os conhecimentos e as oportunidades que o personagem encontrou antes de iniciar sua jornada. Não determina seu destino: decisões futuras ainda podem transformar sua história."
+      },
+      {
+        "id": "ORG-21",
+        "name": "Filho de diplomatas",
+        "rarity": "Raro",
+        "weight": 1,
+        "description": "Origem: Filho de diplomatas. Este passado influencia os vínculos, os conhecimentos e as oportunidades que o personagem encontrou antes de iniciar sua jornada. Não determina seu destino: decisões futuras ainda podem transformar sua história."
+      },
+      {
+        "id": "ORG-22",
+        "name": "Exilado de uma academia",
+        "rarity": "Raro",
+        "weight": 1,
+        "description": "Origem: Exilado de uma academia. Este passado influencia os vínculos, os conhecimentos e as oportunidades que o personagem encontrou antes de iniciar sua jornada. Não determina seu destino: decisões futuras ainda podem transformar sua história."
+      },
+      {
+        "id": "ORG-23",
+        "name": "Criado entre duas culturas",
+        "rarity": "Épico",
+        "weight": 1,
+        "description": "Origem: Criado entre duas culturas. Este passado influencia os vínculos, os conhecimentos e as oportunidades que o personagem encontrou antes de iniciar sua jornada. Não determina seu destino: decisões futuras ainda podem transformar sua história."
+      },
+      {
+        "id": "ORG-24",
+        "name": "Sobrevivente de uma epidemia",
+        "rarity": "Épico",
+        "weight": 1,
+        "description": "Origem: Sobrevivente de uma epidemia. Este passado influencia os vínculos, os conhecimentos e as oportunidades que o personagem encontrou antes de iniciar sua jornada. Não determina seu destino: decisões futuras ainda podem transformar sua história."
+      },
+      {
+        "id": "ORG-25",
+        "name": "Nascido em território ocupado",
+        "rarity": "Épico",
+        "weight": 1,
+        "description": "Origem: Nascido em território ocupado. Este passado influencia os vínculos, os conhecimentos e as oportunidades que o personagem encontrou antes de iniciar sua jornada. Não determina seu destino: decisões futuras ainda podem transformar sua história."
+      },
+      {
+        "id": "ORG-26",
+        "name": "Antigo mensageiro",
+        "rarity": "Épico",
+        "weight": 1,
+        "description": "Origem: Antigo mensageiro. Este passado influencia os vínculos, os conhecimentos e as oportunidades que o personagem encontrou antes de iniciar sua jornada. Não determina seu destino: decisões futuras ainda podem transformar sua história."
+      },
+      {
+        "id": "ORG-27",
+        "name": "Criado por uma fera sábia",
+        "rarity": "Épico",
+        "weight": 1,
+        "description": "Origem: Criado por uma fera sábia. Este passado influencia os vínculos, os conhecimentos e as oportunidades que o personagem encontrou antes de iniciar sua jornada. Não determina seu destino: decisões futuras ainda podem transformar sua história."
+      },
+      {
+        "id": "ORG-28",
+        "name": "Filho de um aventureiro",
+        "rarity": "Épico",
+        "weight": 1,
+        "description": "Origem: Filho de um aventureiro. Este passado influencia os vínculos, os conhecimentos e as oportunidades que o personagem encontrou antes de iniciar sua jornada. Não determina seu destino: decisões futuras ainda podem transformar sua história."
+      },
+      {
+        "id": "ORG-29",
+        "name": "Refugiado sem pátria",
+        "rarity": "Épico",
+        "weight": 1,
+        "description": "Origem: Refugiado sem pátria. Este passado influencia os vínculos, os conhecimentos e as oportunidades que o personagem encontrou antes de iniciar sua jornada. Não determina seu destino: decisões futuras ainda podem transformar sua história."
+      },
+      {
+        "id": "ORG-30",
+        "name": "Testemunha de um evento histórico",
+        "rarity": "Épico",
+        "weight": 1,
+        "description": "Origem: Testemunha de um evento histórico. Este passado influencia os vínculos, os conhecimentos e as oportunidades que o personagem encontrou antes de iniciar sua jornada. Não determina seu destino: decisões futuras ainda podem transformar sua história."
+      }
+    ],
+    "personality": [
+      {
+        "id": "PER-01",
+        "name": "Analítico e reservado",
+        "rarity": "Comum",
+        "weight": 1,
+        "description": "Personalidade: Analítico e reservado. Esta característica orienta reações, diálogos e conflitos internos. Em situações extremas, o personagem pode agir de maneira inesperada, mas sua personalidade oferece um ponto de partida consistente."
+      },
+      {
+        "id": "PER-02",
+        "name": "Impulsivo e leal",
+        "rarity": "Comum",
+        "weight": 1,
+        "description": "Personalidade: Impulsivo e leal. Esta característica orienta reações, diálogos e conflitos internos. Em situações extremas, o personagem pode agir de maneira inesperada, mas sua personalidade oferece um ponto de partida consistente."
+      },
+      {
+        "id": "PER-03",
+        "name": "Carismático e provocador",
+        "rarity": "Comum",
+        "weight": 1,
+        "description": "Personalidade: Carismático e provocador. Esta característica orienta reações, diálogos e conflitos internos. Em situações extremas, o personagem pode agir de maneira inesperada, mas sua personalidade oferece um ponto de partida consistente."
+      },
+      {
+        "id": "PER-04",
+        "name": "Calmo sob pressão",
+        "rarity": "Comum",
+        "weight": 1,
+        "description": "Personalidade: Calmo sob pressão. Esta característica orienta reações, diálogos e conflitos internos. Em situações extremas, o personagem pode agir de maneira inesperada, mas sua personalidade oferece um ponto de partida consistente."
+      },
+      {
+        "id": "PER-05",
+        "name": "Orgulhoso e competitivo",
+        "rarity": "Comum",
+        "weight": 1,
+        "description": "Personalidade: Orgulhoso e competitivo. Esta característica orienta reações, diálogos e conflitos internos. Em situações extremas, o personagem pode agir de maneira inesperada, mas sua personalidade oferece um ponto de partida consistente."
+      },
+      {
+        "id": "PER-06",
+        "name": "Curioso e inventivo",
+        "rarity": "Comum",
+        "weight": 1,
+        "description": "Personalidade: Curioso e inventivo. Esta característica orienta reações, diálogos e conflitos internos. Em situações extremas, o personagem pode agir de maneira inesperada, mas sua personalidade oferece um ponto de partida consistente."
+      },
+      {
+        "id": "PER-07",
+        "name": "Cauteloso e desconfiado",
+        "rarity": "Comum",
+        "weight": 1,
+        "description": "Personalidade: Cauteloso e desconfiado. Esta característica orienta reações, diálogos e conflitos internos. Em situações extremas, o personagem pode agir de maneira inesperada, mas sua personalidade oferece um ponto de partida consistente."
+      },
+      {
+        "id": "PER-08",
+        "name": "Idealista e persistente",
+        "rarity": "Comum",
+        "weight": 1,
+        "description": "Personalidade: Idealista e persistente. Esta característica orienta reações, diálogos e conflitos internos. Em situações extremas, o personagem pode agir de maneira inesperada, mas sua personalidade oferece um ponto de partida consistente."
+      },
+      {
+        "id": "PER-09",
+        "name": "Irônico e observador",
+        "rarity": "Comum",
+        "weight": 1,
+        "description": "Personalidade: Irônico e observador. Esta característica orienta reações, diálogos e conflitos internos. Em situações extremas, o personagem pode agir de maneira inesperada, mas sua personalidade oferece um ponto de partida consistente."
+      },
+      {
+        "id": "PER-10",
+        "name": "Disciplinado e austero",
+        "rarity": "Comum",
+        "weight": 1,
+        "description": "Personalidade: Disciplinado e austero. Esta característica orienta reações, diálogos e conflitos internos. Em situações extremas, o personagem pode agir de maneira inesperada, mas sua personalidade oferece um ponto de partida consistente."
+      },
+      {
+        "id": "PER-11",
+        "name": "Gentil, mas inflexível",
+        "rarity": "Raro",
+        "weight": 1,
+        "description": "Personalidade: Gentil, mas inflexível. Esta característica orienta reações, diálogos e conflitos internos. Em situações extremas, o personagem pode agir de maneira inesperada, mas sua personalidade oferece um ponto de partida consistente."
+      },
+      {
+        "id": "PER-12",
+        "name": "Ambicioso e paciente",
+        "rarity": "Raro",
+        "weight": 1,
+        "description": "Personalidade: Ambicioso e paciente. Esta característica orienta reações, diálogos e conflitos internos. Em situações extremas, o personagem pode agir de maneira inesperada, mas sua personalidade oferece um ponto de partida consistente."
+      },
+      {
+        "id": "PER-13",
+        "name": "Descontraído e imprevisível",
+        "rarity": "Raro",
+        "weight": 1,
+        "description": "Personalidade: Descontraído e imprevisível. Esta característica orienta reações, diálogos e conflitos internos. Em situações extremas, o personagem pode agir de maneira inesperada, mas sua personalidade oferece um ponto de partida consistente."
+      },
+      {
+        "id": "PER-14",
+        "name": "Protetor e teimoso",
+        "rarity": "Raro",
+        "weight": 1,
+        "description": "Personalidade: Protetor e teimoso. Esta característica orienta reações, diálogos e conflitos internos. Em situações extremas, o personagem pode agir de maneira inesperada, mas sua personalidade oferece um ponto de partida consistente."
+      },
+      {
+        "id": "PER-15",
+        "name": "Metódico e perfeccionista",
+        "rarity": "Raro",
+        "weight": 1,
+        "description": "Personalidade: Metódico e perfeccionista. Esta característica orienta reações, diálogos e conflitos internos. Em situações extremas, o personagem pode agir de maneira inesperada, mas sua personalidade oferece um ponto de partida consistente."
+      },
+      {
+        "id": "PER-16",
+        "name": "Melancólico e introspectivo",
+        "rarity": "Raro",
+        "weight": 1,
+        "description": "Personalidade: Melancólico e introspectivo. Esta característica orienta reações, diálogos e conflitos internos. Em situações extremas, o personagem pode agir de maneira inesperada, mas sua personalidade oferece um ponto de partida consistente."
+      },
+      {
+        "id": "PER-17",
+        "name": "Sociável e estratégico",
+        "rarity": "Raro",
+        "weight": 1,
+        "description": "Personalidade: Sociável e estratégico. Esta característica orienta reações, diálogos e conflitos internos. Em situações extremas, o personagem pode agir de maneira inesperada, mas sua personalidade oferece um ponto de partida consistente."
+      },
+      {
+        "id": "PER-18",
+        "name": "Independente e inquieto",
+        "rarity": "Raro",
+        "weight": 1,
+        "description": "Personalidade: Independente e inquieto. Esta característica orienta reações, diálogos e conflitos internos. Em situações extremas, o personagem pode agir de maneira inesperada, mas sua personalidade oferece um ponto de partida consistente."
+      },
+      {
+        "id": "PER-19",
+        "name": "Honesto até ser inconveniente",
+        "rarity": "Raro",
+        "weight": 1,
+        "description": "Personalidade: Honesto até ser inconveniente. Esta característica orienta reações, diálogos e conflitos internos. Em situações extremas, o personagem pode agir de maneira inesperada, mas sua personalidade oferece um ponto de partida consistente."
+      },
+      {
+        "id": "PER-20",
+        "name": "Diplomático e calculista",
+        "rarity": "Raro",
+        "weight": 1,
+        "description": "Personalidade: Diplomático e calculista. Esta característica orienta reações, diálogos e conflitos internos. Em situações extremas, o personagem pode agir de maneira inesperada, mas sua personalidade oferece um ponto de partida consistente."
+      },
+      {
+        "id": "PER-21",
+        "name": "Corajoso e imprudente",
+        "rarity": "Raro",
+        "weight": 1,
+        "description": "Personalidade: Corajoso e imprudente. Esta característica orienta reações, diálogos e conflitos internos. Em situações extremas, o personagem pode agir de maneira inesperada, mas sua personalidade oferece um ponto de partida consistente."
+      },
+      {
+        "id": "PER-22",
+        "name": "Paciente e enigmático",
+        "rarity": "Raro",
+        "weight": 1,
+        "description": "Personalidade: Paciente e enigmático. Esta característica orienta reações, diálogos e conflitos internos. Em situações extremas, o personagem pode agir de maneira inesperada, mas sua personalidade oferece um ponto de partida consistente."
+      },
+      {
+        "id": "PER-23",
+        "name": "Brincalhão e perspicaz",
+        "rarity": "Épico",
+        "weight": 1,
+        "description": "Personalidade: Brincalhão e perspicaz. Esta característica orienta reações, diálogos e conflitos internos. Em situações extremas, o personagem pode agir de maneira inesperada, mas sua personalidade oferece um ponto de partida consistente."
+      },
+      {
+        "id": "PER-24",
+        "name": "Pragmático e direto",
+        "rarity": "Épico",
+        "weight": 1,
+        "description": "Personalidade: Pragmático e direto. Esta característica orienta reações, diálogos e conflitos internos. Em situações extremas, o personagem pode agir de maneira inesperada, mas sua personalidade oferece um ponto de partida consistente."
+      },
+      {
+        "id": "PER-25",
+        "name": "Sonhador e obstinado",
+        "rarity": "Épico",
+        "weight": 1,
+        "description": "Personalidade: Sonhador e obstinado. Esta característica orienta reações, diálogos e conflitos internos. Em situações extremas, o personagem pode agir de maneira inesperada, mas sua personalidade oferece um ponto de partida consistente."
+      },
+      {
+        "id": "PER-26",
+        "name": "Competitivo e esportivo",
+        "rarity": "Épico",
+        "weight": 1,
+        "description": "Personalidade: Competitivo e esportivo. Esta característica orienta reações, diálogos e conflitos internos. Em situações extremas, o personagem pode agir de maneira inesperada, mas sua personalidade oferece um ponto de partida consistente."
+      },
+      {
+        "id": "PER-27",
+        "name": "Silencioso e atento",
+        "rarity": "Épico",
+        "weight": 1,
+        "description": "Personalidade: Silencioso e atento. Esta característica orienta reações, diálogos e conflitos internos. Em situações extremas, o personagem pode agir de maneira inesperada, mas sua personalidade oferece um ponto de partida consistente."
+      },
+      {
+        "id": "PER-28",
+        "name": "Generoso e desconfiado",
+        "rarity": "Épico",
+        "weight": 1,
+        "description": "Personalidade: Generoso e desconfiado. Esta característica orienta reações, diálogos e conflitos internos. Em situações extremas, o personagem pode agir de maneira inesperada, mas sua personalidade oferece um ponto de partida consistente."
+      },
+      {
+        "id": "PER-29",
+        "name": "Adaptável e oportunista",
+        "rarity": "Épico",
+        "weight": 1,
+        "description": "Personalidade: Adaptável e oportunista. Esta característica orienta reações, diálogos e conflitos internos. Em situações extremas, o personagem pode agir de maneira inesperada, mas sua personalidade oferece um ponto de partida consistente."
+      },
+      {
+        "id": "PER-30",
+        "name": "Intenso e apaixonado",
+        "rarity": "Épico",
+        "weight": 1,
+        "description": "Personalidade: Intenso e apaixonado. Esta característica orienta reações, diálogos e conflitos internos. Em situações extremas, o personagem pode agir de maneira inesperada, mas sua personalidade oferece um ponto de partida consistente."
+      }
+    ],
+    "flaw": [
+      {
+        "id": "FLW-01",
+        "name": "Confia demais em si mesmo",
+        "rarity": "Comum",
+        "weight": 1,
+        "description": "Falha pessoal: Confia demais em si mesmo. Esta vulnerabilidade cria espaço para conflitos, consequências e desenvolvimento. Não é uma sentença permanente: experiências e escolhas podem atenuar ou transformar essa falha."
+      },
+      {
+        "id": "FLW-02",
+        "name": "Tem dificuldade em pedir ajuda",
+        "rarity": "Comum",
+        "weight": 1,
+        "description": "Falha pessoal: Tem dificuldade em pedir ajuda. Esta vulnerabilidade cria espaço para conflitos, consequências e desenvolvimento. Não é uma sentença permanente: experiências e escolhas podem atenuar ou transformar essa falha."
+      },
+      {
+        "id": "FLW-03",
+        "name": "Age antes de pensar",
+        "rarity": "Comum",
+        "weight": 1,
+        "description": "Falha pessoal: Age antes de pensar. Esta vulnerabilidade cria espaço para conflitos, consequências e desenvolvimento. Não é uma sentença permanente: experiências e escolhas podem atenuar ou transformar essa falha."
+      },
+      {
+        "id": "FLW-04",
+        "name": "Guarda rancores por muito tempo",
+        "rarity": "Comum",
+        "weight": 1,
+        "description": "Falha pessoal: Guarda rancores por muito tempo. Esta vulnerabilidade cria espaço para conflitos, consequências e desenvolvimento. Não é uma sentença permanente: experiências e escolhas podem atenuar ou transformar essa falha."
+      },
+      {
+        "id": "FLW-05",
+        "name": "Subestima adversários discretos",
+        "rarity": "Comum",
+        "weight": 1,
+        "description": "Falha pessoal: Subestima adversários discretos. Esta vulnerabilidade cria espaço para conflitos, consequências e desenvolvimento. Não é uma sentença permanente: experiências e escolhas podem atenuar ou transformar essa falha."
+      },
+      {
+        "id": "FLW-06",
+        "name": "Tem medo de decepcionar aliados",
+        "rarity": "Comum",
+        "weight": 1,
+        "description": "Falha pessoal: Tem medo de decepcionar aliados. Esta vulnerabilidade cria espaço para conflitos, consequências e desenvolvimento. Não é uma sentença permanente: experiências e escolhas podem atenuar ou transformar essa falha."
+      },
+      {
+        "id": "FLW-07",
+        "name": "É facilmente provocado",
+        "rarity": "Comum",
+        "weight": 1,
+        "description": "Falha pessoal: É facilmente provocado. Esta vulnerabilidade cria espaço para conflitos, consequências e desenvolvimento. Não é uma sentença permanente: experiências e escolhas podem atenuar ou transformar essa falha."
+      },
+      {
+        "id": "FLW-08",
+        "name": "Esconde informações importantes",
+        "rarity": "Comum",
+        "weight": 1,
+        "description": "Falha pessoal: Esconde informações importantes. Esta vulnerabilidade cria espaço para conflitos, consequências e desenvolvimento. Não é uma sentença permanente: experiências e escolhas podem atenuar ou transformar essa falha."
+      },
+      {
+        "id": "FLW-09",
+        "name": "Tem dificuldade em abandonar objetivos",
+        "rarity": "Comum",
+        "weight": 1,
+        "description": "Falha pessoal: Tem dificuldade em abandonar objetivos. Esta vulnerabilidade cria espaço para conflitos, consequências e desenvolvimento. Não é uma sentença permanente: experiências e escolhas podem atenuar ou transformar essa falha."
+      },
+      {
+        "id": "FLW-10",
+        "name": "Evita confrontos emocionais",
+        "rarity": "Comum",
+        "weight": 1,
+        "description": "Falha pessoal: Evita confrontos emocionais. Esta vulnerabilidade cria espaço para conflitos, consequências e desenvolvimento. Não é uma sentença permanente: experiências e escolhas podem atenuar ou transformar essa falha."
+      },
+      {
+        "id": "FLW-11",
+        "name": "É excessivamente desconfiado",
+        "rarity": "Raro",
+        "weight": 1,
+        "description": "Falha pessoal: É excessivamente desconfiado. Esta vulnerabilidade cria espaço para conflitos, consequências e desenvolvimento. Não é uma sentença permanente: experiências e escolhas podem atenuar ou transformar essa falha."
+      },
+      {
+        "id": "FLW-12",
+        "name": "Assume responsabilidades demais",
+        "rarity": "Raro",
+        "weight": 1,
+        "description": "Falha pessoal: Assume responsabilidades demais. Esta vulnerabilidade cria espaço para conflitos, consequências e desenvolvimento. Não é uma sentença permanente: experiências e escolhas podem atenuar ou transformar essa falha."
+      },
+      {
+        "id": "FLW-13",
+        "name": "Não aceita perder",
+        "rarity": "Raro",
+        "weight": 1,
+        "description": "Falha pessoal: Não aceita perder. Esta vulnerabilidade cria espaço para conflitos, consequências e desenvolvimento. Não é uma sentença permanente: experiências e escolhas podem atenuar ou transformar essa falha."
+      },
+      {
+        "id": "FLW-14",
+        "name": "Tem pouca paciência para detalhes",
+        "rarity": "Raro",
+        "weight": 1,
+        "description": "Falha pessoal: Tem pouca paciência para detalhes. Esta vulnerabilidade cria espaço para conflitos, consequências e desenvolvimento. Não é uma sentença permanente: experiências e escolhas podem atenuar ou transformar essa falha."
+      },
+      {
+        "id": "FLW-15",
+        "name": "É facilmente distraído por curiosidades",
+        "rarity": "Raro",
+        "weight": 1,
+        "description": "Falha pessoal: É facilmente distraído por curiosidades. Esta vulnerabilidade cria espaço para conflitos, consequências e desenvolvimento. Não é uma sentença permanente: experiências e escolhas podem atenuar ou transformar essa falha."
+      },
+      {
+        "id": "FLW-16",
+        "name": "Confunde orgulho com honra",
+        "rarity": "Raro",
+        "weight": 1,
+        "description": "Falha pessoal: Confunde orgulho com honra. Esta vulnerabilidade cria espaço para conflitos, consequências e desenvolvimento. Não é uma sentença permanente: experiências e escolhas podem atenuar ou transformar essa falha."
+      },
+      {
+        "id": "FLW-17",
+        "name": "Age de forma impulsiva para proteger alguém",
+        "rarity": "Raro",
+        "weight": 1,
+        "description": "Falha pessoal: Age de forma impulsiva para proteger alguém. Esta vulnerabilidade cria espaço para conflitos, consequências e desenvolvimento. Não é uma sentença permanente: experiências e escolhas podem atenuar ou transformar essa falha."
+      },
+      {
+        "id": "FLW-18",
+        "name": "Tem dificuldade em delegar",
+        "rarity": "Raro",
+        "weight": 1,
+        "description": "Falha pessoal: Tem dificuldade em delegar. Esta vulnerabilidade cria espaço para conflitos, consequências e desenvolvimento. Não é uma sentença permanente: experiências e escolhas podem atenuar ou transformar essa falha."
+      },
+      {
+        "id": "FLW-19",
+        "name": "É teimoso diante de conselhos",
+        "rarity": "Raro",
+        "weight": 1,
+        "description": "Falha pessoal: É teimoso diante de conselhos. Esta vulnerabilidade cria espaço para conflitos, consequências e desenvolvimento. Não é uma sentença permanente: experiências e escolhas podem atenuar ou transformar essa falha."
+      },
+      {
+        "id": "FLW-20",
+        "name": "Costuma exagerar promessas",
+        "rarity": "Raro",
+        "weight": 1,
+        "description": "Falha pessoal: Costuma exagerar promessas. Esta vulnerabilidade cria espaço para conflitos, consequências e desenvolvimento. Não é uma sentença permanente: experiências e escolhas podem atenuar ou transformar essa falha."
+      },
+      {
+        "id": "FLW-21",
+        "name": "Evita falar sobre o passado",
+        "rarity": "Raro",
+        "weight": 1,
+        "description": "Falha pessoal: Evita falar sobre o passado. Esta vulnerabilidade cria espaço para conflitos, consequências e desenvolvimento. Não é uma sentença permanente: experiências e escolhas podem atenuar ou transformar essa falha."
+      },
+      {
+        "id": "FLW-22",
+        "name": "Tem dificuldade em confiar em autoridades",
+        "rarity": "Raro",
+        "weight": 1,
+        "description": "Falha pessoal: Tem dificuldade em confiar em autoridades. Esta vulnerabilidade cria espaço para conflitos, consequências e desenvolvimento. Não é uma sentença permanente: experiências e escolhas podem atenuar ou transformar essa falha."
+      },
+      {
+        "id": "FLW-23",
+        "name": "Pode ser competitivo demais",
+        "rarity": "Épico",
+        "weight": 1,
+        "description": "Falha pessoal: Pode ser competitivo demais. Esta vulnerabilidade cria espaço para conflitos, consequências e desenvolvimento. Não é uma sentença permanente: experiências e escolhas podem atenuar ou transformar essa falha."
+      },
+      {
+        "id": "FLW-24",
+        "name": "Esquece limites físicos e mentais",
+        "rarity": "Épico",
+        "weight": 1,
+        "description": "Falha pessoal: Esquece limites físicos e mentais. Esta vulnerabilidade cria espaço para conflitos, consequências e desenvolvimento. Não é uma sentença permanente: experiências e escolhas podem atenuar ou transformar essa falha."
+      },
+      {
+        "id": "FLW-25",
+        "name": "É excessivamente idealista",
+        "rarity": "Épico",
+        "weight": 1,
+        "description": "Falha pessoal: É excessivamente idealista. Esta vulnerabilidade cria espaço para conflitos, consequências e desenvolvimento. Não é uma sentença permanente: experiências e escolhas podem atenuar ou transformar essa falha."
+      },
+      {
+        "id": "FLW-26",
+        "name": "Tem medo de ficar sozinho",
+        "rarity": "Épico",
+        "weight": 1,
+        "description": "Falha pessoal: Tem medo de ficar sozinho. Esta vulnerabilidade cria espaço para conflitos, consequências e desenvolvimento. Não é uma sentença permanente: experiências e escolhas podem atenuar ou transformar essa falha."
+      },
+      {
+        "id": "FLW-27",
+        "name": "Faz piadas em momentos inadequados",
+        "rarity": "Épico",
+        "weight": 1,
+        "description": "Falha pessoal: Faz piadas em momentos inadequados. Esta vulnerabilidade cria espaço para conflitos, consequências e desenvolvimento. Não é uma sentença permanente: experiências e escolhas podem atenuar ou transformar essa falha."
+      },
+      {
+        "id": "FLW-28",
+        "name": "É perfeccionista",
+        "rarity": "Épico",
+        "weight": 1,
+        "description": "Falha pessoal: É perfeccionista. Esta vulnerabilidade cria espaço para conflitos, consequências e desenvolvimento. Não é uma sentença permanente: experiências e escolhas podem atenuar ou transformar essa falha."
+      },
+      {
+        "id": "FLW-29",
+        "name": "Tem dificuldade em perdoar",
+        "rarity": "Épico",
+        "weight": 1,
+        "description": "Falha pessoal: Tem dificuldade em perdoar. Esta vulnerabilidade cria espaço para conflitos, consequências e desenvolvimento. Não é uma sentença permanente: experiências e escolhas podem atenuar ou transformar essa falha."
+      },
+      {
+        "id": "FLW-30",
+        "name": "Muda de plano com frequência",
+        "rarity": "Épico",
+        "weight": 1,
+        "description": "Falha pessoal: Muda de plano com frequência. Esta vulnerabilidade cria espaço para conflitos, consequências e desenvolvimento. Não é uma sentença permanente: experiências e escolhas podem atenuar ou transformar essa falha."
+      }
+    ],
+    "motivation": [
+      {
+        "id": "MOT-01",
+        "name": "Proteger alguém importante",
+        "rarity": "Comum",
+        "weight": 1,
+        "description": "Motivação: Proteger alguém importante. Este objetivo oferece direção narrativa para a jornada. Pode entrar em conflito com deveres, amizades, ambições ou com o próprio alinhamento moral do personagem."
+      },
+      {
+        "id": "MOT-02",
+        "name": "Descobrir a própria origem",
+        "rarity": "Comum",
+        "weight": 1,
+        "description": "Motivação: Descobrir a própria origem. Este objetivo oferece direção narrativa para a jornada. Pode entrar em conflito com deveres, amizades, ambições ou com o próprio alinhamento moral do personagem."
+      },
+      {
+        "id": "MOT-03",
+        "name": "Superar um rival",
+        "rarity": "Comum",
+        "weight": 1,
+        "description": "Motivação: Superar um rival. Este objetivo oferece direção narrativa para a jornada. Pode entrar em conflito com deveres, amizades, ambições ou com o próprio alinhamento moral do personagem."
+      },
+      {
+        "id": "MOT-04",
+        "name": "Reconstruir seu lar",
+        "rarity": "Comum",
+        "weight": 1,
+        "description": "Motivação: Reconstruir seu lar. Este objetivo oferece direção narrativa para a jornada. Pode entrar em conflito com deveres, amizades, ambições ou com o próprio alinhamento moral do personagem."
+      },
+      {
+        "id": "MOT-05",
+        "name": "Encontrar uma verdade esquecida",
+        "rarity": "Comum",
+        "weight": 1,
+        "description": "Motivação: Encontrar uma verdade esquecida. Este objetivo oferece direção narrativa para a jornada. Pode entrar em conflito com deveres, amizades, ambições ou com o próprio alinhamento moral do personagem."
+      },
+      {
+        "id": "MOT-06",
+        "name": "Derrubar um sistema injusto",
+        "rarity": "Comum",
+        "weight": 1,
+        "description": "Motivação: Derrubar um sistema injusto. Este objetivo oferece direção narrativa para a jornada. Pode entrar em conflito com deveres, amizades, ambições ou com o próprio alinhamento moral do personagem."
+      },
+      {
+        "id": "MOT-07",
+        "name": "Provar seu valor",
+        "rarity": "Comum",
+        "weight": 1,
+        "description": "Motivação: Provar seu valor. Este objetivo oferece direção narrativa para a jornada. Pode entrar em conflito com deveres, amizades, ambições ou com o próprio alinhamento moral do personagem."
+      },
+      {
+        "id": "MOT-08",
+        "name": "Cumprir uma promessa",
+        "rarity": "Comum",
+        "weight": 1,
+        "description": "Motivação: Cumprir uma promessa. Este objetivo oferece direção narrativa para a jornada. Pode entrar em conflito com deveres, amizades, ambições ou com o próprio alinhamento moral do personagem."
+      },
+      {
+        "id": "MOT-09",
+        "name": "Mapear terras desconhecidas",
+        "rarity": "Comum",
+        "weight": 1,
+        "description": "Motivação: Mapear terras desconhecidas. Este objetivo oferece direção narrativa para a jornada. Pode entrar em conflito com deveres, amizades, ambições ou com o próprio alinhamento moral do personagem."
+      },
+      {
+        "id": "MOT-10",
+        "name": "Dominar uma arte perdida",
+        "rarity": "Comum",
+        "weight": 1,
+        "description": "Motivação: Dominar uma arte perdida. Este objetivo oferece direção narrativa para a jornada. Pode entrar em conflito com deveres, amizades, ambições ou com o próprio alinhamento moral do personagem."
+      },
+      {
+        "id": "MOT-11",
+        "name": "Encontrar um companheiro desaparecido",
+        "rarity": "Raro",
+        "weight": 1,
+        "description": "Motivação: Encontrar um companheiro desaparecido. Este objetivo oferece direção narrativa para a jornada. Pode entrar em conflito com deveres, amizades, ambições ou com o próprio alinhamento moral do personagem."
+      },
+      {
+        "id": "MOT-12",
+        "name": "Impedir uma guerra",
+        "rarity": "Raro",
+        "weight": 1,
+        "description": "Motivação: Impedir uma guerra. Este objetivo oferece direção narrativa para a jornada. Pode entrar em conflito com deveres, amizades, ambições ou com o próprio alinhamento moral do personagem."
+      },
+      {
+        "id": "MOT-13",
+        "name": "Conquistar liberdade",
+        "rarity": "Raro",
+        "weight": 1,
+        "description": "Motivação: Conquistar liberdade. Este objetivo oferece direção narrativa para a jornada. Pode entrar em conflito com deveres, amizades, ambições ou com o próprio alinhamento moral do personagem."
+      },
+      {
+        "id": "MOT-14",
+        "name": "Preservar o conhecimento",
+        "rarity": "Raro",
+        "weight": 1,
+        "description": "Motivação: Preservar o conhecimento. Este objetivo oferece direção narrativa para a jornada. Pode entrar em conflito com deveres, amizades, ambições ou com o próprio alinhamento moral do personagem."
+      },
+      {
+        "id": "MOT-15",
+        "name": "Pagar uma dívida antiga",
+        "rarity": "Raro",
+        "weight": 1,
+        "description": "Motivação: Pagar uma dívida antiga. Este objetivo oferece direção narrativa para a jornada. Pode entrar em conflito com deveres, amizades, ambições ou com o próprio alinhamento moral do personagem."
+      },
+      {
+        "id": "MOT-16",
+        "name": "Criar uma nova ordem",
+        "rarity": "Raro",
+        "weight": 1,
+        "description": "Motivação: Criar uma nova ordem. Este objetivo oferece direção narrativa para a jornada. Pode entrar em conflito com deveres, amizades, ambições ou com o próprio alinhamento moral do personagem."
+      },
+      {
+        "id": "MOT-17",
+        "name": "Viver sem ser controlado",
+        "rarity": "Raro",
+        "weight": 1,
+        "description": "Motivação: Viver sem ser controlado. Este objetivo oferece direção narrativa para a jornada. Pode entrar em conflito com deveres, amizades, ambições ou com o próprio alinhamento moral do personagem."
+      },
+      {
+        "id": "MOT-18",
+        "name": "Encontrar um adversário digno",
+        "rarity": "Raro",
+        "weight": 1,
+        "description": "Motivação: Encontrar um adversário digno. Este objetivo oferece direção narrativa para a jornada. Pode entrar em conflito com deveres, amizades, ambições ou com o próprio alinhamento moral do personagem."
+      },
+      {
+        "id": "MOT-19",
+        "name": "Quebrar uma maldição",
+        "rarity": "Raro",
+        "weight": 1,
+        "description": "Motivação: Quebrar uma maldição. Este objetivo oferece direção narrativa para a jornada. Pode entrar em conflito com deveres, amizades, ambições ou com o próprio alinhamento moral do personagem."
+      },
+      {
+        "id": "MOT-20",
+        "name": "Honrar um legado",
+        "rarity": "Raro",
+        "weight": 1,
+        "description": "Motivação: Honrar um legado. Este objetivo oferece direção narrativa para a jornada. Pode entrar em conflito com deveres, amizades, ambições ou com o próprio alinhamento moral do personagem."
+      },
+      {
+        "id": "MOT-21",
+        "name": "Recuperar algo roubado",
+        "rarity": "Raro",
+        "weight": 1,
+        "description": "Motivação: Recuperar algo roubado. Este objetivo oferece direção narrativa para a jornada. Pode entrar em conflito com deveres, amizades, ambições ou com o próprio alinhamento moral do personagem."
+      },
+      {
+        "id": "MOT-22",
+        "name": "Proteger uma comunidade",
+        "rarity": "Raro",
+        "weight": 1,
+        "description": "Motivação: Proteger uma comunidade. Este objetivo oferece direção narrativa para a jornada. Pode entrar em conflito com deveres, amizades, ambições ou com o próprio alinhamento moral do personagem."
+      },
+      {
+        "id": "MOT-23",
+        "name": "Entender um poder misterioso",
+        "rarity": "Épico",
+        "weight": 1,
+        "description": "Motivação: Entender um poder misterioso. Este objetivo oferece direção narrativa para a jornada. Pode entrar em conflito com deveres, amizades, ambições ou com o próprio alinhamento moral do personagem."
+      },
+      {
+        "id": "MOT-24",
+        "name": "Alcançar a excelência",
+        "rarity": "Épico",
+        "weight": 1,
+        "description": "Motivação: Alcançar a excelência. Este objetivo oferece direção narrativa para a jornada. Pode entrar em conflito com deveres, amizades, ambições ou com o próprio alinhamento moral do personagem."
+      },
+      {
+        "id": "MOT-25",
+        "name": "Reunir uma família",
+        "rarity": "Épico",
+        "weight": 1,
+        "description": "Motivação: Reunir uma família. Este objetivo oferece direção narrativa para a jornada. Pode entrar em conflito com deveres, amizades, ambições ou com o próprio alinhamento moral do personagem."
+      },
+      {
+        "id": "MOT-26",
+        "name": "Expurgar uma ameaça",
+        "rarity": "Épico",
+        "weight": 1,
+        "description": "Motivação: Expurgar uma ameaça. Este objetivo oferece direção narrativa para a jornada. Pode entrar em conflito com deveres, amizades, ambições ou com o próprio alinhamento moral do personagem."
+      },
+      {
+        "id": "MOT-27",
+        "name": "Descobrir o limite do impossível",
+        "rarity": "Épico",
+        "weight": 1,
+        "description": "Motivação: Descobrir o limite do impossível. Este objetivo oferece direção narrativa para a jornada. Pode entrar em conflito com deveres, amizades, ambições ou com o próprio alinhamento moral do personagem."
+      },
+      {
+        "id": "MOT-28",
+        "name": "Deixar uma marca no mundo",
+        "rarity": "Épico",
+        "weight": 1,
+        "description": "Motivação: Deixar uma marca no mundo. Este objetivo oferece direção narrativa para a jornada. Pode entrar em conflito com deveres, amizades, ambições ou com o próprio alinhamento moral do personagem."
+      },
+      {
+        "id": "MOT-29",
+        "name": "Encontrar redenção",
+        "rarity": "Épico",
+        "weight": 1,
+        "description": "Motivação: Encontrar redenção. Este objetivo oferece direção narrativa para a jornada. Pode entrar em conflito com deveres, amizades, ambições ou com o próprio alinhamento moral do personagem."
+      },
+      {
+        "id": "MOT-30",
+        "name": "Desfrutar uma vida tranquila",
+        "rarity": "Épico",
+        "weight": 1,
+        "description": "Motivação: Desfrutar uma vida tranquila. Este objetivo oferece direção narrativa para a jornada. Pode entrar em conflito com deveres, amizades, ambições ou com o próprio alinhamento moral do personagem."
+      }
+    ],
+    "reputation": [
+      {
+        "id": "REP-01",
+        "name": "Desconhecido",
+        "rarity": "Comum",
+        "weight": 1,
+        "description": "Reputação: Desconhecido. É a percepção pública inicial do personagem. Pode ser injusta, incompleta ou mudar conforme seus feitos se tornam conhecidos."
+      },
+      {
+        "id": "REP-02",
+        "name": "Conhecido em sua vila",
+        "rarity": "Comum",
+        "weight": 1,
+        "description": "Reputação: Conhecido em sua vila. É a percepção pública inicial do personagem. Pode ser injusta, incompleta ou mudar conforme seus feitos se tornam conhecidos."
+      },
+      {
+        "id": "REP-03",
+        "name": "Nome comentado nas fronteiras",
+        "rarity": "Comum",
+        "weight": 1,
+        "description": "Reputação: Nome comentado nas fronteiras. É a percepção pública inicial do personagem. Pode ser injusta, incompleta ou mudar conforme seus feitos se tornam conhecidos."
+      },
+      {
+        "id": "REP-04",
+        "name": "Ameaça regional",
+        "rarity": "Comum",
+        "weight": 1,
+        "description": "Reputação: Ameaça regional. É a percepção pública inicial do personagem. Pode ser injusta, incompleta ou mudar conforme seus feitos se tornam conhecidos."
+      },
+      {
+        "id": "REP-05",
+        "name": "Herói popular",
+        "rarity": "Comum",
+        "weight": 1,
+        "description": "Reputação: Herói popular. É a percepção pública inicial do personagem. Pode ser injusta, incompleta ou mudar conforme seus feitos se tornam conhecidos."
+      },
+      {
+        "id": "REP-06",
+        "name": "Criminoso procurado",
+        "rarity": "Comum",
+        "weight": 1,
+        "description": "Reputação: Criminoso procurado. É a percepção pública inicial do personagem. Pode ser injusta, incompleta ou mudar conforme seus feitos se tornam conhecidos."
+      },
+      {
+        "id": "REP-07",
+        "name": "Lenda urbana",
+        "rarity": "Comum",
+        "weight": 1,
+        "description": "Reputação: Lenda urbana. É a percepção pública inicial do personagem. Pode ser injusta, incompleta ou mudar conforme seus feitos se tornam conhecidos."
+      },
+      {
+        "id": "REP-08",
+        "name": "Figura controversa",
+        "rarity": "Comum",
+        "weight": 1,
+        "description": "Reputação: Figura controversa. É a percepção pública inicial do personagem. Pode ser injusta, incompleta ou mudar conforme seus feitos se tornam conhecidos."
+      },
+      {
+        "id": "REP-09",
+        "name": "Veterano respeitado",
+        "rarity": "Comum",
+        "weight": 1,
+        "description": "Reputação: Veterano respeitado. É a percepção pública inicial do personagem. Pode ser injusta, incompleta ou mudar conforme seus feitos se tornam conhecidos."
+      },
+      {
+        "id": "REP-10",
+        "name": "Inimigo de uma organização",
+        "rarity": "Comum",
+        "weight": 1,
+        "description": "Reputação: Inimigo de uma organização. É a percepção pública inicial do personagem. Pode ser injusta, incompleta ou mudar conforme seus feitos se tornam conhecidos."
+      },
+      {
+        "id": "REP-11",
+        "name": "Símbolo de resistência",
+        "rarity": "Raro",
+        "weight": 1,
+        "description": "Reputação: Símbolo de resistência. É a percepção pública inicial do personagem. Pode ser injusta, incompleta ou mudar conforme seus feitos se tornam conhecidos."
+      },
+      {
+        "id": "REP-12",
+        "name": "Celebridade involuntária",
+        "rarity": "Raro",
+        "weight": 1,
+        "description": "Reputação: Celebridade involuntária. É a percepção pública inicial do personagem. Pode ser injusta, incompleta ou mudar conforme seus feitos se tornam conhecidos."
+      },
+      {
+        "id": "REP-13",
+        "name": "Mito em construção",
+        "rarity": "Raro",
+        "weight": 1,
+        "description": "Reputação: Mito em construção. É a percepção pública inicial do personagem. Pode ser injusta, incompleta ou mudar conforme seus feitos se tornam conhecidos."
+      },
+      {
+        "id": "REP-14",
+        "name": "Agente discreto",
+        "rarity": "Raro",
+        "weight": 1,
+        "description": "Reputação: Agente discreto. É a percepção pública inicial do personagem. Pode ser injusta, incompleta ou mudar conforme seus feitos se tornam conhecidos."
+      },
+      {
+        "id": "REP-15",
+        "name": "Nobreza o observa",
+        "rarity": "Raro",
+        "weight": 1,
+        "description": "Reputação: Nobreza o observa. É a percepção pública inicial do personagem. Pode ser injusta, incompleta ou mudar conforme seus feitos se tornam conhecidos."
+      },
+      {
+        "id": "REP-16",
+        "name": "Temido por mercenários",
+        "rarity": "Raro",
+        "weight": 1,
+        "description": "Reputação: Temido por mercenários. É a percepção pública inicial do personagem. Pode ser injusta, incompleta ou mudar conforme seus feitos se tornam conhecidos."
+      },
+      {
+        "id": "REP-17",
+        "name": "Ídolo de jovens aventureiros",
+        "rarity": "Raro",
+        "weight": 1,
+        "description": "Reputação: Ídolo de jovens aventureiros. É a percepção pública inicial do personagem. Pode ser injusta, incompleta ou mudar conforme seus feitos se tornam conhecidos."
+      },
+      {
+        "id": "REP-18",
+        "name": "Nome apagado dos registros",
+        "rarity": "Raro",
+        "weight": 1,
+        "description": "Reputação: Nome apagado dos registros. É a percepção pública inicial do personagem. Pode ser injusta, incompleta ou mudar conforme seus feitos se tornam conhecidos."
+      },
+      {
+        "id": "REP-19",
+        "name": "Protetor de uma rota",
+        "rarity": "Raro",
+        "weight": 1,
+        "description": "Reputação: Protetor de uma rota. É a percepção pública inicial do personagem. Pode ser injusta, incompleta ou mudar conforme seus feitos se tornam conhecidos."
+      },
+      {
+        "id": "REP-20",
+        "name": "Rival de uma grande guilda",
+        "rarity": "Raro",
+        "weight": 1,
+        "description": "Reputação: Rival de uma grande guilda. É a percepção pública inicial do personagem. Pode ser injusta, incompleta ou mudar conforme seus feitos se tornam conhecidos."
+      },
+      {
+        "id": "REP-21",
+        "name": "Sobrevivente famoso",
+        "rarity": "Raro",
+        "weight": 1,
+        "description": "Reputação: Sobrevivente famoso. É a percepção pública inicial do personagem. Pode ser injusta, incompleta ou mudar conforme seus feitos se tornam conhecidos."
+      },
+      {
+        "id": "REP-22",
+        "name": "Campeão local",
+        "rarity": "Raro",
+        "weight": 1,
+        "description": "Reputação: Campeão local. É a percepção pública inicial do personagem. Pode ser injusta, incompleta ou mudar conforme seus feitos se tornam conhecidos."
+      },
+      {
+        "id": "REP-23",
+        "name": "Pessoa de interesse",
+        "rarity": "Épico",
+        "weight": 1,
+        "description": "Reputação: Pessoa de interesse. É a percepção pública inicial do personagem. Pode ser injusta, incompleta ou mudar conforme seus feitos se tornam conhecidos."
+      },
+      {
+        "id": "REP-24",
+        "name": "Lenda de uma geração",
+        "rarity": "Épico",
+        "weight": 1,
+        "description": "Reputação: Lenda de uma geração. É a percepção pública inicial do personagem. Pode ser injusta, incompleta ou mudar conforme seus feitos se tornam conhecidos."
+      },
+      {
+        "id": "REP-25",
+        "name": "Forasteiro misterioso",
+        "rarity": "Épico",
+        "weight": 1,
+        "description": "Reputação: Forasteiro misterioso. É a percepção pública inicial do personagem. Pode ser injusta, incompleta ou mudar conforme seus feitos se tornam conhecidos."
+      },
+      {
+        "id": "REP-26",
+        "name": "Aliado de uma facção",
+        "rarity": "Épico",
+        "weight": 1,
+        "description": "Reputação: Aliado de uma facção. É a percepção pública inicial do personagem. Pode ser injusta, incompleta ou mudar conforme seus feitos se tornam conhecidos."
+      },
+      {
+        "id": "REP-27",
+        "name": "Traidor segundo a história oficial",
+        "rarity": "Épico",
+        "weight": 1,
+        "description": "Reputação: Traidor segundo a história oficial. É a percepção pública inicial do personagem. Pode ser injusta, incompleta ou mudar conforme seus feitos se tornam conhecidos."
+      },
+      {
+        "id": "REP-28",
+        "name": "Salvador de uma cidade",
+        "rarity": "Épico",
+        "weight": 1,
+        "description": "Reputação: Salvador de uma cidade. É a percepção pública inicial do personagem. Pode ser injusta, incompleta ou mudar conforme seus feitos se tornam conhecidos."
+      },
+      {
+        "id": "REP-29",
+        "name": "Desafiador de campeões",
+        "rarity": "Épico",
+        "weight": 1,
+        "description": "Reputação: Desafiador de campeões. É a percepção pública inicial do personagem. Pode ser injusta, incompleta ou mudar conforme seus feitos se tornam conhecidos."
+      },
+      {
+        "id": "REP-30",
+        "name": "Sem reputação definida",
+        "rarity": "Épico",
+        "weight": 1,
+        "description": "Reputação: Sem reputação definida. É a percepção pública inicial do personagem. Pode ser injusta, incompleta ou mudar conforme seus feitos se tornam conhecidos."
+      }
     ]
   },
   "beta_notes": [
     "BETA 0.4: adicionadas duas roletas de poderes secundários com 50 opções cada.",
     "Os dois poderes secundários são sorteados sem repetição entre si.",
     "Retrato ilustrativo é gerado localmente por composição SVG; não é geração por IA externa.",
-    "Índice de Poder Total é experimental e não constitui regra oficial até aprovação."
+    "Índice de Poder Total é experimental e não constitui regra oficial até aprovação.",
+    ";",
+    " ",
+    "B",
+    "e",
+    "t",
+    "a",
+    " ",
+    "0",
+    ".",
+    "9",
+    "5",
+    ":",
+    " ",
+    "t",
+    "í",
+    "t",
+    "u",
+    "l",
+    "o",
+    "s",
+    ",",
+    " ",
+    "q",
+    "u",
+    "a",
+    "n",
+    "t",
+    "i",
+    "d",
+    "a",
+    "d",
+    "e",
+    " ",
+    "v",
+    "a",
+    "r",
+    "i",
+    "á",
+    "v",
+    "e",
+    "l",
+    " ",
+    "d",
+    "e",
+    " ",
+    "p",
+    "o",
+    "d",
+    "e",
+    "r",
+    "e",
+    "s",
+    ",",
+    " ",
+    "a",
+    "l",
+    "i",
+    "n",
+    "h",
+    "a",
+    "m",
+    "e",
+    "n",
+    "t",
+    "o",
+    ",",
+    " ",
+    "o",
+    "r",
+    "i",
+    "g",
+    "e",
+    "m",
+    ",",
+    " ",
+    "p",
+    "e",
+    "r",
+    "s",
+    "o",
+    "n",
+    "a",
+    "l",
+    "i",
+    "d",
+    "a",
+    "d",
+    "e",
+    ",",
+    " ",
+    "f",
+    "a",
+    "l",
+    "h",
+    "a",
+    ",",
+    " ",
+    "m",
+    "o",
+    "t",
+    "i",
+    "v",
+    "a",
+    "ç",
+    "ã",
+    "o",
+    " ",
+    "e",
+    " ",
+    "r",
+    "e",
+    "p",
+    "u",
+    "t",
+    "a",
+    "ç",
+    "ã",
+    "o",
+    "."
   ]
 }

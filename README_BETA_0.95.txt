@@ -1,0 +1,1 @@
+Beta 0.95: publique todos os arquivos desta pasta na raiz do repositório. Preserve cópia de segurança do catálogo personalizado. O catálogo oficial atualizado contém as categorias novas. Não publique apenas app.js: index, CSS, JS, SW, catálogo e expansão devem permanecer juntos.

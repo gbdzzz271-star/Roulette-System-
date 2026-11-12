@@ -46,3 +46,10 @@ header{gap:12px}.hero-art{position:relative;isolation:isolate;overflow:hidden;ba
 
 /* BETA 0.9 — Central do Operador */
 .operator-panel{border-color:#c99aee;background:linear-gradient(145deg,#21152e,#100d18);box-shadow:0 0 24px #9a62c522}.operator-tag{font-size:9px;font-weight:900;letter-spacing:1.5px;color:#f4d99b;border:1px solid #c99aee66;border-radius:20px;padding:6px 9px}.operator-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin:12px 0}.operator-field{display:flex;flex-direction:column;gap:5px;min-width:0}.operator-field label{font-size:10px;color:#d8c5e8;font-weight:800}.operator-field select{width:100%;min-width:0;background:#0b0810;color:#fff;border:1px solid #76558f;border-radius:8px;padding:10px 7px;font-size:11px}.operator-actions{display:grid;gap:8px;margin-top:14px}.operator-panel h3{margin:18px 0 4px;color:#f4d99b}.operator-panel .muted{font-size:11px;line-height:1.5}@media(max-width:360px){.operator-grid{grid-template-columns:1fr}}
+
+/* BETA 0.95 — identidade expandida */
+.sheet-section{margin:14px 0;padding:14px;border:1px solid #76558f66;border-radius:14px;background:linear-gradient(145deg,#1b1426,#100d18)}.sheet-section h3{margin:0 0 12px;color:#f2d18c;font:800 20px 'Barlow Condensed',sans-serif;letter-spacing:.5px}.sheet-section .item small{display:block;color:#bca9cd;font-size:10px;line-height:1.45;margin-top:5px}.sheet-section .item{min-width:0;overflow-wrap:anywhere}.sheet-section .item b{color:#f5e6c7}.sheet-section .item span{color:#d9c9e9;font-size:11px}.stats-grid .stat{border:1px solid #8e6ba955;background:linear-gradient(145deg,#261a35,#100d18)}
+
+.character-card,.sheet-section{background-image:linear-gradient(145deg,#1b1426ee,#100d18f2),url('codex-texture.svg');background-size:cover;background-position:center}
+
+.arena-shell{background-image:linear-gradient(145deg,#171020e8,#0c0a12ed),url('arena-ornaments.svg');background-size:cover;background-position:center}

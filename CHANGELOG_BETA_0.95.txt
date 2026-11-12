@@ -1,0 +1,14 @@
+ROULETTE SYSTEM — BETA 0.95 MEGA UPDATE
+
+NOVAS ROLETAS E SISTEMAS
+- Quantidade de poderes: sorteio de 1 a 5 poderes.
+- 50 títulos exclusivos com bônus permanentes de +1 a +20 pontos em atributos selecionados.
+- Alinhamento moral: Herói, Anti-herói ou Vilão.
+- Origem, personalidade, falha pessoal, motivação e reputação.
+- Ficha expandida com identidade narrativa, lista variável de poderes e bônus de título.
+- Exportação de ficha atualizada.
+- BOTs recebem os novos campos de identidade.
+- Catálogo ampliado e arquivo de códice narrativo com 80 sementes de mundo. Catálogo total: 648 entradas em 21 roletas.
+
+OBSERVAÇÃO
+Os bônus de títulos são pontos adicionados diretamente ao atributo final, além dos modificadores percentuais já existentes. O índice de poder continua experimental. O arquivo expansao-0.95.json é um códice narrativo complementar.
