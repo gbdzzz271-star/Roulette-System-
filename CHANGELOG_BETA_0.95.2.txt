@@ -1,0 +1,2 @@
+ROULETTE SYSTEM — BETA 0.95.2
+Correção de inicialização: renderGrid agora aguarda o catálogo antes de montar as roletas. Evita erro JavaScript que interrompia a inicialização e deixava a tela de carregamento visível. Cache do service worker atualizado para 0.95.2.
