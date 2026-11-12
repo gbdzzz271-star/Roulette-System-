@@ -53,3 +53,6 @@ header{gap:12px}.hero-art{position:relative;isolation:isolate;overflow:hidden;ba
 .character-card,.sheet-section{background-image:linear-gradient(145deg,#1b1426ee,#100d18f2),url('codex-texture.svg');background-size:cover;background-position:center}
 
 .arena-shell{background-image:linear-gradient(145deg,#171020e8,#0c0a12ed),url('arena-ornaments.svg');background-size:cover;background-position:center}
+
+/* SUPABASE CLOUD ACCOUNT */
+.cloud-fields{display:grid;gap:10px;margin:12px 0}.cloud-fields label{display:grid;gap:6px;color:#d8c5e8;font-size:11px;font-weight:700}.cloud-fields input{width:100%;background:#0f0c15;border:1px solid var(--line);border-radius:8px;padding:12px;color:#fff;font:14px Inter,Arial,sans-serif}.cloud-actions{display:grid;grid-template-columns:1fr 1fr;gap:8px}.cloud-actions button{min-height:42px}.cloud-list{margin-top:14px}.cloud-list h3{color:var(--gold);font:700 19px 'Barlow Condensed'}.cloud-character{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:10px 0;border-top:1px solid var(--line)}.cloud-character div{display:grid;gap:4px;min-width:0}.cloud-character b{font-size:12px;overflow-wrap:anywhere}.cloud-character small{font-size:10px;color:var(--muted)}.cloud-character button{flex:none}
